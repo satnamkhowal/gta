@@ -905,3 +905,17 @@
     font-size: 11.5px !important;
   }
 }
+
+
+/* Final alignment refinement: keep the utility bar and menu on one visual grid. */
+@media only screen and (min-width: 992px) {
+  .full-width-header.ga-compact-site-header .ga-topbar .container {
+    max-width: 1180px !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-menu ul.nav-menu > li.current-menu-item.menu-item-has-children > a {
+    background: #172235 !important;
+    color: #ffffff !important;
+    font-weight: 800 !important;
+  }
+}
