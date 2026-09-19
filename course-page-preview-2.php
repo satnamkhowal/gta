@@ -533,7 +533,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["course_enquiry"])) {
                 <aside class="col-lg-4" id="enquiry">
                     <div class="ga-sidebar">
 
-                        <div class="ga-sidebar-card">
+                        <div class="ga-sidebar-card ga-sidebar-enquiry">
                             <div class="ga-sidebar-head">
                                 <small>Course Enquiry</small>
                                 <h3>Get Python Full Stack Details</h3>
@@ -600,6 +600,22 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["course_enquiry"])) {
                             </div>
                         </div>
 
+                        <div class="ga-sidebar-sticky-stack">
+
+                        <div class="ga-sidebar-card ga-sidebar-help">
+                            <div class="ga-sidebar-body">
+                                <h3 class="mb-10">Need Course Help?</h3>
+                                <p class="ga-sidebar-help-text">Talk to the Groot Academy team for current batch, fee and counselling details.</p>
+                                <div class="ga-contact-actions">
+                                    <a href="tel:+918233266276"><i class="fa fa-phone"></i> Call</a>
+                                    <a href="https://wa.me/918233266276?text=I%20want%20details%20about%20Python%20Full%20Stack%20Course"
+                                       target="_blank" rel="noopener noreferrer">
+                                        <i class="fa fa-whatsapp"></i> WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="ga-sidebar-card">
                             <div class="ga-sidebar-body">
                                 <h3 class="mb-20">Course Snapshot</h3>
@@ -653,6 +669,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["course_enquiry"])) {
                                 </ul>
                             </div>
                         </div>
+
+                        </div><!-- /.ga-sidebar-sticky-stack -->
 
                     </div>
                 </aside>
