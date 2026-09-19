@@ -930,3 +930,87 @@
     background-color: #eef2f0 !important;
   }
 }
+
+
+/* =========================================================
+   LEGACY SPECIFICITY OVERRIDE
+   Educavo home1/home12 rules use very specific selectors and
+   !important values. This block deliberately outranks them.
+   ========================================================= */
+@media only screen and (min-width: 992px) {
+  .full-width-header.header-style1.home1-modifiy.home12-modifiy.ga-compact-site-header
+  .rs-header .menu-area {
+    background: #eef2f0 !important;
+  }
+
+  .full-width-header.header-style1.home1-modifiy.home12-modifiy.ga-compact-site-header
+  .rs-header .menu-area .rs-menu-area {
+    justify-content: flex-start !important;
+  }
+
+  .full-width-header.header-style1.home1-modifiy.home12-modifiy.ga-compact-site-header
+  .rs-header .menu-area .rs-menu-area .main-menu .rs-menu ul.nav-menu > li {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .full-width-header.header-style1.home1-modifiy.home12-modifiy.ga-compact-site-header
+  .rs-header .menu-area .rs-menu-area .main-menu .rs-menu ul.nav-menu > li > a {
+    height: 32px !important;
+    min-height: 32px !important;
+    margin: 6px 0 !important;
+    padding: 0 9px !important;
+    padding-right: 9px !important;
+    color: #172235 !important;
+    font-weight: 700 !important;
+    border-radius: 9px !important;
+  }
+
+  .full-width-header.header-style1.home1-modifiy.home12-modifiy.ga-compact-site-header
+  .rs-header .menu-area .rs-menu-area .main-menu .rs-menu ul.nav-menu > li:hover > a,
+  .full-width-header.header-style1.home1-modifiy.home12-modifiy.ga-compact-site-header
+  .rs-header .menu-area .rs-menu-area .main-menu .rs-menu ul.nav-menu > li > a:hover {
+    background: #172235 !important;
+    color: #ffffff !important;
+  }
+
+  .full-width-header.header-style1.home1-modifiy.home12-modifiy.ga-compact-site-header
+  .rs-header .menu-area .rs-menu-area .main-menu .rs-menu ul.nav-menu > li.current-menu-item > a {
+    background: #172235 !important;
+    color: #ffffff !important;
+    font-weight: 800 !important;
+  }
+
+  .full-width-header.header-style1.home1-modifiy.home12-modifiy.ga-compact-site-header
+  .rs-header .menu-area .rs-menu-area .main-menu .rs-menu ul.sub-menu {
+    background: #eef2f0 !important;
+  }
+
+  .full-width-header.header-style1.home1-modifiy.home12-modifiy.ga-compact-site-header
+  .rs-header .menu-area .rs-menu-area .main-menu .rs-menu ul.sub-menu li {
+    margin: 0 !important;
+  }
+
+  .full-width-header.header-style1.home1-modifiy.home12-modifiy.ga-compact-site-header
+  .rs-header .menu-area .rs-menu-area .main-menu .rs-menu ul.sub-menu li > a {
+    color: #182436 !important;
+    font-weight: 600 !important;
+    padding: 8px 11px !important;
+  }
+
+  .full-width-header.header-style1.home1-modifiy.home12-modifiy.ga-compact-site-header
+  .rs-header .menu-area .rs-menu-area .main-menu .rs-menu ul.sub-menu li:hover > a,
+  .full-width-header.header-style1.home1-modifiy.home12-modifiy.ga-compact-site-header
+  .rs-header .menu-area .rs-menu-area .main-menu .rs-menu ul.sub-menu li > a:hover {
+    background: #172235 !important;
+    color: #ffffff !important;
+  }
+
+  .full-width-header.header-style1.home1-modifiy.home12-modifiy.ga-compact-site-header
+  .rs-header .menu-area .rs-menu-area .main-menu .rs-menu ul.sub-menu li.current-menu-item > a,
+  .full-width-header.header-style1.home1-modifiy.home12-modifiy.ga-compact-site-header
+  .rs-header .menu-area .rs-menu-area .main-menu .rs-menu ul.sub-menu li.active > a {
+    background: #0b6f45 !important;
+    color: #ffffff !important;
+  }
+}
