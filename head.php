@@ -32,6 +32,8 @@
         <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
         <!-- Groot compact header overrides -->
         <link rel="stylesheet" type="text/css" href="assets/css/groot-header-compact.css">
+        <!-- Shared Groot site polish -->
+        <link rel="stylesheet" type="text/css" href="assets/css/groot-site-polish.css">
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
