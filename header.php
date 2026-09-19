@@ -21,11 +21,11 @@
             <ul class="topbar-contact">
               <li>
                 <i class="flaticon-email"></i>
-                <a href="mailto:support@rstheme.com">support@rstheme.com</a>
+                <a href="mailto:info@grootacademy.com">info@grootacademy.com</a>
               </li>
               <li>
                 <i class="fa flaticon-call"></i>
-                <a href="tel:+(+01)999-999-4444"> (+01) 999-999-4444</a>
+                <a href="tel:+918233266276">+91 8233266276</a>
               </li>
             </ul>
           </div>
@@ -33,10 +33,10 @@
             <ul class="toolbar-sl-share">
               <li class="opening"> <i class="flaticon-location"></i> 374 William S Canning Blvd, MA
                 2721, USA </li>
-              <li><a href="index12.html#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="index12.html#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="index12.html#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="index12.html#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.facebook.com/GrootAcademy/" target="_blank" rel="noopener noreferrer" aria-label="Groot Academy Facebook"><i class="fa fa-facebook"></i></a></li>
+              
+              <li><a href="https://www.linkedin.com/company/grootacademy/" target="_blank" rel="noopener noreferrer" aria-label="Groot Academy LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.instagram.com/groot.academy/" target="_blank" rel="noopener noreferrer" aria-label="Groot Academy Instagram"><i class="fa fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>
