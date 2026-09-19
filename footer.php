@@ -1,5 +1,29 @@
 <!-- Footer Start -->
-<footer id="rs-footer" class="rs-footer home9-style main-home">
+<footer id="rs-footer" class="rs-footer home9-style main-home ga-site-footer">
+
+  <div class="ga-footer-utility">
+    <div class="container">
+      <div class="ga-footer-utility-grid">
+        <div class="ga-footer-utility-item">
+          <i class="fa fa-laptop"></i>
+          <div><strong>Practical Training</strong><span>Hands-on learning approach</span></div>
+        </div>
+        <div class="ga-footer-utility-item">
+          <i class="fa fa-code"></i>
+          <div><strong>Live Projects</strong><span>Build real application workflows</span></div>
+        </div>
+        <div class="ga-footer-utility-item">
+          <i class="fa fa-graduation-cap"></i>
+          <div><strong>Internships</strong><span>Career-focused skill exposure</span></div>
+        </div>
+        <div class="ga-footer-utility-item">
+          <i class="fa fa-briefcase"></i>
+          <div><strong>Placement Support</strong><span>Interview & career preparation</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="footer-top">
     <div class="container">
       <div class="row">
@@ -22,27 +46,13 @@
             </p>
           </div>
 
-          <ul class="footer_social">
-            <li>
-              <a href="https://www.facebook.com/GrootAcademy/" target="_blank" rel="noopener noreferrer"
-                aria-label="Groot Academy Facebook">
-                <span><i class="fa fa-facebook"></i></span>
-              </a>
-            </li>
-
-            <li>
-              <a href="https://www.linkedin.com/company/grootacademy/" target="_blank" rel="noopener noreferrer"
-                aria-label="Groot Academy LinkedIn">
-                <span><i class="fa fa-linkedin"></i></span>
-              </a>
-            </li>
-
-            <li>
-              <a href="https://www.instagram.com/groot.academy/" target="_blank" rel="noopener noreferrer"
-                aria-label="Groot Academy Instagram">
-                <span><i class="fa fa-instagram"></i></span>
-              </a>
-            </li>
+          <ul class="footer_social ga-footer-social">
+            <li><a href="https://www.facebook.com/GrootAcademy/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><span><i class="fa fa-facebook"></i></span></a></li>
+            <li><a href="https://www.linkedin.com/company/grootacademy/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><span><i class="fa fa-linkedin"></i></span></a></li>
+            <li><a href="https://www.instagram.com/groot.academy/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><span><i class="fa fa-instagram"></i></span></a></li>
+            <li><a href="https://www.youtube.com/@YourGrootAcademy" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><span><i class="fa fa-youtube-play"></i></span></a></li>
+            <li><a href="https://x.com/GrootAcademy" target="_blank" rel="noopener noreferrer" aria-label="X"><span><i class="fa fa-twitter"></i></span></a></li>
+            <li><a href="https://in.pinterest.com/mygrootacademy/" target="_blank" rel="noopener noreferrer" aria-label="Pinterest"><span><i class="fa fa-pinterest-p"></i></span></a></li>
           </ul>
         </div>
 
@@ -54,7 +64,7 @@
             <li>
               <i class="flaticon-location"></i>
               <div class="desc">
-                Mansarovar, Jaipur, Rajasthan 302020, India
+                122/66, 2nd Floor, Madhyam Marg, Mansarovar, Jaipur, Rajasthan 302020
               </div>
             </li>
 
@@ -76,6 +86,11 @@
               </div>
             </li>
           </ul>
+
+          <div class="ga-footer-contact-buttons">
+            <a href="tel:+918233266276"><i class="fa fa-phone"></i> Call</a>
+            <a href="https://wa.me/918233266276?text=I%20want%20course%20details%20from%20Groot%20Academy" target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp"></i> WhatsApp</a>
+          </div>
         </div>
 
         <!-- Courses -->
