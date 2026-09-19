@@ -1,0 +1,41 @@
+.img-background {
+    animation: rolling1 2s ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    position: relative;
+}
+
+@keyframes rolling1 {
+    from {
+        top: 0px;
+        right: 750px;
+        transform: rotate(-360deg);
+    }
+
+    to {
+        top: 0px;
+        right: 0px;
+    }
+}
+
+.progress-bar {
+    animation: progres 2s ease-in-out;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+
+@keyframes progres {
+
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+
+    }
+}

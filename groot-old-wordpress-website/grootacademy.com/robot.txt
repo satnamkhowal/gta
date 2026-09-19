@@ -1,0 +1,23 @@
+# robots.txt file for PHP, HTML, and CSS project
+
+# Allow all web crawlers full access
+User-agent: *
+Disallow:
+
+# Block access to the admin panel
+Disallow: /admin/
+# Block access to certain directories (adjust paths as needed)
+Disallow: /includes/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+
+# Block access to PHP files in the root directory
+Disallow: /*.php$
+
+# Allow search engines to access CSS, JS, and image files
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Sitemap location (replace with your actual sitemap URL)
+Sitemap: https://www.grootacademy.com/sitemap/oksitemap.xml
