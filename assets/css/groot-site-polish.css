@@ -586,3 +586,31 @@
     max-width: 1380px !important;
   }
 }
+
+
+/* Footer color cleanup: remove legacy orange/blue accents from Educavo variants. */
+.ga-site-footer .footer-top .widget-title:before {
+  background: #0c8b51 !important;
+}
+
+.ga-site-footer .footer-top .site-map li:before {
+  display: none !important;
+  content: none !important;
+}
+
+.ga-site-footer .footer-top .site-map li a:before {
+  color: #53d497 !important;
+}
+
+.ga-site-footer .footer-top .address-widget li i:before {
+  color: #53d497 !important;
+}
+
+.ga-site-footer .footer-top .address-widget li .desc a:hover,
+.ga-site-footer .footer-top .site-map li a:hover {
+  color: #53d497 !important;
+}
+
+.ga-site-footer .footer-bottom .copy-right-menu li:before {
+  background: #0c8b51 !important;
+}
