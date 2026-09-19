@@ -14,30 +14,41 @@
   <!--Header Start-->
   <header id="rs-header" class="rs-header">
     <!-- Topbar Area Start -->
-    <div class="topbar-area home11-topbar">
+    <div class="topbar-area home11-topbar ga-topbar">
       <div class="container">
-        <div class="row y-middle">
-          <div class="col-md-5">
-            <ul class="topbar-contact">
-              <li>
-                <i class="flaticon-email"></i>
-                <a href="mailto:info@grootacademy.com">info@grootacademy.com</a>
-              </li>
-              <li>
-                <i class="fa flaticon-call"></i>
-                <a href="tel:+918233266276">+91 8233266276</a>
-              </li>
-            </ul>
+        <div class="ga-topbar-grid">
+
+          <div class="ga-topbar-contact">
+            <a href="mailto:info@grootacademy.com" aria-label="Email Groot Academy">
+              <i class="fa fa-envelope-o"></i>
+              <span>info@grootacademy.com</span>
+            </a>
+            <a href="tel:+918233266276" aria-label="Call Groot Academy">
+              <i class="fa fa-phone"></i>
+              <span>+91 8233266276</span>
+            </a>
           </div>
-          <div class="col-md-7 text-right">
-            <ul class="toolbar-sl-share">
-              <li class="opening"><i class="flaticon-location"></i> Mansarovar, Jaipur, Rajasthan 302020</li>
-              <li><a href="https://www.facebook.com/GrootAcademy/" target="_blank" rel="noopener noreferrer" aria-label="Groot Academy Facebook"><i class="fa fa-facebook"></i></a></li>
-              
-              <li><a href="https://www.linkedin.com/company/grootacademy/" target="_blank" rel="noopener noreferrer" aria-label="Groot Academy LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="https://www.instagram.com/groot.academy/" target="_blank" rel="noopener noreferrer" aria-label="Groot Academy Instagram"><i class="fa fa-instagram"></i></a></li>
-            </ul>
+
+          <div class="ga-topbar-trust" aria-label="Groot Academy highlights">
+            <span><i class="fa fa-users"></i> 5000+ Students</span>
+            <span><i class="fa fa-code"></i> Live Projects</span>
+            <span><i class="fa fa-briefcase"></i> Placement Support</span>
           </div>
+
+          <div class="ga-topbar-right">
+            <a class="ga-topbar-location" href="./contact-us.php" aria-label="Groot Academy location">
+              <i class="fa fa-map-marker"></i>
+              <span>Mansarovar, Jaipur</span>
+            </a>
+
+            <div class="ga-topbar-social" aria-label="Groot Academy social media">
+              <a href="https://www.facebook.com/GrootAcademy/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/company/grootacademy/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/groot.academy/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.youtube.com/@YourGrootAcademy" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa fa-youtube-play"></i></a>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
