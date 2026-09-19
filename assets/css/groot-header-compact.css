@@ -1,0 +1,153 @@
+/**
+ * Groot Academy compact header overrides.
+ * Keeps the existing Educavo menu system, but reduces desktop height and prevents wrapping.
+ */
+
+.full-width-header.ga-compact-site-header {
+  z-index: 1000;
+}
+
+.full-width-header.ga-compact-site-header .rs-header .topbar-area {
+  padding: 0;
+}
+
+.full-width-header.ga-compact-site-header .rs-header .topbar-area .topbar-contact,
+.full-width-header.ga-compact-site-header .rs-header .topbar-area .toolbar-sl-share {
+  min-height: 34px;
+  display: flex;
+  align-items: center;
+}
+
+.full-width-header.ga-compact-site-header .rs-header .topbar-area .topbar-contact li,
+.full-width-header.ga-compact-site-header .rs-header .topbar-area .toolbar-sl-share li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 22px;
+}
+
+@media only screen and (min-width: 992px) {
+  .full-width-header.ga-compact-site-header .rs-header .menu-area {
+    min-height: 68px;
+    background: #ffffff !important;
+    border-bottom: 1px solid #edf1ef;
+    box-shadow: 0 5px 18px rgba(28, 48, 38, 0.05);
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .container {
+    max-width: 1320px;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .row {
+    min-height: 68px;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .col-lg-2 {
+    flex: 0 0 14%;
+    max-width: 14%;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .col-lg-10 {
+    flex: 0 0 86%;
+    max-width: 86%;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .logo-part {
+    padding: 0;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .logo-part img {
+    display: block;
+    width: auto;
+    max-width: 128px;
+    max-height: 46px;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .rs-menu-area,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .main-menu,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .rs-menu {
+    width: 100%;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .rs-menu ul.nav-menu {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .rs-menu ul.nav-menu > li {
+    float: none;
+    margin: 0 2px !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .rs-menu ul.nav-menu > li > a {
+    padding: 24px 8px !important;
+    color: #1f2939;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: .01em;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .rs-menu ul.nav-menu > li.current-menu-item > a,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .rs-menu ul.nav-menu > li > a:hover {
+    color: #0c8b51 !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area.sticky {
+    min-height: 64px;
+    background: #ffffff !important;
+    box-shadow: 0 8px 24px rgba(20, 38, 29, .09);
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area.sticky .row {
+    min-height: 64px;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area.sticky .rs-menu ul.nav-menu > li > a {
+    padding-top: 22px !important;
+    padding-bottom: 22px !important;
+    color: #1f2939 !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area.sticky .rs-menu ul.nav-menu > li.current-menu-item > a,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area.sticky .rs-menu ul.nav-menu > li > a:hover {
+    color: #0c8b51 !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .rs-menu ul.sub-menu {
+    white-space: normal;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .container {
+    max-width: 100%;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .logo-part img {
+    max-width: 108px;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .rs-menu ul.nav-menu > li > a {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .full-width-header.ga-compact-site-header .rs-header .menu-area {
+    min-height: 64px;
+    background: #ffffff !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .logo-part img {
+    max-height: 44px;
+    width: auto;
+  }
+}
