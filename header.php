@@ -1,3 +1,12 @@
+<?php
+$gaRequestPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
+$gaFileName = strtolower(basename($gaRequestPath));
+$gaIsHome = ($gaFileName === '' || $gaFileName === 'index.php' || $gaFileName === 'index.html');
+$gaIsCourse = (
+  strpos(strtolower($gaRequestPath), '/courses/') !== false ||
+  strpos($gaFileName, 'course') !== false
+);
+?>
 <!--Preloader area start here-->
 <div id="loader" class="loader green-color">
   <div class="loader-container">
@@ -79,7 +88,7 @@
                   <ul class="nav-menu">
 
                     <!-- Home -->
-                    <li class="current-menu-item">
+                    <li<?php echo $gaIsHome ? ' class="current-menu-item"' : ''; ?>>
                       <a href="./">Home</a>
                     </li>
 
@@ -99,7 +108,7 @@
                     </li>
 
                     <!-- Courses -->
-                    <li class="menu-item-has-children">
+                    <li class="menu-item-has-children<?php echo $gaIsCourse ? ' current-menu-item' : ''; ?>">
                       <a href="./courses/">Courses</a>
                       <ul class="sub-menu">
 
