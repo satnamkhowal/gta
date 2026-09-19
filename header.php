@@ -1,10 +1,10 @@
 <?php
 $gaRequestPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
-$gaFileName = strtolower(basename($gaRequestPath));
-$gaIsHome = ($gaFileName === '' || $gaFileName === 'index.php' || $gaFileName === 'index.html');
+$gaScriptName = strtolower(basename($_SERVER['SCRIPT_NAME'] ?? ''));
+$gaIsHome = in_array($gaScriptName, ['index.php', 'index.html', 'default.php'], true);
 $gaIsCourse = (
   strpos(strtolower($gaRequestPath), '/courses/') !== false ||
-  strpos($gaFileName, 'course') !== false
+  strpos($gaScriptName, 'course') !== false
 );
 ?>
 <!--Preloader area start here-->
