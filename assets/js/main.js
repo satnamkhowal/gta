@@ -12,15 +12,25 @@
 (function($) {
 	"use strict";
     // sticky menu
+    // Groot Academy uses its own stacked sticky header (topbar + menu).
+    // Keep the original Educavo sticky behavior only for non-Groot headers.
     var header = $('.menu-sticky');
+    var grootHeader = $('.ga-compact-site-header .menu-sticky');
+    var legacyHeader = header.not(grootHeader);
     var win = $(window);
+
+    // Remove any stale legacy sticky class from the Groot header.
+    grootHeader.removeClass("sticky");
 
     win.on('scroll', function() {
        var scroll = win.scrollTop();
-       if (scroll < 1) {
-           header.removeClass("sticky");
-       } else {
-           header.addClass("sticky");
+
+       if (legacyHeader.length) {
+           if (scroll < 1) {
+               legacyHeader.removeClass("sticky");
+           } else {
+               legacyHeader.addClass("sticky");
+           }
        }
 
         $("section").each(function() {
