@@ -4,7 +4,7 @@
  */
 
 .ga-course-page-v2 .ga-course-hero {
-  padding-top: 78px;
+  padding-top: 52px;
   padding-bottom: 72px;
 }
 
@@ -15,7 +15,7 @@
 .ga-course-page-v2 .ga-section-nav {
   top: 64px;
   z-index: 990;
-  margin-top: 22px;
+  margin-top: 0;
   border: 0;
   background: #172235;
   box-shadow: 0 8px 24px rgba(12, 24, 40, .15);
@@ -86,5 +86,16 @@
 
   .ga-course-page-v2 .ga-section-nav {
     border-radius: 0;
+  }
+}
+
+/* Navigator now sits directly below the shared site header. */
+.ga-course-page-v2 .ga-section-nav + .ga-course-hero {
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 992px) {
+  .ga-course-page-v2 .ga-section-nav {
+    min-height: 50px;
   }
 }
