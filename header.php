@@ -50,7 +50,9 @@
           <div class="col-lg-2">
             <div class="logo-cat-wrap">
               <div class="logo-part">
-                <a href="./" aria-label="Groot Academy Home">\n                  <img src="assets/images/logo-green.png" alt="Groot Academy">\n                </a>
+                <a href="./" aria-label="Groot Academy Home">
+                  <img src="assets/images/logo-green.png" alt="Groot Academy">
+                </a>
               </div>
             </div>
           </div>
