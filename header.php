@@ -10,7 +10,7 @@
 
 
 <!--Full width header Start-->
-<div class="full-width-header header-style1 home1-modifiy home12-modifiy">
+<div class="full-width-header header-style1 home1-modifiy home12-modifiy ga-compact-site-header">
   <!--Header Start-->
   <header id="rs-header" class="rs-header">
     <!-- Topbar Area Start -->
@@ -221,7 +221,7 @@
 
                     <!-- Career Courses -->
                     <li class="menu-item-has-children">
-                      <a href="./courses/">Career Courses</a>
+                      <a href="./courses/">Career</a>
                       <ul class="sub-menu">
                         <li><a href="./courses/best-web-designing-course-in-jaipur-rajasthan-at-groot-academy/">Web
                             Designing</a></li>
@@ -239,7 +239,7 @@
 
                     <!-- Diploma Programs -->
                     <li class="menu-item-has-children">
-                      <a href="./diploma-programs-jaipur.php">Diploma Programs</a>
+                      <a href="./diploma-programs-jaipur.php">Diplomas</a>
                       <ul class="sub-menu">
                         <li><a href="./diploma-full-stack-development-jaipur.php">Diploma in Full Stack Development</a>
                         </li>
@@ -252,7 +252,7 @@
 
                     <!-- Internship -->
                     <li class="menu-item-has-children">
-                      <a href="./best-inernship-programmes-in-jaipur.php">Internship Programs</a>
+                      <a href="./best-inernship-programmes-in-jaipur.php">Internships</a>
                       <ul class="sub-menu">
                         <li><a href="./summer-internship-jaipur.php">Summer Internship</a></li>
                         <li><a href="./winter-internship-jaipur.php">Winter Internship</a></li>
@@ -281,6 +281,13 @@
 
                   </ul>
                 </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Menu End -->
   </header>
   <!--Header End-->
 </div>
