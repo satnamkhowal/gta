@@ -13,7 +13,7 @@
 }
 
 .ga-course-page-v2 .ga-section-nav {
-  top: 64px;
+  top: 50px;
   z-index: 990;
   margin-top: 0;
   border: 0;
@@ -23,7 +23,7 @@
 }
 
 .ga-course-page-v2 .ga-section-nav .container {
-  min-height: 50px;
+  min-height: 48px;
   align-items: center;
   gap: 4px;
   padding-top: 5px;
@@ -96,6 +96,6 @@
 
 @media only screen and (min-width: 992px) {
   .ga-course-page-v2 .ga-section-nav {
-    min-height: 50px;
+    min-height: 48px;
   }
 }
