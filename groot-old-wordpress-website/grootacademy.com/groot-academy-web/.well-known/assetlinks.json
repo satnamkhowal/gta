@@ -1,0 +1,14 @@
+[
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "co.ted.mpepg",
+        "sha256_cert_fingerprints": [
+          "33:A0:69:D4:0E:79:79:3E:84:04:79:11:BF:C5:18:98:CA:C1:1D:9F:71:7E:E3:0D:9D:B9:4D:42:87:20:B2:11"
+        ]
+      }
+    }
+  ]
