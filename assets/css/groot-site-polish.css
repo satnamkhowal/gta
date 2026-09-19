@@ -919,3 +919,14 @@
     font-weight: 800 !important;
   }
 }
+
+
+/* Slightly tinted main navigation surface so the menu reads as one grouped unit. */
+@media only screen and (min-width: 992px) {
+  .full-width-header.ga-compact-site-header,
+  .full-width-header.ga-compact-site-header .rs-header,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area.sticky {
+    background-color: #eef2f0 !important;
+  }
+}
