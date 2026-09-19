@@ -1,0 +1,224 @@
+<!-- <?php //include("../includes/define.php"); \
+        ?> -->
+<?php include('../includes/header.php'); ?>
+
+<meta charset="utf-8">
+
+<title>Mohit Sharma is a highly skilled MEAN stack developer with extensive experience
+    in both development and teaching. At Groot Academy, Mohit is dedicated to educating the
+    next generation of web developers by providing comprehensive training in JavaScript,
+    Express.js, React.js, and Node.js.</title>
+
+<meta name="keywords" content="IT training institute in Jaipur,Full Stack Development training in Jaipur, learn NodeJS in Jaipur, Best Full stack Web development Training institute in jaipur, Best IT Training institute in Jaipur, Best Institute for Web desinging and Web development, C, C++, Java, Pyhton, GO Lang programming, Institute for Graphics desinging,Best UI/UX Desingner Course in Jaipur, Best Institute for Learn Web Technologies HTML, CSS, JavaScript, Advance Java Script, Ecma Script 6, ReactJS, NodeJS, ExpressJS, AngularJS, Java, Advance Java (Servlet & JSP), Structs, Spring, Spring Boot, Hibernate, Best Institute for learning MicroServics Architecture" />
+<meta name="description" content="<p>Groot Academy is one of the best Java, Advance Java, Java Framworks (Structs, Spring, Spring Boot and Hibernate), Web Desinging, Web development and Various Web Technologies and stacks like : ReactJS, NodeJS, ExpressJS Certification and training  course provider in Jaipur, They are having various Java Orineted course Likes : Full Stack Web development with NodeJS also known as MERN stack Web development, Full stack Web development with Java, Full 
+    stack Web development with python Django , Full stack Web development with PHP, Data Analitics, Data Science, Machine Learning, Artificial Intelligence Data Engineer in Jaipur, Rajasthan,.100% Job Placement.</p>
+    ">
+<link rel="canonical" href="<?php echo FINAL_WEBSITE_URL; ?>" />
+<meta name="classification" content="Full stack Web development with NodeJS(MERN stack Web development), Full stack Development with Java, Full stack Development with python, Full stack Web Development with PHP, Java, Python, Data Analitics, Data Science, Machine Learning, Artificial Intelligence Certification &amp; Training Course - Groot Academy">
+<meta name="copyright" content="Groot Academy" />
+
+
+<meta name="author" content="Groot Academy Pvt Ltd, Software Development, Web Desinging and Development Training Center" />
+
+<meta property="og:site_name" content="Groot Academy">
+<meta property="og:url" content="https://grootacademy.com">
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Groot Academy, Software Development, Web Desinging and Development Training Center">
+<meta property="og:description" content="<p>Dmart Skill Eucation is one of the best Java, Advance Java, Java Framworks (Structs, Spring, Spring Boot and Hibernate), Web Desinging, Web development and Various Web Technologies and stacks like : ReactJS, NodeJS, ExpressJS Certification and training  course provider in Jaipur, They are having various Java Orineted course Likes : Full Stack Web development with NodeJS also known as MERN stack Web development, Full stack Web development with Java, Full 
+    stack Web development with python Django , Full stack Web development with PHP, Data Analitics, Data Science, Machine Learning, Artificial Intelligence Data Engineer in Jaipur, Rajasthan,.100% Job Placement.</p>
+    ">
+<meta property="og:image" content="https://grootacademy.com/assets/img/groot.png">
+
+
+<meta property="og:image:width" content="90">
+<meta property="og:image:height" content="90">
+
+
+<meta name="language" content="en-us" />
+<meta name="distribution" content="Global">
+<meta name="Publisher" content="https://grootacademy.com">
+<meta name="Rating" content="General">
+<meta name=geography content="India ">
+<meta name="geo.region" content="JP-RJ" />
+<meta name="geo.placename" content="Jaipur" />
+<meta name="Search Engine" CONTENT="https://www.google.co.in/">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- responsive tag -->
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php include('../includes/navbar.php'); ?>
+
+<!-- Profile Section -->
+<section class="profile-section orange-color pt-100 pb-100 md-pt-70 md-pb-70">
+    <div class="container-fluid">
+        <div class="row clearfix">
+            <!-- Image Section -->
+            <div class="image-column col-lg-5 md-mb-50">
+                <div class="inner-column mb-50 md-mb-0">
+                    <div class="image">
+                        <img src="<?php echo FINAL_WEBSITE_URL; ?>assets/images/team/mohit_sir.jpg" alt="" />
+                    </div>
+                    <div class="team-content text-center">
+                        <h3>Mohit Sharma</h3>
+                        <div class="text">Co Founder & Software Architect</div>
+                        <ul class="personal-info">
+                            <li class="email">
+                                <span><i class="glyph-icon flaticon-email"> </i> </span>
+                                <a href="mailto:info@grootacademy.com">Mohit.Sharma@grootacademy.com</a>
+                            </li>
+                            <li class="phone">
+                                <span><i class="glyph-icon flaticon-call"></i></span>
+                                <a href="tel:+91-8233266276">+91-8233266276</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="social-box">
+                        <a href="https://www.facebook.com/grootacademy" target="_blank" class="fa fa-facebook-square"></a>
+                        <a href="https://twitter.com/grootacademy" target="_blank" class="fa fa-twitter-square"></a>
+                        <a href="https://www.linkedin.com/in/grootacademy/" target="_blank" class="fa fa-linkedin-square"></a>
+                        <a href="https://github.com/grootacademy" target="_blank" class="fa fa-github"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Content Section -->
+            <div class="content-column col-lg-7 pl-60 pt-50 md-pl-15 md-pt-0">
+                <div class="inner-column">
+                    <h2>Mohit Sharma</h2>
+                    <h4>Oracle Certified Master Java developer</h4>
+                    <!-- Student List -->
+                    <ul class="student-list">
+                        <li>6,564 Total Students</li>
+                        <li><span class="theme_color">4.5</span> <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span> (1254 Rating)</li>
+                        <li>256 Reviews</li>
+                    </ul>
+                    <h5>About Mohit Sir</h5>
+                    <p>Mohit Sharma is a seasoned Software Architect with over six years of extensive experience in the IT industry. As a prominent mentor at Groot Academy, a leading IT training institute based in Jaipur, Mohit brings a wealth of knowledge and practical expertise to aspiring developers and IT professionals.</p>
+                    <div class="team-skill mb-50">
+                        <h3 class="skill-title">Our Teacher Skill:</h3>
+                        <div class="row">
+                            <div class="col-md-6 sm-mb-20">
+                                <div class="progress rs-progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                        <span class="pb-label">JavaScript Programming</span>
+                                        <span class="pb-percent">95%</span>
+                                    </div>
+                                </div>
+                                <div class="progress rs-progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                        <span class="pb-label">NodeJS Programming</span>
+                                        <span class="pb-percent">85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="progress rs-progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width:88%">
+                                        <span class="pb-label">ExpressJS</span>
+                                        <span class="pb-percent">90%</span>
+                                    </div>
+                                </div>
+                                <div class="progress rs-progress">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                        <span class="pb-label">Data Structures and Algorithms </span> <span class="pb-percent">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--batches  section  -->
+            <?php include("./includes/experties.php") ?>
+            <!--batches  section  -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="content-part mt-4">
+                            <h3 class="title">Professional Journey:</h3>
+                            <ul>
+                                <li>
+                                    <strong>Junior Developer:</strong> Mohit began his career at TechNova Solutions, working on diverse software projects and contributing to both frontend and backend development with a focus on Django. He quickly built a strong foundation in software engineering.
+                                </li>
+                                <li>
+                                    <strong>Mid-Level Developer:</strong> As he progressed to more challenging projects, Mohit took on leadership roles, focusing on system integration, application optimization, and mastering Django for complex backend development.
+                                </li>
+                                <li>
+                                    <strong>Senior Developer:</strong> Mohit expanded his expertise to include complex system design and software optimization, with significant responsibilities in major Django-based projects.
+                                </li>
+                                <li>
+                                    <strong>Lead Developer:</strong> In his current role, Mohit manages large-scale software systems, coordinating with cross-functional teams and driving innovation in Django-based software design.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="content-part mt-4">
+                            <h3 class="title">Areas of Expertise:</h3>
+                            <ul>
+                                <li>
+                                    <strong>Full Stack Development:</strong> Skilled in Django and Python, with experience in developing scalable web applications.
+                                </li>
+                                <li>
+                                    <strong>Database Management:</strong> Proficient in SQL and NoSQL databases, including MySQL and MongoDB.
+                                </li>
+                                <li>
+                                    <strong>System Design:</strong> Expertise in designing robust and scalable software architectures.
+                                </li>
+                                <li>
+                                    <strong>Software Optimization:</strong> Focused on improving software performance and efficiency through effective coding practices and system enhancements.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="content-part mt-4">
+                            <h3 class="title">Teaching Philosophy:</h3>
+                            <p>Mohit is passionate about mentoring and sharing his knowledge with aspiring IT professionals. His teaching approach emphasizes practical, hands-on experience, ensuring that students gain not only theoretical understanding but also real-world skills. By bridging the gap between academic concepts and practical applications, Mohit prepares his students for successful careers in technology.</p>
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-4">
+                        <?php include("./../includes/right-side-bar.php"); ?>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="content-part mt-4">
+                            <h3 class="title">Why InnovateTech Solutions?</h3>
+                            <p>InnovateTech Solutions is a leading name in the IT industry, known for its cutting-edge technology solutions and innovative projects. Under the guidance of experienced professionals like Mohit Sharma, you can expect:</p>
+                            <ul>
+                                <li>Expert mentorship and guidance.</li>
+                                <li>A curriculum aligned with industry standards.</li>
+                                <li>Hands-on training with real-world projects.</li>
+                                <li>Networking opportunities with industry experts.</li>
+                            </ul>
+                        </div>
+
+                        <div class="content-part mt-4">
+                            <h3 class="title">Connect with Mohit:</h3>
+                            <p>One of Mohit’s mentees, Priya Kapoor, joined InnovateTech Solutions with a basic understanding of software development. Under Mohit's mentorship, Priya excelled in full-stack development, particularly with Django, and played a key role in several major projects. Today, Priya is a successful software engineer at a renowned tech company, leveraging the skills and knowledge gained from Mohit's guidance.</p>
+                        </div>
+
+                        <div class="content-part">
+                            <h2 class="title mt-4">The Journey of Mohit Sharma: From Junior Developer to Lead Developer</h2>
+                            <h5 class="title mt-4">Year 1-2: The Beginning - Junior Developer</h5>
+                            <p>Mohit Sharma started his career at TechNova Solutions as a Junior Developer. Eager to apply his theoretical knowledge, Mohit quickly adapted to the demands of software development, working on diverse projects that laid the groundwork for his future career, especially in Django.</p>
+
+                            <h5 class="title mt-4">Year 3-4: Rising Through the Ranks - Mid-Level Developer</h5>
+                            <p>Mohit’s dedication and performance earned him a promotion to Mid-Level Developer. During these years, he tackled more complex tasks, including system integration and performance optimization, establishing himself as a reliable and skilled developer with a strong focus on Django.</p>
+
+                            <h5 class="title mt-4">Year 5-6: Leadership and Growth - Senior Developer</h5>
+                            <p>As a Senior Developer, Mohit led major projects, focusing on delivering high-quality software solutions using Django. His role involved both technical challenges and leadership responsibilities, guiding teams and driving project success.</p>
+
+                            <h5 class="title mt-4">Year 7: Mastery and Leadership - Lead Developer</h5>
+                            <p>Mohit’s extensive experience and leadership abilities culminated in his current role as Lead Developer at InnovateTech Solutions. In this capacity, he manages large-scale projects, ensuring excellence in Django-based software development and fostering a culture of innovation and collaboration.</p>
+
+                            <h5 class="title mt-4">Present: Shaping Future Technology Leaders at InnovateTech Solutions</h5>
+                            <p>Today, Mohit Sharma stands as a key figure at InnovateTech Solutions, shaping the future of technology through his leadership and expertise in Django. His journey from a Junior Developer to a Lead Developer exemplifies dedication, continuous learning, and impactful leadership. At InnovateTech Solutions, Mohit continues to inspire and mentor the next generation of IT professionals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<?php include("../includes/footer.php"); ?>
