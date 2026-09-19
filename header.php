@@ -31,8 +31,7 @@
           </div>
           <div class="col-md-7 text-right">
             <ul class="toolbar-sl-share">
-              <li class="opening"> <i class="flaticon-location"></i> 374 William S Canning Blvd, MA
-                2721, USA </li>
+              <li class="opening"><i class="flaticon-location"></i> Mansarovar, Jaipur, Rajasthan 302020</li>
               <li><a href="https://www.facebook.com/GrootAcademy/" target="_blank" rel="noopener noreferrer" aria-label="Groot Academy Facebook"><i class="fa fa-facebook"></i></a></li>
               
               <li><a href="https://www.linkedin.com/company/grootacademy/" target="_blank" rel="noopener noreferrer" aria-label="Groot Academy LinkedIn"><i class="fa fa-linkedin"></i></a></li>
@@ -51,9 +50,7 @@
           <div class="col-lg-2">
             <div class="logo-cat-wrap">
               <div class="logo-part">
-                <a href="index.html">
-                  <img src="assets/images/logo-green.png" alt="">
-                </a>
+                <a href="./" aria-label="Groot Academy Home">\n                  <img src="assets/images/logo-green.png" alt="Groot Academy">\n                </a>
               </div>
             </div>
           </div>
