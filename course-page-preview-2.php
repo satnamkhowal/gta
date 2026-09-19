@@ -81,6 +81,18 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["course_enquiry"])) {
 
 <main class="main-content">
 
+    <!-- Scroll navigation, not tabs -->
+    <nav class="ga-section-nav" aria-label="Course page sections">
+        <div class="container">
+            <a href="#overview">Overview</a>
+            <a href="#skills">What You Learn</a>
+            <a href="#curriculum">Curriculum</a>
+            <a href="#projects">Projects</a>
+            <a href="#career">Career</a>
+            <a href="#faq">FAQs</a>
+        </div>
+    </nav>
+
     <!-- Hero -->
     <section class="ga-course-hero">
         <div class="container">
@@ -182,17 +194,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["course_enquiry"])) {
         </div>
     </section>
 
-    <!-- Scroll navigation, not tabs -->
-    <nav class="ga-section-nav" aria-label="Course page sections">
-        <div class="container">
-            <a href="#overview">Overview</a>
-            <a href="#skills">What You Learn</a>
-            <a href="#curriculum">Curriculum</a>
-            <a href="#projects">Projects</a>
-            <a href="#career">Career</a>
-            <a href="#faq">FAQs</a>
-        </div>
-    </nav>
+
 
     <section class="ga-course-main">
         <div class="container">
