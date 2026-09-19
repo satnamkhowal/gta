@@ -1,0 +1,90 @@
+/**
+ * Course preview v2 refinements:
+ * darker, tighter sticky section navigation attached under the compact site header.
+ */
+
+.ga-course-page-v2 .ga-course-hero {
+  padding-top: 78px;
+  padding-bottom: 72px;
+}
+
+.ga-course-page-v2 .ga-trust-strip {
+  margin-top: -24px;
+}
+
+.ga-course-page-v2 .ga-section-nav {
+  top: 64px;
+  z-index: 990;
+  margin-top: 22px;
+  border: 0;
+  background: #172235;
+  box-shadow: 0 8px 24px rgba(12, 24, 40, .15);
+  backdrop-filter: none;
+}
+
+.ga-course-page-v2 .ga-section-nav .container {
+  min-height: 50px;
+  align-items: center;
+  gap: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ga-course-page-v2 .ga-section-nav a {
+  padding: 8px 14px;
+  color: #e6ebf2;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  transition: background .2s ease, color .2s ease, transform .2s ease;
+}
+
+.ga-course-page-v2 .ga-section-nav a:hover {
+  background: rgba(255,255,255,.09);
+  color: #ffffff;
+}
+
+.ga-course-page-v2 .ga-section-nav a.active {
+  background: #0c8b51;
+  color: #ffffff;
+  box-shadow: 0 5px 14px rgba(12, 139, 81, .23);
+}
+
+.ga-course-page-v2 .ga-course-main {
+  padding-top: 58px;
+}
+
+.ga-course-page-v2 .ga-section,
+.ga-course-page-v2 .ga-anchor-target {
+  scroll-margin-top: 132px;
+}
+
+@media only screen and (max-width: 991px) {
+  .ga-course-page-v2 .ga-section-nav {
+    top: 0;
+    margin-top: 18px;
+  }
+
+  .ga-course-page-v2 .ga-section-nav .container {
+    min-height: 48px;
+  }
+
+  .ga-course-page-v2 .ga-section-nav a {
+    padding: 8px 12px;
+  }
+
+  .ga-course-page-v2 .ga-course-main {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ga-course-page-v2 .ga-course-hero {
+    padding-top: 54px;
+    padding-bottom: 60px;
+  }
+
+  .ga-course-page-v2 .ga-section-nav {
+    border-radius: 0;
+  }
+}
