@@ -151,3 +151,179 @@
     width: auto;
   }
 }
+
+/* =========================================================
+   Desktop navigation readability + dropdown arrows
+   ========================================================= */
+@media only screen and (min-width: 992px) {
+
+  /* Remove legacy 120px anchor height from the original theme. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu > li > a {
+    display: flex !important;
+    align-items: center;
+    gap: 0;
+    height: 64px !important;
+    min-height: 64px !important;
+    line-height: 1.2 !important;
+    padding: 0 10px !important;
+    margin: 0 !important;
+    border-radius: 8px;
+    color: #1f2939 !important;
+    font-size: 13px;
+    font-weight: 700;
+    transition:
+      background-color .18s ease,
+      color .18s ease,
+      box-shadow .18s ease;
+  }
+
+  /* Kill the old + / - pseudo icon. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu li.menu-item-has-children > a:before {
+    display: none !important;
+    content: none !important;
+  }
+
+  /* Top-level dropdown arrow. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu > li.menu-item-has-children > a:after {
+    content: "\f107";
+    display: inline-block;
+    margin-left: 7px;
+    font-family: FontAwesome;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    color: #667085;
+    transition: transform .18s ease, color .18s ease;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu > li.menu-item-has-children:hover > a:after {
+    transform: rotate(180deg);
+    color: #0c8b51;
+  }
+
+  /* Clear active / hover state without changing element size. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu > li > a:hover,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu > li.current-menu-item > a,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu > li:hover > a {
+    background: #eef8f3 !important;
+    color: #0c8b51 !important;
+    box-shadow: inset 0 0 0 1px rgba(12, 139, 81, .08);
+  }
+
+  /* Cleaner dropdown panel. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu {
+    min-width: 265px;
+    padding: 8px !important;
+    border: 1px solid #e3ebe7;
+    border-radius: 12px;
+    background: #ffffff !important;
+    box-shadow: 0 16px 38px rgba(19, 38, 29, .14) !important;
+  }
+
+  /* Readable submenu rows; fixed metrics prevent hover jump. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu > li {
+    display: block !important;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu li > a {
+    position: relative;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 42px;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 10px 12px !important;
+    border-radius: 8px;
+    color: #263244 !important;
+    background: transparent !important;
+    font-size: 14px !important;
+    line-height: 1.45 !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+    white-space: normal;
+    transition:
+      background-color .16s ease,
+      color .16s ease,
+      padding-color .16s ease;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu li > a:hover,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu li.current-menu-item > a,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu li.active > a {
+    background: #eef8f3 !important;
+    color: #087744 !important;
+  }
+
+  /* Nested submenu gets a right arrow. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu li.menu-item-has-children > a:after {
+    content: "\f105";
+    display: inline-block;
+    flex: 0 0 auto;
+    margin-left: 12px;
+    font-family: FontAwesome;
+    font-size: 13px;
+    font-weight: 400;
+    color: #667085;
+    transition: transform .16s ease, color .16s ease;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu li.menu-item-has-children:hover > a:after {
+    transform: translateX(2px);
+    color: #0c8b51;
+  }
+
+  /* Nested panel spacing/contrast. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu li > ul.sub-menu {
+    top: -8px;
+    margin-left: 6px;
+  }
+
+  /* Sticky version keeps exactly the same compact geometry. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area.sticky
+  .rs-menu ul.nav-menu > li > a {
+    height: 60px !important;
+    min-height: 60px !important;
+    padding: 0 10px !important;
+    line-height: 1.2 !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area.sticky,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area.sticky .row {
+    min-height: 60px !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu > li > a {
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+    font-size: 12px !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu > li.menu-item-has-children > a:after {
+    margin-left: 5px;
+  }
+}
