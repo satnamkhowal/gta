@@ -423,3 +423,166 @@
     padding-bottom: 42px !important;
   }
 }
+
+/* =========================================================
+   V2 sticky stack + ultra-compact navigation
+   Topbar 26px + menu 42px; course journey sits below at 68px.
+   ========================================================= */
+
+@media only screen and (min-width: 992px) {
+
+  /* Keep topbar + main menu together as one stable sticky header. */
+  .full-width-header.ga-compact-site-header {
+    position: sticky !important;
+    top: 0;
+    z-index: 1200;
+    background: #ffffff;
+    box-shadow: 0 3px 14px rgba(16, 30, 24, .07);
+  }
+
+  /* Neutralise original theme JS fixed positioning to prevent overlap/jump. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area.sticky {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    width: 100% !important;
+  }
+
+  /* Top utility bar: intentionally very compact. */
+  .ga-topbar-grid {
+    min-height: 26px !important;
+  }
+
+  .ga-topbar-contact a,
+  .ga-topbar-location,
+  .ga-topbar-trust span {
+    min-height: 26px !important;
+    font-size: 11px !important;
+  }
+
+  .ga-topbar-contact i,
+  .ga-topbar-location i,
+  .ga-topbar-trust i {
+    font-size: 11px !important;
+  }
+
+  .ga-topbar-social a {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 6px !important;
+    font-size: 10px !important;
+  }
+
+  /* Main menu: reduce real vertical footprint. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .row,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area.sticky,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area.sticky .row {
+    min-height: 42px !important;
+    height: 42px !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .logo-part img {
+    max-width: 96px !important;
+    max-height: 34px !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu > li > a,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area.sticky
+  .rs-menu ul.nav-menu > li > a {
+    height: 36px !important;
+    min-height: 36px !important;
+    padding: 0 11px !important;
+    margin: 3px 1px !important;
+    border-radius: 999px !important;
+    background: transparent !important;
+    color: #172235 !important;
+    font-size: 12px !important;
+    line-height: 1 !important;
+    font-weight: 700 !important;
+    box-shadow: none !important;
+  }
+
+  /* Pill hover: dark, readable, and no geometry change. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu > li > a:hover,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu > li:hover > a {
+    background: #172235 !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(23,34,53,.14) !important;
+  }
+
+  /* Active page: dark pill + subtle green accent, not green-on-green. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu > li.current-menu-item > a {
+    position: relative;
+    background: #172235 !important;
+    color: #ffffff !important;
+    font-weight: 800 !important;
+    box-shadow: 0 4px 12px rgba(23,34,53,.14) !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu > li.current-menu-item > a:before {
+    content: "" !important;
+    display: block !important;
+    position: absolute;
+    left: 14px;
+    right: 14px;
+    bottom: 3px;
+    height: 2px;
+    border-radius: 2px;
+    background: #2fd08a;
+    transform: none;
+  }
+
+  /* Restore dropdown arrow on active/hover items. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.nav-menu > li.menu-item-has-children > a:after {
+    margin-left: 6px !important;
+    color: currentColor !important;
+  }
+
+  /* Submenus: stronger hover/readability, still compact. */
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu {
+    background: #eef2f0 !important;
+    border-color: #d4ded9 !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu li > a {
+    min-height: 38px !important;
+    padding: 8px 11px !important;
+    border-radius: 8px !important;
+    color: #182436 !important;
+    font-size: 13.5px !important;
+    line-height: 1.4 !important;
+    font-weight: 650 !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu li > a:hover,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu li:hover > a {
+    background: #172235 !important;
+    color: #ffffff !important;
+  }
+
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu li.current-menu-item > a,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area
+  .rs-menu ul.sub-menu li.active > a {
+    background: #0b6f45 !important;
+    color: #ffffff !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .container {
+    max-width: 1380px !important;
+  }
+}
