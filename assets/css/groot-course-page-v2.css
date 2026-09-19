@@ -202,3 +202,65 @@
     position: static;
   }
 }
+
+
+/* =========================================================
+   FINAL COURSE STICKY STACK
+   24px topbar + 44px main menu + 40px journey navigation.
+   ========================================================= */
+@media only screen and (min-width: 992px) {
+  .ga-course-page-v2 .ga-section-nav {
+    position: sticky !important;
+    top: var(--ga-header-height, 68px) !important;
+    z-index: 2500 !important;
+    height: var(--ga-course-journey-height, 40px) !important;
+    min-height: var(--ga-course-journey-height, 40px) !important;
+    margin: 0 !important;
+    background: #172235 !important;
+    border: 0 !important;
+    box-shadow: 0 5px 16px rgba(12, 24, 40, .16) !important;
+  }
+
+  .ga-course-page-v2 .ga-section-nav .container {
+    height: var(--ga-course-journey-height, 40px) !important;
+    min-height: var(--ga-course-journey-height, 40px) !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 3px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .ga-course-page-v2 .ga-section-nav a {
+    display: inline-flex !important;
+    align-items: center !important;
+    height: 30px !important;
+    padding: 0 12px !important;
+    margin: 5px 0 !important;
+    border-radius: 8px !important;
+    color: #dfe7ef !important;
+    font-size: 12px !important;
+    line-height: 1 !important;
+    font-weight: 700 !important;
+  }
+
+  .ga-course-page-v2 .ga-section-nav a:hover {
+    background: rgba(255,255,255,.10) !important;
+    color: #ffffff !important;
+  }
+
+  .ga-course-page-v2 .ga-section-nav a.active {
+    background: #0c8b51 !important;
+    color: #ffffff !important;
+    box-shadow: 0 3px 10px rgba(12,139,81,.24) !important;
+  }
+
+  .ga-course-page-v2 .ga-section,
+  .ga-course-page-v2 .ga-anchor-target {
+    scroll-margin-top: 122px !important;
+  }
+
+  .ga-course-page-v2 .ga-sidebar-sticky-stack {
+    top: 120px !important;
+  }
+}
