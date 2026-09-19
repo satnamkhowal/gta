@@ -1,28 +1,8 @@
-<head>
-        <!-- meta tag -->
-        <meta charset="utf-8">
-        <title>Groot Academy Jaipur | IT Training Institute & Computer Courses</title>
-        <meta name="description" content="Groot Academy is an IT training institute in Jaipur offering practical courses in Python, Java, Full Stack Development, Data Analytics, AI, Machine Learning, Web Designing, Cyber Security and more with live projects, internships and placement assistance.">
-        <meta name="keywords" content="IT training institute in Jaipur, computer courses in Jaipur, software training institute Jaipur, Python course Jaipur, Java course Jaipur, full stack development course Jaipur, data analytics course Jaipur, AI course Jaipur, web designing course Jaipur, Groot Academy">
-        <meta name="author" content="Groot Academy">
-        <meta name="robots" content="index, follow, max-image-preview:large">
-        <meta name="theme-color" content="#2f6df6">
-        <link rel="canonical" href="https://grootacademy.com/">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="Groot Academy Jaipur | IT Training Institute & Computer Courses">
-        <meta property="og:description" content="Practical IT training in Jaipur with Python, Java, Full Stack Development, Data Analytics, AI, Web Designing and more.">
-        <meta property="og:url" content="https://grootacademy.com/">
-        <meta property="og:site_name" content="Groot Academy">
-        <meta property="og:image" content="https://grootacademy.com/assets/images/logo-green.png">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Groot Academy Jaipur | IT Training Institute">
-        <meta name="twitter:description" content="Learn job-oriented IT skills through practical training, projects and career support at Groot Academy Jaipur.">
-
-        <!-- responsive tag -->
+<!-- responsive tag -->
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- favicon -->
-        <link rel="apple-touch-icon" href="assets/images/fav.png">
+        <link rel="apple-touch-icon" href="https://keenitsolutions.com/products/html/educavo/apple-touch-icon.png">
         <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
         <!-- Bootstrap v4.4.1 css -->
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -54,31 +34,3 @@
             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-    
-        <script type="application/ld+json">
-        {
-          "@context":"https://schema.org",
-          "@type":["EducationalOrganization","LocalBusiness"],
-          "name":"Groot Academy",
-          "url":"https://grootacademy.com/",
-          "logo":"https://grootacademy.com/assets/images/logo-green.png",
-          "telephone":"+91-8233266276",
-          "email":"info@grootacademy.com",
-          "address":{
-            "@type":"PostalAddress",
-            "streetAddress":"122/66, 2nd Floor, Madhyam Marg, Mansarovar",
-            "addressLocality":"Jaipur",
-            "addressRegion":"Rajasthan",
-            "postalCode":"302020",
-            "addressCountry":"IN"
-          },
-          "areaServed":"Jaipur",
-          "sameAs":[
-            "https://www.linkedin.com/company/grootacademy/",
-            "https://www.instagram.com/groot.academy/",
-            "https://www.facebook.com/GrootAcademy/"
-          ]
-        }
-        </script>
-
-    </head>
