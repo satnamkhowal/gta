@@ -1,0 +1,110 @@
+# BEGIN Really Simple Security Redirect
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{HTTP_USER_AGENT} !lscache_runner [NC]
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+</IfModule>
+
+# END Really Simple Security Redirect
+
+
+# BEGIN LSCACHE
+# END LSCACHE
+
+
+# BEGIN NON_LSCACHE
+# END NON_LSCACHE
+
+
+# ============================================================
+# GROOT ACADEMY CUSTOM PHP FORM PROCESSOR
+# ============================================================
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+# /process-from  ->  /process-from.php
+RewriteRule ^process-from/?$ process-from.php [L]
+
+</IfModule>
+
+
+# END GROOT ACADEMY CUSTOM PHP FORM PROCESSOR
+
+
+# ============================================================
+# WORDPRESS
+# ============================================================
+
+# BEGIN WordPress
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+RewriteBase /
+
+RewriteRule ^index\.php$ - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule . /index.php [L]
+
+</IfModule>
+
+# END WordPress
+
+
+# ============================================================
+# PHP SETTINGS
+# ============================================================
+
+# Custom upload size settings
+
+php_value upload_max_filesize 25600M
+php_value post_max_size 2560M
+php_value max_execution_time 30000
+php_value max_input_time 30000
+
+
+# ============================================================
+# SHORTPIXEL WEBP
+# ============================================================
+
+# BEGIN ShortPixelWebp
+
+# The directives (lines) between "BEGIN ShortPixelWebp" and
+# "END ShortPixelWebp" are dynamically generated.
+
+# END ShortPixelWebp
+
+
+# ============================================================
+# WP CLOUDFLARE SUPER PAGE CACHE
+# ============================================================
+
+# BEGIN WP Cloudflare Super Page Cache
+
+# The directives (lines) between "BEGIN WP Cloudflare Super Page Cache"
+# and "END WP Cloudflare Super Page Cache" are dynamically generated.
+
+# END WP Cloudflare Super Page Cache
+
+
+# ============================================================
+# DISABLE DIRECTORY INDEXING
+# ============================================================
+
+# BEGIN Really Simple Security Disable directory indexing
+
+Options -Indexes
+
+# END Really Simple Security Disable directory indexing
