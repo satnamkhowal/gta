@@ -1,0 +1,218 @@
+/*== Double Headings / Custom Title Addon ==*/
+
+.elementor-widget-custom-title-addons .tpc-double_heading {
+    position: relative;
+}
+.elementor-widget-custom-title-addons .tpc-double_heading .dbl__title-wrapper {
+    position: relative;
+    z-index: 1;
+    line-height: 0;
+}
+.elementor-widget-custom-title-addons .tpc-double_heading .dbl__title {
+    font-size: 36px;
+    line-height: 1.3334em;
+    font-weight: inherit;
+    color: var(--edubin-heading-color);
+}
+.elementor-widget-custom-title-addons .tpc-double_heading .dbl__title.dbl-title_2 {
+    color: var(--edubin-primary-color);
+}
+.elementor-widget-custom-title-addons .tpc-double_heading .dbl__subtitle {
+    position: relative;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 14px;
+}
+.elementor-widget-custom-title-addons .tpc-double_heading .dbl__subtitle span, .elementor-widget-custom-title-addons .tpc-double_heading .dbl__subtitle span:before {
+    display: inline-block;
+    vertical-align: middle;
+}
+.elementor-widget-custom-title-addons .shape-bg>.shape__bg {
+    position: absolute;
+    content: '';
+    width: 165px;
+    height: 3px;
+    border-radius: 50px;
+    z-index: -1;
+    top: 45px;
+    left: 0;
+    background: var(--edubin-primary-color);
+}
+.elementor-widget-custom-title-addons .thumb-shape-bg>.thumb-shape__bg {
+    position: absolute;
+    width: 100%;
+    border-radius: 50px;
+    z-index: -1;
+    top: 15px;
+    left: 0;
+}
+.elementor-widget-custom-title-addons .shape-bg>.shape__svg {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    top: 30px;
+    left: 0;
+}
+.elementor-widget-custom-title-addons .shape-bg>.shape__svg>svg {
+    max-width: 100%;
+}
+.elementor-widget-custom-title-addons .shape-bg>.shape__svg>svg>path {
+    stroke: var(--edubin-primary-color);
+}
+.elementor-widget-custom-title-addons .shape-bg.animation_active .shape__bg {
+    -webkit-animation: section-animation 4s infinite;
+    animation: section-animation 4s infinite;
+}
+.elementor-widget-custom-title-addons .thumb-shape-bg.animation_active .thumb-shape__bg {
+    -webkit-animation: section-animation 4s infinite;
+    animation: section-animation 4s infinite;
+}
+@keyframes section-animation {
+    0% {
+        width: 0;
+    }
+    15% {
+        width: 100%;
+    }
+    85% {
+        opacity: 1;
+    }
+    90% {
+        width: 100%;
+        opacity: 0;
+    }
+    to {
+        width: 0;
+        opacity: 0;
+    }
+}
+.dbl__subtitle .subtitle-pill {
+    background: var(--edubin-primary-color);
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+/*===============================================================
+ ##Section Title Addon
+ =================================================================*/
+
+.edubin-section-title .section-title-txt {
+    font-size: 48px;
+    color: #23252a;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+    display: inline-block;
+}
+.edubin-section-title .section-subtitle-txt {
+    color: #07294d;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+.page.type-page .entry-content p.section-subtitle-txt {
+    margin-bottom: 0;
+}
+.edubin-section-title span.edubin-title-sperator {
+    background-color: var(--edubin-primary-color);
+    display: inline-block;
+    height: 3px;
+    margin-bottom: 13px;
+    margin-top: 0px;
+    position: relative;
+    width: 42px;
+}
+.edubin-section-title.title-style-three span.edubin-title-sperator::before {
+    background-color: var(--edubin-primary-color);
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: -13px;
+    margin-bottom: 13px;
+    margin-top: 25px;
+    position: absolute;
+    width: 50px;
+}
+.edubin-title-align-left .edubin-section-title.title-style-three span.edubin-title-sperator::before, .edubin-title-align-justify .edubin-section-title.title-style-three span.edubin-title-sperator::before {
+    left: 13px;
+}
+.edubin-section-title.edubin-subtitle-position-top {
+    display: flex;
+    flex-direction: column;
+}
+.edubin-section-title.edubin-subtitle-position-top .section-title-txt {
+    order: 2;
+}
+.edubin-section-title.edubin-subtitle-position-top .section-subtitle-txt {
+    order: 1;
+}
+.edubin-section-title.edubin-subtitle-position-top img {
+    order: 3;
+}
+.edubin-section-title.edubin-subtitle-position-top i {
+    order: 3;
+}
+.edubin-section-title img {
+    margin: auto;
+}
+.edubin-section-title.edubin-subtitle-position-top .edubin-title-sperator-sec {
+    order: 4;
+}
+.edubin-section-title.edubin-subtitle-position-top.title-style-four .edubin-title-sperator-sec {
+    order: 2;
+}
+.edubin-section-title.edubin-subtitle-position-top.title-style-four .section-title-txt {
+    order: 3;
+}
+.edubin-section-title.edubin-subtitle-position-top.title-style-four span.edubin-title-sperator {
+    margin-top: 8px;
+}
+.title-style-two .edubin-title-sperator-sec, .title-style-five .edubin-title-sperator-sec {
+    display: none;
+}
+.title-style-two .section-title-txt {
+    padding: 0 10.5%;
+    position: relative;
+}
+.title-style-two .section-title-txt::before, .title-style-two .section-title-txt::after {
+    background: #412e51 none repeat scroll 0 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100px;
+}
+.title-style-two .section-title-txt::after {
+    right: 0;
+    top: 50%;
+    left: auto;
+}
+.title-style-two .section-title-txt {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.section-advancetitle-txt {
+    color: var(--edubin-primary-color);
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 28px;
+    margin: 0;
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+.edubin-title-sperator-sec {
+    line-height: 1;
+}
+.slider-btn-left {
+    display: inline-block;
+}
+.slider-btn-right {
+    display: inline-block;
+}

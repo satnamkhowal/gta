@@ -1,0 +1,282 @@
+/*== Section-2 ==*/
+
+.edubin-hero-2 {
+    min-height: 830px;
+    display: block;
+    position: relative;
+    background: #ecf5f4;
+    z-index: 1;
+}
+.edubin-hero-2 .img-shape-2 {
+    position: absolute;
+    left: 4%;
+    top: 15%;
+    z-index: -1;
+}
+.edubin-hero-2.edubin-section-3 .img-shape-2 {
+    position: absolute;
+    left: 0;
+    top: initial;
+    bottom: 0;
+    z-index: -1;
+}
+.edubin-hero-2 .img-shape-3 {
+    position: absolute;
+    left: 32%;
+    bottom: 50px;
+    z-index: -1;
+}
+.edubin-hero-2.edubin-section-3 .img-shape-3 {
+    position: absolute;
+    left: initial;
+    bottom: 130px;
+    z-index: -1;
+    right: 40%;
+}
+.edubin-hero-2 .img-shape-4 {
+    position: absolute;
+    right: 4%;
+    top: 30%;
+    z-index: -1;
+}
+.edubin-hero-2.edubin-section-3 .img-shape-4 {
+    position: absolute;
+    right: 18%;
+    top: 28%;
+    z-index: -1;
+}
+.edubin-hero-2 .hero-content {
+    top: 220px;
+    position: relative;
+    z-index: 2;
+}
+.hero-content .sub-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #9aa4af;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.edubin-hero-2.edubin-section-3 .hero-content .sub-title {
+    text-transform: initial;
+    font-weight: 400;
+}
+.hero-content .title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #29303b;
+    line-height: 66px;
+    margin-top: 15px;
+}
+.hero-content .title span {
+    position: relative;
+}
+.edubin-hero-2.edubin-section-3 .hero-content .title span:before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    background: #0071dc;
+    width: 100%;
+    bottom: -3px;
+}
+.edubin-hero-2 .hero-images {
+    padding-top: 175px;
+    position: relative;
+    z-index: 1;
+}
+.edubin-hero-2.edubin-section-3 .hero-images {
+    padding-top: inherit;
+    bottom: 0;
+    position: relative;
+    top: inherit;
+}
+.edubin-hero-2 .hero-images .img-shape-1 {
+    position: absolute;
+    z-index: -1;
+    bottom: 138px;
+    right: 0;
+    padding-left: 20px;
+}
+.edubin-hero-2 .hero-images .img-man {
+    text-align: left;
+    position: relative;
+}
+/* new */
+
+.edubin-hero-2 .hero-images .img-man.edubin-img-overlay::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+/* animation 1 */
+
+.edubin-hero-2.edubin-section-3 .img-shape-3.anim-1, .edubin-hero-2.edubin-section-3 .img-shape-4.anim-1 {
+    -webkit-animation: up-down 5s linear infinite;
+    animation: up-down 5s linear infinite;
+}
+.edubin-hero-2.edubin-section-3 .hero-images .img-shape-1.anim-1 {
+    -webkit-animation: up-down 5s linear infinite;
+    animation: up-down 5s linear infinite;
+}
+/* animation 2 */
+
+.edubin-hero-2.edubin-section-3 .img-shape-3.anim-2, .edubin-hero-2.edubin-section-3 .img-shape-4.anim-2 {
+    -webkit-animation: round-01 5s linear infinite;
+    animation: round-01 5s linear infinite;
+}
+.edubin-hero-2.edubin-section-3 .hero-images .img-shape-1.anim-2 {
+    animation: spin 4s infinite linear;
+    transition: opacity 1s ease, stroke-width 1s ease;
+}
+/* animation 3 */
+
+.edubin-hero-2.edubin-section-3 .hero-images .img-shape-1.anim-3 {
+    -webkit-animation: round-01 5s linear infinite;
+    animation: round-01 5s linear infinite;
+}
+.edubin-hero-2.edubin-section-3 .img-shape-3.anim-3, .edubin-hero-2.edubin-section-3 .img-shape-4.anim-3 {
+    -webkit-animation: round-01 5s linear infinite;
+    animation: round-01 5s linear infinite
+}
+@media (max-width: 1399px) {
+    .edubin-hero-2 .img-shape-4 {
+        top: 10%;
+    }
+}
+@media (max-width: 1199px) {
+    .edubin-hero-2 .hero-content .title {
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .edubin-hero-2 .hero-images {
+        padding-top: 150px;
+    }
+    .edubin-hero-2 .hero-images .img-shape-1 {
+        max-width: 420px;
+        bottom: 100px;
+        right: 0;
+    }
+}
+@media (max-width: 991px) {
+    .edubin-hero-2 .hero-images .img-man {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .edubin-hero-2 .hero-images .img-shape-1 {
+        right: 80px;
+    }
+    .edubin-hero-2 .img-shape-4 {
+        top: 26%;
+    }
+    .edubin-hero-2 .img-shape-2 {
+        top: 47%;
+    }
+    .edubin-hero-2 .img-shape-3 {
+        left: 6%;
+        bottom: 17px;
+    }
+    .edubin-hero-2 .img-shape-3 img {
+        width: 110px;
+    }
+    .edubin-hero-2 .hero-content {
+        top: 60px;
+    }
+    .edubin-section-3 .img-shape-3.img-hide, .edubin-section-3 .img-shape-4.img-hide, .edubin-section-3 .hero-images .img-shape-1.img-hide {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .edubin-hero-2 .hero-images .img-shape-1 {
+        right: 50px;
+        bottom: 65px;
+    }
+    .edubin-hero-2 .hero-images .img-shape-1 img {
+        width: 450px;
+    }
+    .edubin-hero-2 .hero-images .img-man img {
+        width: 400px;
+    }
+    .edubin-hero-2 .img-shape-4 {
+        top: 35%;
+    }
+}
+@media (max-width: 575px) {
+    .edubin-hero-2 .hero-images .img-shape-1 {
+        right: 60px;
+        bottom: 90px;
+    }
+    .edubin-hero-2 .img-shape-2 {
+        top: 54%;
+        left: -23%;
+    }
+    .edubin-hero-2 .img-shape-4 {
+        top: 48%;
+    }
+    .edubin-hero-2 .img-shape-3 {
+        left: 2%;
+        bottom: 5px;
+    }
+    .edubin-hero-2 .img-shape-3 img {
+        width: 95px;
+    }
+}
+.front-image-content {
+    position: absolute;
+    top: 50%;
+    left: 55px;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 28px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    width: 360px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 62px 0px rgb(0 0 0 / 23%);
+}
+.front-image-content .hero-content-heading {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.front-image-content .hero-content-heading span {
+    color: var(--edubin-primary-color);
+}
+.front-image-content p {
+    color: #ababab;
+    margin-bottom: 0;
+}
+.front-image-content .image-icon {
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: var(--edubin-primary-color);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 575px) {
+    .front-image-content {
+        padding-left: 40px;
+        max-width: 245px
+    }
+    .front-image-content .image-icon {
+        left: -25px
+    }
+    .front-image-content .image-icon {
+        width: 51px;
+        height: 51px;
+        line-height: 60px;
+        font-size: 24px
+    }
+}

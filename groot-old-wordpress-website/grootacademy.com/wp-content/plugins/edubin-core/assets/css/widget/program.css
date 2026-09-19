@@ -1,0 +1,79 @@
+/*== Programs ==*/
+.edubin-programs.style-1 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    height: 390px;
+}
+.edubin-programs.style-1 a {
+    height: 65px;
+    transition-property: height;
+    transition-duration: .5s;
+}
+.edubin-programs.style-1:hover a {
+    height: 40%;
+}
+.edubin-programs.style-1::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    background-image: linear-gradient(160deg, #ECECEC00 50%, #66F83E 100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+}
+.edubin-programs.style-1:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+.edubin-programs.style-1::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(34, 34, 34, 0.5);
+}
+.edubin-programs.style-1 .programs-wrapper {
+    position: relative;
+    z-index: 1;
+}
+.edubin-programs.style-1 .programs-wrapper .program-title {
+    position: relative;
+    font-size: 36px;
+    padding-bottom: 0;
+    margin-bottom: 35px;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #ffffff;
+}
+.edubin-programs.style-1 .programs-wrapper .program-title.bottom-line::after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #76b625;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all .5s;
+}
+.edubin-programs.style-1 .programs-wrapper .program-description {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 0;
+    opacity: 0;
+    height: 0%;
+    transition: all .5s;
+}
+.edubin-programs.style-1:hover .programs-wrapper .program-description {
+    opacity: 1;
+    height: 100%;
+}

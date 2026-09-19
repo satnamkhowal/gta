@@ -1,0 +1,51 @@
+/*== Contact From 7 ==*/
+
+.edubin-cta-1 {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.edubin-cta-1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(180deg, #ffffff00 38%, #000 100%);
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    z-index: -1;
+}
+.edubin-cta-1 .cta-content {
+    display: flex;
+    align-items: center;
+    padding: 350px 30px 45px 30px;
+}
+.edubin-cta-1 .cta-content .cta-icon {
+    display: block;
+    width: 55px;
+    height: 55px;
+    line-height: 65px;
+    text-align: center;
+    border-radius: 50%;
+    background: var(--edubin-primary-color);
+    color: #fff;
+    margin-right: 10px;
+}
+.edubin-cta-1 .cta-content .cta-icon svg {
+    width: 25px;
+    height: 25px;
+}
+.edubin-cta-1 .cta-content p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.edubin-cta-1 .cta-content .number {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+}

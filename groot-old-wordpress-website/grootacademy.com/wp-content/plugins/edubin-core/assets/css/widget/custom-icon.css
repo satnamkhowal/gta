@@ -1,0 +1,36 @@
+/*== Custom Icon Addon ==*/
+
+.elementor-widget-edubin-custom-icon .icon-shape-wrap {
+    background: var(--edubin-primary-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 58px;
+    left: 25px;
+}
+@media (min-width: 768px) {
+    .elementor-widget-edubin-custom-icon.elementor-position-left .elementor-icon-box-wrapper, .elementor-widget-edubin-custom-icon.elementor-position-right .elementor-icon-box-wrapper {
+        display: flex
+    }
+    .elementor-widget-edubin-custom-icon.elementor-position-right .elementor-icon-box-wrapper {
+        text-align: right;
+        flex-direction: row-reverse
+    }
+    .elementor-widget-edubin-custom-icon.elementor-position-left .elementor-icon-box-wrapper {
+        text-align: left;
+        flex-direction: row
+    }
+    .elementor-widget-edubin-custom-icon.elementor-position-top .elementor-icon-box-img {
+        margin: auto
+    }
+    .elementor-widget-edubin-custom-icon.elementor-vertical-align-top .elementor-icon-box-wrapper {
+        align-items: flex-start
+    }
+    .elementor-widget-edubin-custom-icon.elementor-vertical-align-middle .elementor-icon-box-wrapper {
+        align-items: center
+    }
+    .elementor-widget-edubin-custom-icon.elementor-vertical-align-bottom .elementor-icon-box-wrapper {
+        align-items: flex-end
+    }
+}

@@ -1,0 +1,107 @@
+/*== Section-6 ==*/
+
+.edubin-section-6 {
+    padding-top: 120px;
+}
+.edubin-section-6 .shape-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+.edubin-section-6 .hero-content {
+    padding-left: 60px;
+    padding-bottom: 200px;
+}
+.edubin-section-6 .hero-content .hero-content-wrapper {
+    transform: rotate(-10deg);
+}
+.edubin-section-6 .hero-content .hero-content-wrapper .title-1, .edubin-section-6 .hero-content .hero-content-wrapper .title-2, .edubin-section-6 .hero-content .hero-content-wrapper .title-3 {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    /* clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%); */
+    -webkit-clip-path: polygon(100% -100%, 100% 100%, -100% 100%, -100% 100%);
+    clip-path: polygon(100% -100%, 100% 100%, -100% 100%, -100% 100%);
+    transform: translateY(0);
+    opacity: 1;
+    animation-name: titleAnimation;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+.edubin-section-6 .hero-content .hero-content-wrapper h2 {
+    font-size: 120px;
+    list-style: 130px;
+    animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+}
+.edubin-section-6 .hero-content .hero-content-wrapper h2:first-child {
+    animation-delay: 0.6s;
+}
+.edubin-section-6 .hero-content .hero-content-wrapper h2:last-child {
+    animation-delay: 0.4s;
+}
+.edubin-section-6 .hero-content .hero-content-wrapper .title-1::after, .edubin-section-6 .hero-content .hero-content-wrapper .title-2::after, .edubin-section-6 .hero-content .hero-content-wrapper .title-3::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: -35px;
+    z-index: -1;
+}
+.edubin-section-6 .hero-images {
+    position: relative;
+}
+.edubin-section-6 .hero-images .img-man {
+    position: relative;
+    bottom: -55px;
+}
+.edubin-section-6 .hero-images .shape-2 {
+    position: absolute;
+    left: -10px;
+    top: -75px;
+    -webkit-animation: up-down 5s linear infinite;
+    animation: up-down 5s linear infinite;
+}
+.edubin-section-6 .hero-images .shape-3 {
+    position: absolute;
+    right: 0;
+    -webkit-animation: up-down 5s linear infinite;
+    animation: up-down 5s linear infinite;
+    animation-delay: 2.5s;
+}
+@media only screen and (max-width: 991px) {
+    .edubin-section-6 {
+        padding-top: 100px;
+    }
+    .edubin-section-6 .hero-content {
+        padding-bottom: 170px !important;
+    }
+    .edubin-section-6 .hero-images {
+        padding: 0 200px;
+    }
+    .edubin-section-6 .hero-images .shape-2 {
+        left: 60px;
+    }
+    .edubin-section-6 .hero-images .shape-3 {
+        right: 70px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .edubin-section-6 {
+        padding-top: 90px;
+    }
+    .edubin-section-6 .hero-images {
+        padding: 0 100px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .edubin-section-6 .hero-content {
+        padding-left: 30px;
+    }
+    .edubin-section-6 .hero-images {
+        padding: 0;
+    }
+}

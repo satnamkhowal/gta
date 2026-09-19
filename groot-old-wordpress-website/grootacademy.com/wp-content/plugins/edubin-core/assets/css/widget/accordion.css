@@ -1,0 +1,78 @@
+/*== Accordion Addon ==*/
+.accordion .single_accordion {
+    position: relative;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 46px 0px rgba(0, 0, 0, 0.15);
+}
+.single_accordion:first-of-type {
+    margin-top: 0;
+}
+.accordion .single_accordion .edubin-accordion-header {
+    width: 100%;
+    cursor: pointer;
+    padding: 0 30px;
+    position: relative;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    z-index: 2;
+}
+.single_accordion.edubin-icon-align-left .edubin-accordion-header {
+    padding-left: 60px;
+}
+.accordion .single_accordion .edubin-accordion-header.active {
+    background: color-mix(in srgb, var(--edubin-primary-color) 15%, transparent);
+    border-radius: 10px 10px 0 0;
+}
+.accordion .single_accordion .edubin-accordion-header.active .accordion-title {
+    color: var(--edubin-primary-color);
+}
+.single_accordion .edubin-accordion-header .accordion-title {
+    font-size: 16px;
+    color: #222222;
+    font-weight: 600;
+    text-transform: capitalize;
+    z-index: 1;
+    position: relative;
+    padding: 17px 0px;
+    padding-right: 25px;
+    cursor: pointer;
+    margin-bottom: 0;
+    transition: 0.3s;
+}
+.single_accordion .edubin-accordion-header span.accordion-icon {
+    position: absolute;
+    right: 0;
+    color: #222222;
+    text-align: center;
+    display: flex;
+    transition: all 0.3s linear;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.single_accordion.edubin-icon-align-left .accordion-icon {
+    left: 30px;
+}
+.single_accordion .edubin-accordion-header span.accordion-icon i {
+    font-size: 13px;
+    transition: all 0.3s linear;
+    transform: rotate(0deg);
+}
+.single_accordion .edubin-accordion-header.active span.accordion-icon i {
+    transform: rotate(180deg);
+}
+.single_accordion.edubin-icon-align-right span.accordion-icon {
+    left: inherit;
+    right: 30px;
+}
+.single_accordion .accordion-body .accordion-content {
+    font-size: 16px;
+    color: #666666;
+    padding: 30px;
+}
+.single_accordion.edubin-icon-align-right .accordion-body .accordion-content {
+    padding-top: 15px;
+}

@@ -1,0 +1,193 @@
+/*== Category & Category Carousel Addon ==*/
+
+.edubin-category-style-1 .swiper-slide .edubin-icon-category .single-category {
+    padding: 20px 8px;
+    margin: 0;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+.edubin-category-style-1 .swiper-slide:nth-child(6n+6) .edubin-icon-category .single-category {
+    background: #7044b3;
+}
+.edubin-category-style-1 .swiper-slide:nth-child(6n+5) .edubin-icon-category .single-category {
+    background: #F6316F;
+}
+.edubin-category-style-1 .swiper-slide:nth-child(6n+4) .edubin-icon-category .single-category {
+    background: #ea9c0b;
+}
+.edubin-category-style-1 .swiper-slide:nth-child(6n+3) .edubin-icon-category .single-category {
+    background: #4886FF;
+}
+.edubin-category-style-1 .swiper-slide:nth-child(6n+2) .edubin-icon-category .single-category {
+    background: #FF6F6F;
+}
+.edubin-category-style-1 .swiper-slide:nth-child(6n+1) .edubin-icon-category .single-category {
+    background: #B5D56A;
+}
+.edubin-category-style-1 .edubin-icon-category .single-category {
+    padding: 20px 8px;
+    margin: 0 15px;
+    border-radius: 5px;
+    display: inline-block;
+    background: #FF6F6F;
+    float: left;
+    width: 170px;
+    height: 170px;
+    margin-bottom: 30px;
+}
+@media (max-width:992px) {
+    .edubin-category-style-1 .edubin-icon-category .single-category {
+        width: 100%;
+    }
+}
+.edubin-category-style-1 .edubin-icon-category:nth-child(4n+2) .edubin-icon-category .single-category, .edubin-category-style-4 .edubin-icon-category:nth-child(4n+2) .edubin-icon-category .single-category {
+    background: #4886ff;
+}
+.edubin-category-style-1 .edubin-icon-category:nth-child(4n+3) .edubin-icon-category .single-category, .edubin-category-style-4 .edubin-icon-category:nth-child(4n+3) .edubin-icon-category .single-category {
+    background: #009688;
+}
+.edubin-category-style-1 .edubin-icon-category:nth-child(4n+4) .edubin-icon-category .single-category, .edubin-category-style-4 .edubin-icon-category:nth-child(4n+4) .edubin-icon-category .single-category {
+    background: #b5d56a;
+}
+.edubin-category-style-1 .edubin-icon-category .single-category .icon-category-title {
+    font-family: var(--edubin-font-secondary);
+    color: #fff;
+    font-size: 18px;
+    padding-top: 15px;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+.edubin-category-style-1 .edubin-icon-category .single-category .icon-category-title:hover {
+    color: #eee;
+    transition: 0.3s ease-in-out;
+}
+.tpc-category-carousel-wrapper .cat-next.swiper-button-disabled, .tpc-category-carousel-wrapper .cat-prev.swiper-button-disabled {
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: all;
+}
+.tpc-category-carousel-wrapper .cat-next, .tpc-category-carousel-wrapper .cat-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    background: #557495;
+    color: #fff;
+    width: 38px;
+    height: 38px;
+    border: 0 none;
+    display: flex;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.tpc-category-carousel-wrapper .cat-next>i, .tpc-category-carousel-wrapper .cat-prev>i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: -webkit-fill-available;
+}
+.tpc-category-carousel-wrapper .cat-next:hover, .tpc-category-carousel-wrapper .cat-prev:hover {
+    background: var(--edubin-primary-color);
+    color: #fff;
+}
+.tpc-category-carousel-wrapper .cat-next {
+    right: -50px;
+}
+.tpc-category-carousel-wrapper .cat-prev {
+    left: -50px;
+}
+/********************** ##Category Carousel addon 2 ************************/
+
+.edubin-category-style-2 .swiper-slide .edubin-icon-category .single-category {
+    /* margin: 0 15px; */
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    display: block;
+    background: #fff;
+}
+.edubin-category-style-2 .edubin-icon-category .single-category {
+    /* margin: 0 15px; */
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    display: inline-block;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.edubin-category-style-2 .edubin-icon-category .single-category .icon-category-title {
+    color: var(--edubin-heading-color);
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+.edubin-category-style-2 .edubin-icon-category .single-category .icon-category-title:hover {
+    color: var(--edubin-primary-color);
+    transition: 0.3s ease-in-out;
+}
+/********************** ##Category Carousel addon 3 ************************/
+
+.edubin-category-style-3 .edubin-icon-category .single-category {
+    padding: 30px;
+    border-radius: 15px;
+    display: block;
+    background: #EFF7FF;
+}
+.edubin-category-style-3 .edubin-icon-category .single-category .img-wrapper {
+    border-radius: 100%;
+    height: 110px;
+    width: 110px;
+    border: 5px solid #000;
+    margin: 0 auto;
+}
+.edubin-category-style-3 .edubin-icon-category .single-category .img-wrapper img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+.edubin-category-style-3 .edubin-icon-category .single-category .icon-category-title {
+    color: var(--edubin-heading-color);
+    font-size: 18px;
+    margin-top: 25px;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+.edubin-category-style-3 .edubin-icon-category .single-category:hover .icon-category-title {
+    color: var(--edubin-primary-color);
+    transition: 0.3s ease-in-out;
+}
+/********************** ##Category Carousel addon 4 ************************/
+
+.edubin-category-style-4 .edubin-icon-category .single-category {
+    width: 170px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+.icon-category-title {
+    margin-bottom: 0;
+}
+/********************** ##Category Carousel addon 5 ************************/
+
+.tpc-category-carousel-wrapper.edubin-category-style-5 .img-wrapper {
+    height: 90px;
+    width: 90px;
+    background: #f5f7ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 0 auto;
+}

@@ -1,0 +1,44 @@
+/*== Info Box Addon ==*/
+
+.edubin-info-box-wrapper {
+    display: inline-flex;
+    align-items: center;
+    padding: 40px;
+    background: #ffffff;
+    box-shadow: 0px 0px 140px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: relative;
+}
+.edubin-info-box-wrapper .icon-wrapper {
+    flex-shrink: 0;
+    background: var(--edubin-primary-color);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -60px;
+    margin-right: 15px;
+}
+.edubin-info-box-wrapper.icon-right .icon-wrapper {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.edubin-info-box-wrapper.icon-top .icon-wrapper {
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+.edubin-info-box-wrapper .icon-wrapper svg {
+    width: 15px;
+    height: 15px;
+}
+.edubin-info-box-wrapper .info-text {
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--edubin-heading-color);
+}
+.edubin-info-box-wrapper .info-text span {
+    color: var(--edubin-primary-color);
+}

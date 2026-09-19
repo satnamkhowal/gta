@@ -1,0 +1,83 @@
+/*== Custom event ==*/
+
+.edubin-custom-events {
+    align-items: center;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 40px;
+    padding: 10px;
+}
+.edubin-custom-events .thumb {
+    flex-basis: 50%;
+    position: relative;
+}
+.edubin-custom-events .thumb a img {
+    width: 100%;
+}
+.edubin-custom-events .content {
+    flex-basis: 50%;
+    padding-left: 27px;
+}
+.edubin-custom-events .thumb .event-date {
+    background: #141414 none repeat scroll 0 0;
+    color: #fff;
+    padding: 8px 0;
+    position: absolute;
+    right: -13px;
+    text-align: center;
+    top: 0;
+    width: 60px;
+}
+.edubin-custom-events .thumb .event-date span {
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.edubin-custom-events .content h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.edubin-custom-events .content ul.event-time {
+    display: flex;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.edubin-custom-events .content ul.event-time li {
+    color: #909090;
+    font-size: 14px;
+}
+.edubin-custom-events .content ul.event-time li i {
+    color: #56a4b1;
+    padding-right: 10px;
+}
+.edubin-custom-events .content p {
+    color: #727272;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.edubin-custom-events .content .event-btn a {
+    border-bottom: 1px solid #727272;
+    color: #727272;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out 0s;
+}
+.edubin-custom-events .content ul.event-time li+li {
+    margin-left: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+.edubin-custom-events .content ul.event-time li+li::before {
+    background: #9f9f9f none repeat scroll 0 0;
+    content: "";
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 28%;
+    width: 2px;
+}

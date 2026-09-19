@@ -1,0 +1,65 @@
+/*== Section-5 ==*/
+.edubin-section-5 {
+    position: relative;
+    padding: 15px 0px 125px 0px;
+}
+.edubin-section-5 .shape-1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+}
+.edubin-section-5 .shape-1>img {
+    height: 390px;
+}
+.edubin-section-5 .hero-content {
+    padding-top: 100px;
+    position: relative;
+    z-index: 3;
+}
+.edubin-section-5 .hero-content .hero-skill-wrap {
+    margin-top: 55px;
+}
+.edubin-section-5 .hero-content .hero-skill-wrap .hero-feature-item {
+    display: flex;
+    align-items: center;
+}
+.edubin-section-5 .hero-content .hero-skill-wrap .hero-feature-item .feature-img {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+.edubin-section-5 .hero-content .hero-skill-wrap .hero-feature-item .feature-txt {
+    padding-right: 25px;
+}
+.edubin-section-5 .hero-content .hero-skill-wrap .hero-feature-item .feature-txt p {
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #fff;
+}
+.edubin-section-5 .hero-images .img-man {
+    position: relative;
+    z-index: 1;
+    bottom: -50px;
+}
+@media only screen and (max-width: 1199px) {
+    .edubin-section-5 .hero-content .hero-skill-wrap .hero-feature-item .feature-txt:last-child {
+        padding-right: 0;
+    }
+    .edubin-section-5 .hero-images .img-man {
+        bottom: -70px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .edubin-section-5 .hero-content .hero-skill-wrap .hero-feature-item .feature-txt {
+        padding-right: 0;
+    }
+    .edubin-section-5 .hero-images .img-man {
+        bottom: -120px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .edubin-section-5 .hero-content .hero-skill-wrap .hero-feature-item:first-child {
+        margin-bottom: 30px;
+    }
+}
