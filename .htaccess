@@ -1,0 +1,15 @@
+Options -Indexes
+RewriteEngine On
+
+# Protect sensitive files retained only as migration source material.
+RewriteRule ^groot-old-wordpress-website/.*/(?:wp-config(?:-sample)?\.php|.*\.sql|\.env)$ - [F,L,NC]
+RewriteRule ^groot-old-wordpress-website/.*/wp-(?:admin|includes)(?:/|$) - [F,L,NC]
+RewriteRule ^u950309299\.grootacademy-com\.20260915181059/ - [F,L,NC]
+
+# Existing GTA files and directories always win.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Preserve old Groot Academy URLs while rendering content inside the GTA theme.
+RewriteRule ^(.+?)/?$ legacy-page.php?legacy=$1 [QSA,L]
