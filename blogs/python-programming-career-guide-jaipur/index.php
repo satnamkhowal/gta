@@ -23,8 +23,8 @@ $blog = [
     ],
     'cta_title' => 'Start your Python learning journey',
     'cta_text' => 'Explore Python learning at Groot Academy Vijay Path, Mansarovar, Jaipur with coding practice, assignments, projects and career guidance.',
-    'cta_label' => 'Explore Groot Academy',
-    'cta_url' => '/',
+    'cta_label' => 'View Course Details',
+    'cta_url' => '/python-programming-course-jaipur.php',
 ];
 ob_start();
 ?>

@@ -1,0 +1,137 @@
+{
+  "baseline": "e58d420a62ff63a17046536cb7713b43b3816a5a",
+  "courses": [
+    {
+      "canonical": "https://grootacademy.com/full-stack-web-development-course-in-jaipur.php",
+      "sources": [
+        {
+          "path": "groot-old-wordpress-website/grootacademy.com/best-full-stack-web-development-course-in-jaipur.php",
+          "gitBlob": "ef4bdf902f7738562c79ce865b565c3118fb79db"
+        }
+      ],
+      "media": "post/images/card/web-designing-programming-course-card-by-groot-academy.png"
+    },
+    {
+      "canonical": "https://grootacademy.com/mern-stack-course-jaipur.php",
+      "sources": [
+        {
+          "path": "groot-old-wordpress-website/grootacademy.com/best-full-stack-web-development-with-nodeJs-MERN-stack-development-course-in-jaipur.php",
+          "gitBlob": "b3c6b481a89eb95bc5edb63f011d39049f7e26f0"
+        }
+      ],
+      "media": "post/images/card/nodeJs-programming-course-card-by-groot-academy.png"
+    },
+    {
+      "canonical": "https://grootacademy.com/python-programming-course-jaipur.php",
+      "sources": [
+        {
+          "path": "groot-old-wordpress-website/grootacademy.com/best-python-programming-course-in-jaipur.php",
+          "gitBlob": "83512c9f508570d63280b207c148ce957b3d963b"
+        },
+        {
+          "path": "groot-old-wordpress-website/grootacademy.com/course-python-programming.php",
+          "gitBlob": "2742be9c7dce1c79c4c891a4ab07fa94967e6e4a"
+        }
+      ],
+      "media": "post/images/card/python-programming-course-card-by-groot-academy.png"
+    },
+    {
+      "canonical": "https://grootacademy.com/java-programming-course-jaipur.php",
+      "sources": [
+        {
+          "path": "groot-old-wordpress-website/grootacademy.com/best-java-courses-in-jaipur.php",
+          "gitBlob": "2f9cbed0ee0ae7b20d129c9669b141aa60057a47"
+        },
+        {
+          "path": "groot-old-wordpress-website/grootacademy.com/best-course-for-back-end-development-with-Java.php",
+          "gitBlob": "b7b9d91333cad77e5905784b179b8c48bbaba62f"
+        }
+      ],
+      "media": "post/images/card/core-java-course-card-by-groot-academy.png"
+    },
+    {
+      "canonical": "https://grootacademy.com/data-science-machine-learning-course-jaipur.php",
+      "sources": [
+        {
+          "path": "groot-old-wordpress-website/grootacademy.com/best-data-science-course-using-python-in-jaipur.php",
+          "gitBlob": "22af5c60d070b2af7daa5f698f151176d72bdc46"
+        },
+        {
+          "path": "groot-old-wordpress-website/grootacademy.com/best-machine-learning-course-in-jaipur.php",
+          "gitBlob": "f3df43f4f538fabc2ed388aa44f79ed8d9f27ae7"
+        }
+      ],
+      "media": "post/images/card/data-science-with-python-course-card-by-groot-academy.png"
+    },
+    {
+      "canonical": "https://grootacademy.com/data-analytics-course-jaipur.php",
+      "sources": [
+        {
+          "path": "groot-old-wordpress-website/grootacademy.com/best-data-analytics-course-using-python-in-jaipur.php",
+          "gitBlob": "3c4c8bc7b7f9961d209506ab2a823d8a98570347"
+        }
+      ],
+      "media": "post/images/card/data-analysis-with-python-course-card-by-groot-academy.png"
+    },
+    {
+      "canonical": "https://grootacademy.com/power-bi-course-jaipur.php",
+      "sources": [
+        {
+          "path": "groot-old-wordpress-website/grootacademy.com/best-data-analytics-course-using-python-in-jaipur.php",
+          "gitBlob": "3c4c8bc7b7f9961d209506ab2a823d8a98570347"
+        }
+      ],
+      "media": null
+    },
+    {
+      "canonical": "https://grootacademy.com/generative-ai-course-jaipur.php",
+      "sources": [
+        {
+          "path": "blogs/generative-ai-tools-career-guide-jaipur/index.php",
+          "gitBlob": "56c0c9da2f1828abef6de2cde80ff434a8d72fe0"
+        }
+      ],
+      "media": null
+    },
+    {
+      "canonical": "https://grootacademy.com/cloud-computing-aws-course-jaipur.php",
+      "sources": [
+        {
+          "path": "groot-old-wordpress-website/grootacademy.com/courses-by-us/cloud-computing-course-in-jaipur.html",
+          "gitBlob": "8ac8732cd7e5b6d9ec4946813301067eefd7d7f9"
+        }
+      ],
+      "media": null
+    },
+    {
+      "canonical": "https://grootacademy.com/cyber-security-course-jaipur.php",
+      "sources": [
+        {
+          "path": "groot-old-wordpress-website/grootacademy.com/courses-by-us/cyber-security-course-in-jaipur.html",
+          "gitBlob": "acedb1de60d32e809bac51e06eb9db2e6ee0675b"
+        }
+      ],
+      "media": null
+    },
+    {
+      "canonical": "https://grootacademy.com/flutter-app-development-course-jaipur.php",
+      "sources": [
+        {
+          "path": "groot-old-wordpress-website/grootacademy.com/best-flutter-application_development-course-in-jaipur.php",
+          "gitBlob": "16ed2568e5a77eefb5f4e8118cbd4acf54652a46"
+        }
+      ],
+      "media": "post/images/card/flutter-course-logo.png"
+    },
+    {
+      "canonical": "https://grootacademy.com/digital-marketing-course-jaipur.php",
+      "sources": [
+        {
+          "path": "groot-old-wordpress-website/grootacademy.com/digitalmarkating.php",
+          "gitBlob": "3d324e8801871ba6039a2a8361f5f512046a3d35"
+        }
+      ],
+      "media": "post/images/card/digital-marketing-course-card.png"
+    }
+  ]
+}

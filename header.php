@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/includes/site-paths.php'; ?>
 <?php
 $gaRequestPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
 $gaScriptName = strtolower(basename($_SERVER['SCRIPT_NAME'] ?? ''));
@@ -109,15 +110,15 @@ $gaIsCourse = (
 
                     <!-- Courses -->
                     <li class="menu-item-has-children<?php echo $gaIsCourse ? ' current-menu-item' : ''; ?>">
-                      <a href="./courses/">Courses</a>
+                      <a href="<?= htmlspecialchars(ga_url('courses.php'), ENT_QUOTES, 'UTF-8') ?>">Courses</a>
                       <ul class="sub-menu">
 
                         <li class="menu-item-has-children">
                           <a href="./courses/best-programming-courses-in-jaipur/">Programming Languages</a>
                           <ul class="sub-menu">
-                            <li><a href="./courses/best-python-programming-course-in-jaipur-rajasthan/">Python
+                            <li><a href="<?= htmlspecialchars(ga_url('python-programming-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Python
                                 Programming</a></li>
-                            <li><a href="./courses/leading-java-programming-classes-in-jaipur-groot-academy/">Java
+                            <li><a href="<?= htmlspecialchars(ga_url('java-programming-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Java
                                 Programming</a></li>
                             <li><a href="./courses/c-programming-course-jaipur/">C Programming</a></li>
                             <li><a href="./courses/c-plus-plus-course-jaipur/">C++ Programming</a></li>
@@ -128,9 +129,9 @@ $gaIsCourse = (
                         </li>
 
                         <li class="menu-item-has-children">
-                          <a href="./full-stack-web-development-course-in-jaipur/">Full Stack Development</a>
+                          <a href="<?= htmlspecialchars(ga_url('full-stack-web-development-course-in-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Full Stack Development</a>
                           <ul class="sub-menu">
-                            <li><a href="./courses/mern-stack-course-jaipur/">MERN Stack</a></li>
+                            <li><a href="<?= htmlspecialchars(ga_url('mern-stack-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">MERN Stack</a></li>
                             <li><a href="./courses/python-full-stack-course-jaipur/">Python Full Stack</a></li>
                             <li><a href="./courses/java-full-stack-course-jaipur/">Java Full Stack</a></li>
                             <li><a href="./courses/dotnet-full-stack-course-jaipur/">ASP.NET Full Stack</a></li>
@@ -141,9 +142,9 @@ $gaIsCourse = (
                         </li>
 
                         <li class="menu-item-has-children">
-                          <a href="./courses/java-courses-jaipur.php">Java Courses</a>
+                          <a href="<?= htmlspecialchars(ga_url('java-programming-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Java Courses</a>
                           <ul class="sub-menu">
-                            <li><a href="./courses/core-java-course-jaipur.php">Core Java</a></li>
+                            <li><a href="<?= htmlspecialchars(ga_url('java-programming-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Core Java</a></li>
                             <li><a href="./courses/advanced-java-course-jaipur.php">Advanced Java</a></li>
                             <li><a href="./courses/spring-framework-course-jaipur.php">Spring Framework</a></li>
                             <li><a href="./courses/spring-boot-course-jaipur.php">Spring Boot</a></li>
@@ -154,27 +155,27 @@ $gaIsCourse = (
                         </li>
 
                         <li class="menu-item-has-children">
-                          <a href="./courses/data-science-course-jaipur/">Data Science &amp; AI</a>
+                          <a href="<?= htmlspecialchars(ga_url('data-science-machine-learning-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Data Science &amp; AI</a>
                           <ul class="sub-menu">
-                            <li><a href="./courses/data-analytics-course-jaipur/">Data Analytics</a></li>
+                            <li><a href="<?= htmlspecialchars(ga_url('data-analytics-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Data Analytics</a></li>
                             <li><a href="./courses/business-analytics-course-jaipur.php">Business Analytics</a></li>
                             <li><a
-                                href="./courses/master-data-science-with-python-in-jaipur-rajasthan-groot-academy/">Data
+                                href="<?= htmlspecialchars(ga_url('data-science-machine-learning-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Data
                                 Science</a></li>
                             <li><a
-                                href="./courses/best-machine-learning-course-using-python-in-jaipur-rajasthan-groot-academy/">Machine
+                                href="<?= htmlspecialchars(ga_url('data-science-machine-learning-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Machine
                                 Learning</a></li>
                             <li><a href="./courses/artificial-intelligence-course-jaipur.php">Artificial
                                 Intelligence</a></li>
-                            <li><a href="./courses/generative-ai-course-jaipur.php">Generative AI</a></li>
-                            <li><a href="./courses/power-bi-course-jaipur.php">Power BI</a></li>
+                            <li><a href="<?= htmlspecialchars(ga_url('generative-ai-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Generative AI</a></li>
+                            <li><a href="<?= htmlspecialchars(ga_url('power-bi-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Power BI</a></li>
                           </ul>
                         </li>
 
                         <li class="menu-item-has-children">
-                          <a href="./courses/cloud-computing-course-jaipur.php">Cloud Computing</a>
+                          <a href="<?= htmlspecialchars(ga_url('cloud-computing-aws-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Cloud Computing</a>
                           <ul class="sub-menu">
-                            <li><a href="./courses/aws-course-jaipur.php">AWS</a></li>
+                            <li><a href="<?= htmlspecialchars(ga_url('cloud-computing-aws-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">AWS</a></li>
                             <li><a href="./courses/azure-course-jaipur.php">Microsoft Azure</a></li>
                             <li><a href="./courses/google-cloud-course-jaipur.php">Google Cloud</a></li>
                             <li><a href="./courses/devops-course-jaipur.php">DevOps</a></li>
@@ -184,7 +185,7 @@ $gaIsCourse = (
                         </li>
 
                         <li class="menu-item-has-children">
-                          <a href="./courses/cyber-security-course-jaipur.php">Cyber Security</a>
+                          <a href="<?= htmlspecialchars(ga_url('cyber-security-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Cyber Security</a>
                           <ul class="sub-menu">
                             <li><a href="./courses/ethical-hacking-course-jaipur.php">Ethical Hacking</a></li>
                             <li><a href="./courses/ceh-course-jaipur.php">CEH</a></li>
@@ -206,7 +207,7 @@ $gaIsCourse = (
                         </li>
 
                         <li class="menu-item-has-children">
-                          <a href="./courses/digital-marketing-course-jaipur.php">Digital Marketing</a>
+                          <a href="<?= htmlspecialchars(ga_url('digital-marketing-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Digital Marketing</a>
                           <ul class="sub-menu">
                             <li><a href="./courses/seo-course-in-jaipur/">SEO</a></li>
                             <li><a href="./courses/google-ads-course-jaipur.php">Google Ads</a></li>
@@ -230,7 +231,7 @@ $gaIsCourse = (
                           <ul class="sub-menu">
                             <li><a href="./courses/android-course-jaipur.php">Android</a></li>
                             <li><a href="./courses/kotlin-course-jaipur.php">Kotlin</a></li>
-                            <li><a href="./courses/flutter-course-jaipur.php">Flutter</a></li>
+                            <li><a href="<?= htmlspecialchars(ga_url('flutter-app-development-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Flutter</a></li>
                             <li><a href="./courses/react-native-course-jaipur.php">React Native</a></li>
                             <li><a href="./courses/ios-app-development-course-jaipur.php">iOS</a></li>
                           </ul>
@@ -241,14 +242,14 @@ $gaIsCourse = (
 
                     <!-- Career Courses -->
                     <li class="menu-item-has-children">
-                      <a href="./courses/">Career</a>
+                      <a href="<?= htmlspecialchars(ga_url('courses.php'), ENT_QUOTES, 'UTF-8') ?>">Career</a>
                       <ul class="sub-menu">
                         <li><a href="./courses/best-web-designing-course-in-jaipur-rajasthan-at-groot-academy/">Web
                             Designing</a></li>
-                        <li><a href="./courses/master-data-science-with-python-in-jaipur-rajasthan-groot-academy/">Data
+                        <li><a href="<?= htmlspecialchars(ga_url('data-science-machine-learning-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Data
                             Science</a></li>
                         <li><a
-                            href="./courses/best-machine-learning-course-using-python-in-jaipur-rajasthan-groot-academy/">Machine
+                            href="<?= htmlspecialchars(ga_url('data-science-machine-learning-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Machine
                             Learning</a></li>
                         <li><a href="./courses/ai-productivity-tools-course-jaipur/">AI Productivity Tools</a></li>
                         <li><a

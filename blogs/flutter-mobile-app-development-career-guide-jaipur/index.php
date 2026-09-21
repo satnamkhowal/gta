@@ -29,8 +29,8 @@ $blog = [
     ],
     'cta_title' => 'Build practical mobile app development skills',
     'cta_text' => 'Explore Flutter learning at Groot Academy Vijay Path, Mansarovar, Jaipur with Dart, UI development, APIs, Firebase and project-based practice.',
-    'cta_label' => 'Explore Groot Academy',
-    'cta_url' => '/',
+    'cta_label' => 'View Course Details',
+    'cta_url' => '/flutter-app-development-course-jaipur.php',
 ];
 
 ob_start();

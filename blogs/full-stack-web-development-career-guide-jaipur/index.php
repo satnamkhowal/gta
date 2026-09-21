@@ -23,8 +23,8 @@ $blog = [
     ],
     'cta_title' => 'Learn full stack development step by step',
     'cta_text' => 'Explore practical Full Stack training at Groot Academy Vijay Path, Mansarovar, Jaipur with coding exercises, APIs, databases and project work.',
-    'cta_label' => 'Explore Groot Academy',
-    'cta_url' => '/',
+    'cta_label' => 'View Course Details',
+    'cta_url' => '/full-stack-web-development-course-in-jaipur.php',
 ];
 ob_start();
 ?>

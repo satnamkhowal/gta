@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/includes/site-paths.php'; ?>
 <!-- Footer Start -->
 <footer id="rs-footer" class="rs-footer home9-style main-home ga-site-footer">
 
@@ -99,37 +100,37 @@
 
           <ul class="site-map">
             <li>
-              <a href="./courses/">
+              <a href="<?= htmlspecialchars(ga_url('courses.php'), ENT_QUOTES, 'UTF-8') ?>">
                 All Courses
               </a>
             </li>
 
             <li>
-              <a href="./courses/best-python-programming-course-in-jaipur-rajasthan/">
+              <a href="<?= htmlspecialchars(ga_url('python-programming-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">
                 Python Programming
               </a>
             </li>
 
             <li>
-              <a href="./courses/leading-java-programming-classes-in-jaipur-groot-academy/">
+              <a href="<?= htmlspecialchars(ga_url('java-programming-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">
                 Java Programming
               </a>
             </li>
 
             <li>
-              <a href="./full-stack-web-development-course-in-jaipur/">
+              <a href="<?= htmlspecialchars(ga_url('full-stack-web-development-course-in-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">
                 Full Stack Development
               </a>
             </li>
 
             <li>
-              <a href="./courses/data-analytics-course-jaipur/">
+              <a href="<?= htmlspecialchars(ga_url('data-analytics-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">
                 Data Analytics
               </a>
             </li>
 
             <li>
-              <a href="./courses/master-data-science-with-python-in-jaipur-rajasthan-groot-academy/">
+              <a href="<?= htmlspecialchars(ga_url('data-science-machine-learning-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">
                 Data Science
               </a>
             </li>

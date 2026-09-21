@@ -1,4 +1,10 @@
 <?php
+require_once __DIR__ . '/includes/course-catalog.php';
+$courseRedirect = ga_course_redirect_target($_SERVER['REQUEST_URI'] ?? '/');
+if ($courseRedirect !== null && in_array($_SERVER['REQUEST_METHOD'] ?? 'GET', ['GET', 'HEAD'], true)) {
+    header('Location: ' . ga_url($courseRedirect), true, 301);
+    exit;
+}
 require_once __DIR__ . '/migration/legacy-content.php';
 
 $request = $_GET['legacy'] ?? (parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '');

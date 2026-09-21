@@ -35,8 +35,8 @@ $blog = [
 
     'cta_title' => 'Build practical cyber security skills step by step',
     'cta_text' => 'Explore Cyber Security learning at Groot Academy Vijay Path, Mansarovar, Jaipur with networking, Linux, web security and guided lab practice.',
-    'cta_label' => 'Explore Groot Academy',
-    'cta_url' => '/',
+    'cta_label' => 'View Course Details',
+    'cta_url' => '/cyber-security-course-jaipur.php',
 ];
 
 ob_start();

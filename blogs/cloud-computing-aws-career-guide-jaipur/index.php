@@ -35,8 +35,8 @@ $blog = [
 
     'cta_title' => 'Build practical cloud skills step by step',
     'cta_text' => 'Explore Cloud Computing and AWS learning at Groot Academy Vijay Path, Mansarovar, Jaipur with practical labs, deployment exercises and career guidance.',
-    'cta_label' => 'Explore Groot Academy',
-    'cta_url' => '/',
+    'cta_label' => 'View Course Details',
+    'cta_url' => '/cloud-computing-aws-course-jaipur.php',
 ];
 
 ob_start();

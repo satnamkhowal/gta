@@ -23,8 +23,8 @@ $blog = [
     ],
     'cta_title' => 'Start building practical data skills',
     'cta_text' => 'Explore Data Analytics learning at Groot Academy Vijay Path, Mansarovar, Jaipur with Excel, SQL, Power BI, Python and project practice.',
-    'cta_label' => 'Explore Groot Academy',
-    'cta_url' => '/',
+    'cta_label' => 'View Course Details',
+    'cta_url' => '/data-analytics-course-jaipur.php',
 ];
 ob_start();
 ?>

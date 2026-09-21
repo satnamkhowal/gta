@@ -24,8 +24,8 @@ $blog = [
     ],
     'cta_title' => 'Start building practical Generative AI skills',
     'cta_text' => 'Explore AI tools, prompt engineering, Python, APIs and project-based learning at Groot Academy Vijay Path, Mansarovar, Jaipur.',
-    'cta_label' => 'Explore Groot Academy',
-    'cta_url' => '/',
+    'cta_label' => 'View Course Details',
+    'cta_url' => '/generative-ai-course-jaipur.php',
 ];
 ob_start();
 ?>

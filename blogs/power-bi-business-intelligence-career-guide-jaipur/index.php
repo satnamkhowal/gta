@@ -24,8 +24,8 @@ $blog = [
     ],
     'cta_title' => 'Build practical Power BI and Business Intelligence skills',
     'cta_text' => 'Explore hands-on Power BI learning at Groot Academy Vijay Path, Mansarovar, Jaipur with real datasets, dashboards, DAX and career guidance.',
-    'cta_label' => 'Explore Groot Academy',
-    'cta_url' => '/',
+    'cta_label' => 'View Course Details',
+    'cta_url' => '/power-bi-course-jaipur.php',
 ];
 ob_start();
 ?>

@@ -23,8 +23,8 @@ $blog = [
     ],
     'cta_title' => 'Build practical digital marketing skills',
     'cta_text' => 'Explore digital marketing learning at Groot Academy Vijay Path, Mansarovar, Jaipur with practical campaigns, website analysis and reporting exercises.',
-    'cta_label' => 'Explore Groot Academy',
-    'cta_url' => '/',
+    'cta_label' => 'View Course Details',
+    'cta_url' => '/digital-marketing-course-jaipur.php',
 ];
 ob_start();
 ?>

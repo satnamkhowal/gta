@@ -23,8 +23,8 @@ $blog = [
     ],
     'cta_title' => 'Build your Java development foundation',
     'cta_text' => 'Explore Java learning at Groot Academy Vijay Path, Mansarovar, Jaipur with coding practice, database work, backend concepts and real projects.',
-    'cta_label' => 'Explore Groot Academy',
-    'cta_url' => '/',
+    'cta_label' => 'View Course Details',
+    'cta_url' => '/java-programming-course-jaipur.php',
 ];
 ob_start();
 ?>

@@ -23,8 +23,8 @@ $blog = [
     ],
     'cta_title' => 'Build modern web applications with MERN',
     'cta_text' => 'Explore MERN Stack and React learning at Groot Academy Vijay Path, Mansarovar, Jaipur with practical coding, API integration and project work.',
-    'cta_label' => 'Explore Groot Academy',
-    'cta_url' => '/',
+    'cta_label' => 'View Course Details',
+    'cta_url' => '/mern-stack-course-jaipur.php',
 ];
 ob_start();
 ?>

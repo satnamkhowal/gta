@@ -24,8 +24,8 @@ $blog = [
     ],
     'cta_title' => 'Build practical Data Science and Machine Learning skills',
     'cta_text' => 'Explore project-based learning at Groot Academy Vijay Path, Mansarovar, Jaipur with Python, data analysis, machine learning and career guidance.',
-    'cta_label' => 'Explore Groot Academy',
-    'cta_url' => '/',
+    'cta_label' => 'View Course Details',
+    'cta_url' => '/data-science-machine-learning-course-jaipur.php',
 ];
 ob_start();
 ?>

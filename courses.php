@@ -8,9 +8,21 @@
  *   header.php  -> site header/navigation
  *   footer.php  -> site footer/scripts
  */
-include __DIR__ . '/head.php';
-include __DIR__ . '/header.php';
+require_once __DIR__ . '/includes/site-paths.php';
 ?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>IT Courses in Jaipur | Groot Academy</title>
+    <meta name="description" content="Explore programming, full stack development, data analytics, AI, cloud, security and digital marketing courses at Groot Academy Jaipur.">
+    <link rel="canonical" href="https://grootacademy.com/courses.php">
+    <base href="<?= htmlspecialchars(ga_url(), ENT_QUOTES, 'UTF-8') ?>">
+    <?php include __DIR__ . '/head.php'; ?>
+    <link rel="stylesheet" href="<?= htmlspecialchars(ga_asset('css/groot-course-migration.css'), ENT_QUOTES, 'UTF-8') ?>">
+</head>
+<body class="defult-home">
+<?php include __DIR__ . '/header.php'; ?>
 
 <!-- =========================================================
      GROOT ACADEMY COURSES PAGE
@@ -55,7 +67,7 @@ include __DIR__ . '/header.php';
                             learning, projects and industry-oriented guidance. Visit our
                             <a href="https://grootacademy.com/">Groot Academy Jaipur IT training institute</a>
                             homepage or explore the
-                            <a href="https://grootacademy.com/courses/">complete course catalogue</a>.
+                            <a href="<?= htmlspecialchars(ga_url('courses.php'), ENT_QUOTES, 'UTF-8') ?>">complete course catalogue</a>.
                         </p>
                     </div>
                 </div>
@@ -68,192 +80,12 @@ include __DIR__ . '/header.php';
                     <div class="gridFilter text-center mb-50">
                         <button class="active" data-filter="*">ALL</button>
                         <button data-filter=".filter1">PROGRAMMING</button>
-                        <button data-filter=".filter2">WEB DEVELOPMENT</button>
+                        <button data-filter=".filter2">WEB &amp; APP DEVELOPMENT</button>
                         <button data-filter=".filter3">DATA & AI</button>
                         <button data-filter=".filter4">PROFESSIONAL</button>
                     </div>
-                    <div class="row grid">
-                        <div class="col-lg-4 col-md-6 grid-item filter1">
-                            <div class="courses-item mb-30">
-                                <div class="img-part">
-                                    <img src="assets/images/courses/1.jpg" alt="Groot Academy IT course training in Jaipur">
-                                </div>
-                                <div class="content-part">
-                                    <ul class="meta-part">
-                                        <li><a class="categorie course-title" href="https://grootacademy.com/courses/">PHP & Laravel Development Course in Jaipur</a></li>
-                                        <li><a class="categorie" href="https://grootacademy.com/courses/">Web Development</a></li>
-                                    </ul>
-                                    <div class="bottom-part">
-                                        <div class="info-meta">
-                                            <ul>
-                                                <li class="user"><i class="fa fa-user"></i> Practical Training</li>
-                                                <li class="ratings">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    (5.0)
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="btn-part">
-                                            <a href="https://grootacademy.com/courses/"><i class="flaticon-right-arrow"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 grid-item filter4 filter1">
-                            <div class="courses-item mb-30">
-                                <div class="img-part">
-                                    <img src="assets/images/courses/2.jpg" alt="Groot Academy IT course training in Jaipur">
-                                </div>
-                                <div class="content-part">
-                                    <ul class="meta-part">
-                                        <li><a class="categorie course-title" href="https://grootacademy.com/courses/">Python Programming Course in Jaipur</a></li>
-                                        <li><a class="categorie" href="https://grootacademy.com/courses/">Web Development</a></li>
-                                    </ul>
-                                    <div class="bottom-part">
-                                        <div class="info-meta">
-                                            <ul>
-                                                <li class="user"><i class="fa fa-user"></i> Practical Training</li>
-                                                <li class="ratings">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    (5.0)
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="btn-part">
-                                            <a href="https://grootacademy.com/courses/"><i class="flaticon-right-arrow"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 grid-item filter3 filter2">
-                            <div class="courses-item mb-30">
-                                <div class="img-part">
-                                    <img src="assets/images/courses/3.jpg" alt="Groot Academy IT course training in Jaipur">
-                                </div>
-                                <div class="content-part">
-                                    <ul class="meta-part">
-                                        <li><a class="categorie course-title" href="https://grootacademy.com/courses/">Data Analytics with Python & Power BI</a></li>
-                                        <li><a class="categorie" href="https://grootacademy.com/courses/">Data & AI</a></li>
-                                    </ul>
-                                    <div class="bottom-part">
-                                        <div class="info-meta">
-                                            <ul>
-                                                <li class="user"><i class="fa fa-user"></i> Practical Training</li>
-                                                <li class="ratings">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    (5.0)
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="btn-part">
-                                            <a href="https://grootacademy.com/courses/"><i class="flaticon-right-arrow"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 grid-item filter1 filter2">
-                            <div class="courses-item mb-30">
-                                <div class="img-part">
-                                    <img src="assets/images/courses/4.jpg" alt="Groot Academy IT course training in Jaipur">
-                                </div>
-                                <div class="content-part">
-                                    <ul class="meta-part">
-                                        <li><a class="categorie course-title" href="https://grootacademy.com/courses/">Artificial Intelligence & Machine Learning Course</a></li>
-                                        <li><a class="categorie" href="https://grootacademy.com/courses/">Data & AI</a></li>
-                                    </ul>
-                                    <div class="bottom-part">
-                                        <div class="info-meta">
-                                            <ul>
-                                                <li class="user"><i class="fa fa-user"></i> Practical Training</li>
-                                                <li class="ratings">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    (5.0)
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="btn-part">
-                                            <a href="https://grootacademy.com/courses/"><i class="flaticon-right-arrow"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 grid-item filter2 filter4">
-                            <div class="courses-item mb-30">
-                                <div class="img-part">
-                                    <img src="assets/images/courses/5.jpg" alt="Groot Academy IT course training in Jaipur">
-                                </div>
-                                <div class="content-part">
-                                    <ul class="meta-part">
-                                        <li><a class="categorie course-title" href="https://grootacademy.com/courses/">Full Stack Web Development with Node.js</a></li>
-                                        <li><a class="categorie" href="https://grootacademy.com/courses/">Web Development</a></li>
-                                    </ul>
-                                    <div class="bottom-part">
-                                        <div class="info-meta">
-                                            <ul>
-                                                <li class="user"><i class="fa fa-user"></i> Practical Training</li>
-                                                <li class="ratings">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    (5.0)
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="btn-part">
-                                            <a href="https://grootacademy.com/courses/"><i class="flaticon-right-arrow"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 grid-item filter1 filter4">
-                            <div class="courses-item mb-30">
-                                <div class="img-part">
-                                    <img src="assets/images/courses/6.jpg" alt="Groot Academy IT course training in Jaipur">
-                                </div>
-                                <div class="content-part">
-                                    <ul class="meta-part">
-                                        <li><a class="categorie course-title" href="https://grootacademy.com/courses/">PHP & Laravel Development Course in Jaipur</a></li>
-                                        <li><a class="categorie" href="https://grootacademy.com/courses/">Web Development</a></li>
-                                    </ul>
-                                    <div class="bottom-part">
-                                        <div class="info-meta">
-                                            <ul>
-                                                <li class="user"><i class="fa fa-user"></i> Practical Training</li>
-                                                <li class="ratings">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    (5.0)
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="btn-part">
-                                            <a href="https://grootacademy.com/courses/"><i class="flaticon-right-arrow"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pagination-area orange-color text-center mt-30 md-mt-0">
-                        <ul class="pagination-part">
-                            <li class="active"><a href="https://grootacademy.com/courses/">1</a></li>
-                            <li><a href="https://grootacademy.com/courses/">2</a></li>
-                            <li><a href="https://grootacademy.com/courses/">Next <i class="fa fa-long-arrow-right"></i></a></li>
-                        </ul>
+                    <div class="row grid ga-catalogue">
+                        <?php include __DIR__ . '/includes/course-cards.php'; ?>
                     </div>
                 </div>
             </div>
@@ -289,3 +121,6 @@ include __DIR__ . '/header.php';
 </main>
 
 <?php include __DIR__ . '/footer.php'; ?>
+
+</body>
+</html>
