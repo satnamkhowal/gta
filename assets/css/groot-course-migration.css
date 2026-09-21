@@ -1,0 +1,10 @@
+/* Small content additions to the existing GTA course layout. */
+.ga-course-symbol { display:flex; align-items:center; justify-content:center; min-height:220px; background:#eaf6f0; color:#0c8b51; font-size:76px; }
+.ga-course-visual img.ga-migration-course-image { width:100%; height:240px; object-fit:contain; background:#f7fbf9; }
+.ga-migration-faq { margin-bottom:15px; padding:20px 24px; border:1px solid #e2ebe6; border-radius:15px; background:#fff; }
+.ga-migration-faq summary { cursor:pointer; font-weight:700; color:#171f32; }
+.ga-migration-faq p { margin:14px 0 0; }
+.ga-sidebar-head h2 { color:#fff; font-size:25px; margin:0; }
+.ga-course-page a:focus-visible, .ga-migration-faq summary:focus-visible { outline:3px solid #0c8b51; outline-offset:4px; }
+.ga-catalogue .img-part img { width:100%; height:220px; object-fit:contain; background:#f7fbf9; }
+.ga-catalogue .course-title { font-size:20px; line-height:1.4; }

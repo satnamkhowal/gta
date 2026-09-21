@@ -1,0 +1,310 @@
+[
+  {
+    "slug": "full-stack-web-development-course-in-jaipur",
+    "name": "Full Stack Web Development",
+    "category": "Web Development",
+    "filter": "filter2",
+    "icon": "code",
+    "image": "web-designing-programming-course-card-by-groot-academy.png",
+    "description": "Learn full stack web development in Jaipur with HTML, CSS, JavaScript, React, Node.js, databases and practical application projects at Groot Academy.",
+    "intro": "Build a complete web application, from a responsive screen to the server and database behind it. This learning path connects frontend development, backend programming and deployment so you can understand how the pieces work together.",
+    "audience": "Students, graduates and career changers who want a broad web development foundation. Start with basic computer skills and practise coding regularly.",
+    "skills": [
+      "HTML & CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "SQL",
+      "Linux"
+    ],
+    "modules": [
+      [
+        "Responsive web foundations",
+        "Structure pages with HTML, style layouts with CSS and build interfaces that work across screen sizes."
+      ],
+      [
+        "JavaScript development",
+        "Work with functions, objects, browser events and asynchronous requests before moving into application frameworks."
+      ],
+      [
+        "Frontend applications",
+        "Build reusable React components and connect screens through routing, state and API requests. Discuss Angular as another frontend learning path."
+      ],
+      [
+        "Server-side development",
+        "Use Node.js to handle requests, organise application logic and connect frontend actions to backend services."
+      ],
+      [
+        "Databases",
+        "Model application data, practise SQL queries and compare relational storage with MongoDB documents."
+      ],
+      [
+        "Application delivery",
+        "Use Linux foundations and deployment workflows to bring the interface, server and database together."
+      ]
+    ],
+    "projects": [
+      [
+        "Full stack application",
+        "Build a small catalogue with searchable records, a backend API and persistent data."
+      ],
+      [
+        "Responsive portfolio",
+        "Present your application, explain the data flow and document how to run it."
+      ]
+    ],
+    "careers": [
+      "Junior web developer",
+      "Frontend developer",
+      "Backend developer"
+    ],
+    "faq": [
+      [
+        "How is this different from MERN?",
+        "Full stack describes the complete frontend-to-backend workflow. MERN is a specific stack using MongoDB, Express, React and Node.js; explore the dedicated MERN course if that is your chosen path."
+      ]
+    ],
+    "sources": [
+      "best-full-stack-web-development-course-in-jaipur.php"
+    ],
+    "aliases": [
+      "best-full-stack-web-development-course-in-jaipur.php"
+    ],
+    "blog": "full-stack-web-development-career-guide-jaipur"
+  },
+  {
+    "slug": "mern-stack-course-jaipur",
+    "name": "MERN Stack Development",
+    "category": "Web Development",
+    "filter": "filter2",
+    "icon": "code",
+    "image": "nodeJs-programming-course-card-by-groot-academy.png",
+    "description": "Explore MERN stack training in Jaipur: JavaScript, React, Node.js, Express, MongoDB, APIs and application deployment with Groot Academy.",
+    "intro": "Use JavaScript across the browser and server to build a complete application. The MERN course brings together MongoDB, Express, React and Node.js through CRUD workflows, routing, middleware and deployment practice.",
+    "audience": "Learners with basic HTML, CSS and programming familiarity who want to build JavaScript applications. Strengthen JavaScript fundamentals before progressing to React and Node.js.",
+    "skills": [
+      "JavaScript ES6",
+      "React",
+      "Redux",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose"
+    ],
+    "modules": [
+      [
+        "JavaScript and TypeScript foundations",
+        "Review ES5 and ES6 syntax, functions, objects and modules, with an introduction to TypeScript."
+      ],
+      [
+        "React interfaces",
+        "Work with components, lifecycle concepts, hooks, events, local storage and React Router."
+      ],
+      [
+        "Application state and testing",
+        "Manage shared state with Redux, make network calls and test React application behaviour."
+      ],
+      [
+        "Node.js services",
+        "Explore modules, events, streams, the file system and HTTP request handling."
+      ],
+      [
+        "Express APIs",
+        "Create routes and middleware, organise services and review security considerations for backend applications."
+      ],
+      [
+        "MongoDB and Mongoose",
+        "Perform CRUD operations, design document models and use Mongoose to connect application code to data."
+      ],
+      [
+        "Integrated deployment",
+        "Connect the React frontend to the API and database, then practise application deployment."
+      ]
+    ],
+    "projects": [
+      [
+        "MERN CRUD application",
+        "Build a React interface backed by Express endpoints and MongoDB records."
+      ],
+      [
+        "API-connected dashboard",
+        "Add routing, loading states and error handling to a dashboard that reads and updates data."
+      ]
+    ],
+    "careers": [
+      "Junior MERN developer",
+      "React developer",
+      "Node.js developer"
+    ],
+    "faq": [
+      [
+        "What does MERN stand for?",
+        "MERN stands for MongoDB, Express, React and Node.js. These tools cover data storage, backend services and the user interface."
+      ]
+    ],
+    "sources": [
+      "best-full-stack-web-development-with-nodeJs-MERN-stack-development-course-in-jaipur.php"
+    ],
+    "aliases": [
+      "best-full-stack-web-development-with-nodeJs-MERN-stack-development-course-in-jaipur.php",
+      "courses/mern-stack-course-jaipur/"
+    ],
+    "blog": "mern-stack-react-development-career-guide-jaipur"
+  },
+  {
+    "slug": "python-programming-course-jaipur",
+    "name": "Python Programming",
+    "category": "Programming",
+    "filter": "filter1",
+    "icon": "code",
+    "image": "python-programming-course-card-by-groot-academy.png",
+    "description": "Learn Python programming in Jaipur with practical foundations, functions, data structures, object-oriented programming and automation at Groot Academy.",
+    "intro": "Learn to turn a problem into a clear, working Python program. Begin with language fundamentals, then use functions, collections, files and reusable code to build small applications and automation scripts.",
+    "audience": "Beginners, students and working professionals who want programming skills. No prior programming experience is needed to begin with the foundations.",
+    "skills": [
+      "Python syntax",
+      "Functions",
+      "Collections",
+      "Object-oriented programming",
+      "Files",
+      "Automation"
+    ],
+    "modules": [
+      [
+        "Programming foundations",
+        "Understand variables, data types, expressions and readable Python syntax."
+      ],
+      [
+        "Control flow and collections",
+        "Use conditions, loops, strings and collection types to organise and process information."
+      ],
+      [
+        "Functions and reusable code",
+        "Break tasks into functions, use modules and explore Python's standard library."
+      ],
+      [
+        "Object-oriented programming",
+        "Represent concepts with classes and objects and organise related behaviour into reusable components."
+      ],
+      [
+        "Files and debugging",
+        "Read and write files, handle errors and practise finding and fixing program defects."
+      ],
+      [
+        "Practical applications",
+        "Apply Python to scripting and automation, and explore how it supports web development, data analysis and machine learning."
+      ]
+    ],
+    "projects": [
+      [
+        "File processing utility",
+        "Read a structured file, validate its contents and produce a useful summary."
+      ],
+      [
+        "Everyday automation",
+        "Write a reusable script for a repetitive task and document its inputs and error cases."
+      ]
+    ],
+    "careers": [
+      "Junior Python developer",
+      "Automation trainee",
+      "Programming intern"
+    ],
+    "faq": [
+      [
+        "Can I move into data science after Python?",
+        "Python is a useful foundation for data analysis and machine learning. Continue with statistics, data handling and model evaluation on the Data Science and Machine Learning learning path."
+      ]
+    ],
+    "sources": [
+      "best-python-programming-course-in-jaipur.php",
+      "course-python-programming.php"
+    ],
+    "aliases": [
+      "best-python-programming-course-in-jaipur.php",
+      "course-python-programming.php",
+      "courses/best-python-programming-course-in-jaipur-rajasthan/"
+    ],
+    "blog": "python-programming-career-guide-jaipur"
+  },
+  {
+    "slug": "java-programming-course-jaipur",
+    "name": "Java Programming & Backend Development",
+    "category": "Programming",
+    "filter": "filter1",
+    "icon": "code",
+    "image": "core-java-course-card-by-groot-academy.png",
+    "description": "Study Java programming and backend development in Jaipur, from Java foundations and JDBC to Spring Boot, REST APIs and JPA at Groot Academy.",
+    "intro": "Build a Java foundation and follow the path into backend applications. Learn how Java code handles requests, connects to databases and exposes services through Spring Boot and REST APIs.",
+    "audience": "Students and aspiring backend developers. Begin with Java basics; the backend modules build on programming and object-oriented concepts.",
+    "skills": [
+      "Java",
+      "JDBC",
+      "Servlets & JSP",
+      "Spring",
+      "Spring Boot",
+      "REST APIs",
+      "JPA"
+    ],
+    "modules": [
+      [
+        "Java foundations",
+        "Practise Java syntax, data types, control structures and core programming concepts."
+      ],
+      [
+        "Backend and web foundations",
+        "Understand backend responsibilities, HTTP requests, Java Servlets and JavaServer Pages."
+      ],
+      [
+        "Database access with JDBC",
+        "Connect Java code to a relational database and perform database operations."
+      ],
+      [
+        "Spring and Spring Boot",
+        "Introduce the Spring framework and build RESTful web services with Spring Boot."
+      ],
+      [
+        "Persistence with JPA",
+        "Use Spring Data JPA to model and persist application data."
+      ],
+      [
+        "Application quality",
+        "Review authentication and authorisation, error handling, logging and backend testing."
+      ]
+    ],
+    "projects": [
+      [
+        "Java database application",
+        "Build a small record-management application with a database-backed workflow."
+      ],
+      [
+        "Spring Boot REST service",
+        "Create and test API endpoints, persist records and handle invalid requests clearly."
+      ]
+    ],
+    "careers": [
+      "Junior Java developer",
+      "Backend developer",
+      "Java application trainee"
+    ],
+    "faq": [
+      [
+        "Does this cover both core Java and backend skills?",
+        "The path begins with Java foundations and progresses to JDBC, Spring Boot, REST services and JPA. Ask the team which modules are included in your selected batch."
+      ]
+    ],
+    "sources": [
+      "best-java-courses-in-jaipur.php",
+      "best-course-for-back-end-development-with-Java.php"
+    ],
+    "aliases": [
+      "best-java-courses-in-jaipur.php",
+      "best-course-for-back-end-development-with-Java.php",
+      "courses/leading-java-programming-classes-in-jaipur-groot-academy/",
+      "courses/java-courses-jaipur.php",
+      "courses/core-java-course-jaipur.php"
+    ],
+    "blog": "java-programming-software-development-jaipur"
+  }
+]
