@@ -1,0 +1,14 @@
+[
+  {
+    "source": "groot-old-wordpress-website/grootacademy.com/assets2/img/course-card-images/Digital_Marketing.png",
+    "destination": "post/images/card/digital-marketing-course-card.png",
+    "sha256": "6be82e94683b3a7b6f975f663b87873b2de62d033600b5c4a00035ecd23be1ea",
+    "reused": false
+  },
+  {
+    "source": "groot-old-wordpress-website/grootacademy.com/assets2/img/grootFlutterlogo.png",
+    "destination": "post/images/card/flutter-course-logo.png",
+    "sha256": "b57e6b1f34244ebb4570ae590432c3e17976c8f2ab80f04315e1e600e5be34e1",
+    "reused": false
+  }
+]

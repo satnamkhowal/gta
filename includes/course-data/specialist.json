@@ -1,0 +1,601 @@
+[
+  {
+    "slug": "data-science-machine-learning-course-jaipur",
+    "name": "Data Science & Machine Learning",
+    "category": "Data & AI",
+    "filter": "filter3",
+    "icon": "bar-chart",
+    "image": "data-science-with-python-course-card-by-groot-academy.png",
+    "description": "Explore data science and machine learning training in Jaipur with Python, statistics, data preparation, regression, clustering and practical projects.",
+    "intro": "Move from raw data to an analysis you can explain and a model you can evaluate. Combine Python, statistics and visualisation with supervised and unsupervised machine learning through practical datasets.",
+    "audience": "Students, graduates and professionals interested in data work. Basic Python and school-level mathematics are useful; review these foundations before the modelling modules.",
+    "skills": [
+      "Python",
+      "Statistics",
+      "Data cleaning",
+      "Visualisation",
+      "Regression",
+      "Clustering",
+      "Model evaluation"
+    ],
+    "modules": [
+      [
+        "Python and data preparation",
+        "Use Python to work with datasets, identify missing values and prepare usable inputs for analysis."
+      ],
+      [
+        "Statistics and probability",
+        "Explore distributions, descriptive statistics, probability and the interpretation of relationships in data."
+      ],
+      [
+        "Exploratory analysis",
+        "Use visualisations to investigate patterns, communicate findings and identify data-quality issues."
+      ],
+      [
+        "Supervised learning",
+        "Study regression and decision trees and learn how predictions relate to input features."
+      ],
+      [
+        "Unsupervised learning and forecasting",
+        "Explore K-means clustering, market basket analysis and introductory time-series concepts."
+      ],
+      [
+        "Evaluation and applications",
+        "Compare model results, identify limitations and explore how machine learning and neural networks are applied to real problems."
+      ]
+    ],
+    "projects": [
+      [
+        "Exploratory data report",
+        "Clean a dataset, produce visualisations and explain the findings and limitations."
+      ],
+      [
+        "Prediction or clustering study",
+        "Build a small model and document its inputs, evaluation method and results."
+      ]
+    ],
+    "careers": [
+      "Data science trainee",
+      "Junior data analyst",
+      "Machine learning intern"
+    ],
+    "faq": [
+      [
+        "How is data science different from data analytics?",
+        "Analytics focuses on answering questions from data and communicating findings. This path adds statistical modelling and machine learning to support prediction and pattern discovery."
+      ]
+    ],
+    "sources": [
+      "best-data-science-course-using-python-in-jaipur.php",
+      "best-machine-learning-course-in-jaipur.php"
+    ],
+    "aliases": [
+      "best-data-science-course-using-python-in-jaipur.php",
+      "best-machine-learning-course-in-jaipur.php",
+      "courses/data-science-course-jaipur/",
+      "courses/master-data-science-with-python-in-jaipur-rajasthan-groot-academy/",
+      "courses/best-machine-learning-course-using-python-in-jaipur-rajasthan-groot-academy/"
+    ],
+    "blog": "data-science-machine-learning-career-guide-jaipur"
+  },
+  {
+    "slug": "data-analytics-course-jaipur",
+    "name": "Data Analytics with Python & Power BI",
+    "category": "Data & AI",
+    "filter": "filter3",
+    "icon": "bar-chart",
+    "image": "data-analysis-with-python-course-card-by-groot-academy.png",
+    "description": "Learn data analytics in Jaipur with Excel, SQL, Python, statistics, Tableau and Power BI dashboards through practical training at Groot Academy.",
+    "intro": "Turn business questions into clear reports. Work through cleaning, querying, analysing and visualising data using Excel, SQL, Python and business intelligence tools.",
+    "audience": "Students, graduates and working professionals interested in analytical work. Basic computer and spreadsheet familiarity helps; programming topics start with Python foundations.",
+    "skills": [
+      "Excel",
+      "SQL",
+      "Python",
+      "Statistics",
+      "Power BI",
+      "DAX",
+      "Tableau"
+    ],
+    "modules": [
+      [
+        "Statistics for analysis",
+        "Explore descriptive statistics, distributions, correlation, sampling and hypothesis-testing concepts."
+      ],
+      [
+        "Excel and data cleaning",
+        "Use formulas, validation, pivot tables and charts to prepare and explore tabular data."
+      ],
+      [
+        "SQL",
+        "Query and combine relational data to answer analytical questions."
+      ],
+      [
+        "Python foundations",
+        "Practise Python basics and apply programmatic workflows to data preparation and analysis."
+      ],
+      [
+        "Visual analytics",
+        "Choose charts, filters and calculations for useful Tableau and Power BI reports."
+      ],
+      [
+        "Power BI reporting",
+        "Work with table relationships, DAX, dashboards and publishing workflows."
+      ]
+    ],
+    "projects": [
+      [
+        "Business analysis workbook",
+        "Clean a dataset, create a pivot-based summary and explain the business findings."
+      ],
+      [
+        "Interactive reporting dashboard",
+        "Build a dashboard with clear measures and filters, and present the decisions it supports."
+      ]
+    ],
+    "careers": [
+      "Junior data analyst",
+      "Reporting analyst",
+      "Business intelligence trainee"
+    ],
+    "faq": [
+      [
+        "Does the analytics path include Power BI?",
+        "Yes, the source learning path includes Power BI visualisations, reports, dashboards, relationships and DAX. A dedicated Power BI page is available for learners who want to focus on business intelligence."
+      ]
+    ],
+    "sources": [
+      "best-data-analytics-course-using-python-in-jaipur.php"
+    ],
+    "aliases": [
+      "best-data-analytics-course-using-python-in-jaipur.php",
+      "courses/data-analytics-course-jaipur/"
+    ],
+    "blog": "data-analytics-power-bi-career-guide-jaipur"
+  },
+  {
+    "slug": "power-bi-course-jaipur",
+    "name": "Power BI & Business Intelligence",
+    "category": "Data & AI",
+    "filter": "filter3",
+    "icon": "bar-chart",
+    "image": "",
+    "description": "Explore Power BI training in Jaipur with data relationships, DAX, visualisations, reports, dashboards and publishing at Groot Academy.",
+    "intro": "Build reports that make business data easier to understand. Focus on the Power BI modules from the analytics learning path: relationships, calculations, visualisations, dashboards and publishing.",
+    "audience": "Spreadsheet users, students and professionals who want to create business reports. Familiarity with rows, columns and basic formulas is helpful.",
+    "skills": [
+      "Power BI",
+      "Data relationships",
+      "DAX",
+      "Visualisations",
+      "Reports",
+      "Dashboards"
+    ],
+    "modules": [
+      [
+        "Power BI foundations",
+        "Understand the reporting workflow and the role of Power BI components."
+      ],
+      [
+        "Data and relationships",
+        "Organise related tables and understand how relationships affect report results."
+      ],
+      [
+        "DAX calculations",
+        "Introduce DAX functions and calculations used to produce meaningful business measures."
+      ],
+      [
+        "Visualisations and reports",
+        "Choose suitable visuals, configure report pages and use filtering to support exploration."
+      ],
+      [
+        "Dashboards and tiles",
+        "Organise key information into a dashboard and distinguish it from a report."
+      ],
+      [
+        "Publishing and workspaces",
+        "Explore report publishing and workspace workflows, including how to review outputs before sharing."
+      ]
+    ],
+    "projects": [
+      [
+        "Business performance report",
+        "Create a report with clearly defined measures and drill into the drivers of a result."
+      ],
+      [
+        "Dashboard presentation",
+        "Summarise the key findings for a business audience and explain the data assumptions."
+      ]
+    ],
+    "careers": [
+      "Power BI trainee",
+      "Reporting analyst",
+      "Business intelligence analyst"
+    ],
+    "faq": [
+      [
+        "Do I need Python for Power BI?",
+        "Python is not needed to begin the Power BI reporting modules. Spreadsheet familiarity and an understanding of data relationships are more directly useful at the start."
+      ]
+    ],
+    "sources": [
+      "best-data-analytics-course-using-python-in-jaipur.php"
+    ],
+    "aliases": [
+      "courses/power-bi-course-jaipur.php"
+    ],
+    "blog": "power-bi-business-intelligence-career-guide-jaipur"
+  },
+  {
+    "slug": "generative-ai-course-jaipur",
+    "name": "Generative AI & AI Tools",
+    "category": "Data & AI",
+    "filter": "filter3",
+    "icon": "lightbulb-o",
+    "image": "",
+    "description": "Explore Generative AI learning in Jaipur with prompt engineering, Python, APIs, LLM concepts, chatbots, document assistants and output evaluation.",
+    "intro": "Learn to define useful AI tasks, provide clear context and evaluate the results. Progress from AI tools and prompt engineering to Python, APIs and small AI-assisted applications.",
+    "audience": "Beginners can start with AI tools and prompting. Learners who want to build applications should add Python and API foundations.",
+    "skills": [
+      "Prompt engineering",
+      "LLM concepts",
+      "Python",
+      "APIs",
+      "Retrieval",
+      "Evaluation"
+    ],
+    "modules": [
+      [
+        "AI and language model foundations",
+        "Distinguish using an AI tool from building an application connected to a model."
+      ],
+      [
+        "Prompt design",
+        "Describe goals, context, audience, output format and constraints, then improve results through iteration."
+      ],
+      [
+        "Python and API foundations",
+        "Work with files and data and understand how applications send requests and receive model responses."
+      ],
+      [
+        "Application concepts",
+        "Explore structured outputs, tool calling, embeddings and retrieval-based workflows."
+      ],
+      [
+        "AI-assisted workflows",
+        "Design a chatbot, content assistant or document question-answering prototype around a clear task."
+      ],
+      [
+        "Evaluation and responsible use",
+        "Test relevance and accuracy, protect sensitive data and identify situations requiring human review."
+      ]
+    ],
+    "projects": [
+      [
+        "Information chatbot",
+        "Create a small assistant that answers a defined set of questions and test its limitations."
+      ],
+      [
+        "Document assistant prototype",
+        "Connect a document workflow to AI and evaluate answers against the source material."
+      ]
+    ],
+    "careers": [
+      "AI application trainee",
+      "Automation developer trainee",
+      "AI-assisted content specialist"
+    ],
+    "faq": [
+      [
+        "Is coding required to start?",
+        "You can begin with AI tools and prompt engineering without coding. Python and API skills become useful when building custom applications and automation."
+      ]
+    ],
+    "sources": [],
+    "supplemental": [
+      "blogs/generative-ai-tools-career-guide-jaipur/index.php"
+    ],
+    "aliases": [
+      "courses/generative-ai-course-jaipur.php"
+    ],
+    "blog": "generative-ai-tools-career-guide-jaipur"
+  },
+  {
+    "slug": "cloud-computing-aws-course-jaipur",
+    "name": "Cloud Computing & AWS",
+    "category": "Professional",
+    "filter": "filter4",
+    "icon": "cloud",
+    "image": "",
+    "description": "Learn cloud computing and AWS foundations in Jaipur: Linux, EC2, S3, networking, security, deployment and monitoring with Groot Academy.",
+    "intro": "Understand how applications and data are hosted in the cloud. Build practical foundations in cloud service models, Linux, AWS compute and storage, networking and monitoring.",
+    "audience": "Students and beginners interested in cloud infrastructure. Basic computer skills are a starting point; Linux and networking foundations are part of the path.",
+    "skills": [
+      "Cloud fundamentals",
+      "Linux",
+      "AWS EC2",
+      "Amazon S3",
+      "Networking",
+      "Monitoring"
+    ],
+    "modules": [
+      [
+        "Cloud service models",
+        "Understand cloud fundamentals and the roles of infrastructure, platform and software as a service."
+      ],
+      [
+        "Linux foundations",
+        "Practise the operating-system skills needed to work with servers."
+      ],
+      [
+        "AWS compute and storage",
+        "Explore EC2 instances and S3 storage through small hosting and storage tasks."
+      ],
+      [
+        "Networking and security",
+        "Understand how cloud resources communicate and review access and security fundamentals."
+      ],
+      [
+        "Application deployment",
+        "Follow a basic workflow for hosting a website or deploying a web application."
+      ],
+      [
+        "Monitoring",
+        "Observe server and application behaviour and document a cloud project."
+      ]
+    ],
+    "projects": [
+      [
+        "Website hosting project",
+        "Host a static website and explain the storage and access choices."
+      ],
+      [
+        "Application deployment lab",
+        "Deploy a small web application and demonstrate basic monitoring."
+      ]
+    ],
+    "careers": [
+      "Cloud support trainee",
+      "Junior cloud operations associate",
+      "Infrastructure trainee"
+    ],
+    "faq": [
+      [
+        "Is this an AWS certification guarantee?",
+        "This page describes a practical cloud and AWS learning path. Ask the team about any certification-specific preparation offered in the current batch; it does not promise an exam result."
+      ]
+    ],
+    "sources": [
+      "courses-by-us/cloud-computing-course-in-jaipur.html"
+    ],
+    "aliases": [
+      "courses-by-us/cloud-computing-course-in-jaipur.html",
+      "courses/cloud-computing-course-jaipur.php",
+      "courses/aws-course-jaipur.php"
+    ],
+    "blog": "cloud-computing-aws-career-guide-jaipur"
+  },
+  {
+    "slug": "cyber-security-course-jaipur",
+    "name": "Cyber Security",
+    "category": "Professional",
+    "filter": "filter4",
+    "icon": "shield",
+    "image": "",
+    "description": "Explore cyber security training in Jaipur with networking, Linux, web security, OWASP concepts, vulnerability assessment and reporting in authorised labs.",
+    "intro": "Learn to recognise security weaknesses and communicate how to address them. Build networking and Linux foundations, then practise web security concepts, assessment and reporting in authorised lab environments.",
+    "audience": "Students and beginners interested in defensive security. Networking and Linux fundamentals provide the foundation for later security exercises.",
+    "skills": [
+      "Networking",
+      "Linux",
+      "Web security",
+      "OWASP concepts",
+      "Assessment",
+      "Security reporting"
+    ],
+    "modules": [
+      [
+        "Cyber security foundations",
+        "Understand common security risks and the importance of permission and scope in security work."
+      ],
+      [
+        "Networking fundamentals",
+        "Explore how devices communicate and investigate network behaviour in a lab."
+      ],
+      [
+        "Linux for security",
+        "Practise Linux skills used to inspect and manage a controlled security environment."
+      ],
+      [
+        "Web security",
+        "Study web security basics and OWASP concepts using deliberately configured exercises."
+      ],
+      [
+        "Vulnerability assessment",
+        "Review an authorised lab application and organise findings by their practical impact."
+      ],
+      [
+        "Security reporting",
+        "Document evidence, remediation recommendations and a capstone security checklist."
+      ]
+    ],
+    "projects": [
+      [
+        "Network analysis lab",
+        "Examine traffic in a controlled environment and explain the observations."
+      ],
+      [
+        "Web security report",
+        "Produce an assessment report for an authorised practice application, including remediation advice."
+      ]
+    ],
+    "careers": [
+      "Security analyst trainee",
+      "Cyber security intern",
+      "Security operations trainee"
+    ],
+    "faq": [
+      [
+        "Where will security exercises take place?",
+        "Practise only in authorised labs and systems for which permission has been granted. The learning path focuses on understanding weaknesses, reporting them and improving defences."
+      ]
+    ],
+    "sources": [
+      "courses-by-us/cyber-security-course-in-jaipur.html"
+    ],
+    "aliases": [
+      "courses-by-us/cyber-security-course-in-jaipur.html",
+      "courses/cyber-security-course-jaipur.php"
+    ],
+    "blog": "cyber-security-ethical-hacking-career-guide-jaipur"
+  },
+  {
+    "slug": "flutter-app-development-course-jaipur",
+    "name": "Flutter App Development",
+    "category": "App Development",
+    "filter": "filter2",
+    "icon": "mobile",
+    "image": "flutter-course-logo.png",
+    "description": "Learn Flutter app development in Jaipur with Dart, widgets, navigation, Firebase, location features, testing and publishing at Groot Academy.",
+    "intro": "Build mobile interfaces with Flutter and connect them to useful application features. Begin with Dart, then progress through widgets, navigation, Firebase, location-aware features and app testing.",
+    "audience": "Students and aspiring mobile developers. Begin with Dart syntax and programming concepts before moving into Flutter application development.",
+    "skills": [
+      "Dart",
+      "Flutter",
+      "Widgets",
+      "Navigation",
+      "Firebase",
+      "Testing"
+    ],
+    "modules": [
+      [
+        "Dart foundations",
+        "Learn Dart syntax, functions and object-oriented programming."
+      ],
+      [
+        "Flutter foundations",
+        "Understand the Flutter application structure and work with fundamental widgets."
+      ],
+      [
+        "Navigation and interaction",
+        "Connect screens with navigation and routing and add interactive behaviour."
+      ],
+      [
+        "Rich interfaces",
+        "Use visual, behavioural and motion-rich widgets to improve the app experience."
+      ],
+      [
+        "Connected and location-aware features",
+        "Explore Firebase integration and location-aware applications using GPS and maps."
+      ],
+      [
+        "Testing and publishing",
+        "Test app behaviour and review the steps involved in preparing an application for publishing."
+      ]
+    ],
+    "projects": [
+      [
+        "Multi-screen mobile app",
+        "Build a Flutter application with clear navigation and reusable widgets."
+      ],
+      [
+        "Connected application prototype",
+        "Add a Firebase-backed feature or location-aware screen, then document and test the workflow."
+      ]
+    ],
+    "careers": [
+      "Junior Flutter developer",
+      "Mobile application trainee",
+      "Dart developer trainee"
+    ],
+    "faq": [
+      [
+        "Will I learn Dart as well as Flutter?",
+        "Yes. The learning path starts with Dart syntax, functions and object-oriented programming before progressing to Flutter widgets and application features."
+      ]
+    ],
+    "sources": [
+      "best-flutter-application_development-course-in-jaipur.php"
+    ],
+    "aliases": [
+      "best-flutter-application_development-course-in-jaipur.php",
+      "courses/flutter-course-jaipur.php"
+    ],
+    "blog": "flutter-mobile-app-development-career-guide-jaipur"
+  },
+  {
+    "slug": "digital-marketing-course-jaipur",
+    "name": "Digital Marketing",
+    "category": "Professional",
+    "filter": "filter4",
+    "icon": "bullhorn",
+    "image": "digital-marketing-course-card.png",
+    "description": "Explore digital marketing training in Jaipur with SEO, social media, paid search, content, email marketing and campaign measurement at Groot Academy.",
+    "intro": "Learn to connect a marketing goal with the right audience, channel and measurement plan. Explore search, social, content and email, and practise turning campaign results into useful decisions.",
+    "audience": "Students, professionals, freelancers and business owners interested in marketing. Prior coding experience is not required; curiosity and regular practice are useful.",
+    "skills": [
+      "SEO",
+      "Social media",
+      "PPC",
+      "Content marketing",
+      "Email",
+      "Analytics"
+    ],
+    "modules": [
+      [
+        "Digital strategy",
+        "Understand customer behaviour, campaign goals and how to measure and improve marketing performance."
+      ],
+      [
+        "Search engine optimisation",
+        "Explore how content and website improvements support search visibility."
+      ],
+      [
+        "Search and paid campaigns",
+        "Study SEM and PPC concepts, ad planning and the role of Google Ads."
+      ],
+      [
+        "Social and content marketing",
+        "Plan content for social platforms, blogs and video around audience needs."
+      ],
+      [
+        "Email and inbound marketing",
+        "Explore email campaigns, audience relationships and content-led enquiry generation."
+      ],
+      [
+        "Measurement and optimisation",
+        "Use analytics concepts to interpret website and campaign results and recommend improvements."
+      ]
+    ],
+    "projects": [
+      [
+        "Marketing campaign plan",
+        "Create an audience-focused plan with channel choices, content ideas and measurable objectives."
+      ],
+      [
+        "SEO and performance review",
+        "Review a sample website and report opportunities, measurements and recommended next steps."
+      ]
+    ],
+    "careers": [
+      "SEO trainee",
+      "Social media executive",
+      "Digital marketing associate"
+    ],
+    "faq": [
+      [
+        "Can someone without a technical background join?",
+        "Yes. The legacy course is intended for learners from different backgrounds and does not require prior coding experience."
+      ]
+    ],
+    "sources": [
+      "digitalmarkating.php"
+    ],
+    "aliases": [
+      "digitalmarkating.php",
+      "courses-by-us/digital-marketing-course-in-jaipur.html",
+      "courses/digital-marketing-course-jaipur.php"
+    ],
+    "blog": "digital-marketing-career-guide-jaipur"
+  }
+]
