@@ -79,7 +79,16 @@ $jsonFlags = JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APO
                 <?php foreach ($faqs as $faq): ?><details class="ga-migration-faq"><summary><?= $esc($faq[0]) ?></summary><p><?= $esc($faq[1]) ?></p></details><?php endforeach; ?>
             </section>
             <section class="ga-section"><div class="ga-section-heading"><h2>Continue exploring</h2></div><p><a href="<?= $esc(ga_url('blogs/' . $course['blog'] . '/')) ?>">Read the <?= $esc($course['name']) ?> career guide</a></p><ul class="ga-check-list">
-                <?php foreach (ga_courses() as $related): if ($related['slug'] === $course['slug'] || $related['filter'] !== $course['filter']) { continue; } ?>
+                <?php
+                $shownRelated = [];
+                foreach (($course['related_slugs'] ?? []) as $relatedSlug):
+                    $related = ga_courses()[$relatedSlug] ?? null;
+                    if ($related === null || $related['slug'] === $course['slug']) { continue; }
+                    $shownRelated[$related['slug']] = true;
+                ?>
+                <li><a href="<?= $esc(ga_url(ga_course_path($related))) ?>"><?= $esc($related['name']) ?></a></li>
+                <?php endforeach; ?>
+                <?php foreach (ga_courses() as $related): if ($related['slug'] === $course['slug'] || isset($shownRelated[$related['slug']]) || $related['filter'] !== $course['filter']) { continue; } ?>
                 <li><a href="<?= $esc(ga_url(ga_course_path($related))) ?>"><?= $esc($related['name']) ?></a></li>
                 <?php endforeach; ?>
             </ul><p class="mt-20"><a href="<?= $esc(ga_url('courses.php')) ?>">Explore all IT courses</a></p></section>
