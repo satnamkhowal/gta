@@ -882,7 +882,9 @@
     "aliases": [
       "ui-ux-design-course-jaipur",
       "courses-for-the-kids/frontend-development/ui-ux/index.php",
-      "courses-for-the-kids/frontend-development/ui-ux"
+      "courses-for-the-kids/frontend-development/ui-ux",
+      "courses/ui-ux-design-course-jaipur.php",
+      "courses/ui-ux-design-course-jaipur/"
     ],
     "blog": "ui-ux-design-career-guide-jaipur",
     "related_slugs": [
@@ -985,7 +987,9 @@
       "enroll-for-the-courses/graphics-designing.php",
       "enroll-for-the-courses/graphics-designing",
       "courses-old/graphics-designing.php",
-      "courses-old/graphics-designing"
+      "courses-old/graphics-designing",
+      "courses/graphic-design-course-jaipur.php",
+      "courses/graphic-design-course-jaipur/"
     ],
     "blog": "graphic-design-career-guide-jaipur",
     "related_slugs": [
