@@ -6,8 +6,8 @@
     "filter": "filter3",
     "icon": "bar-chart",
     "image": "data-science-with-python-course-card-by-groot-academy.png",
-    "description": "Explore data science and machine learning training in Jaipur with Python, statistics, data preparation, regression, clustering and practical projects.",
-    "intro": "Move from raw data to an analysis you can explain and a model you can evaluate. Combine Python, statistics and visualisation with supervised and unsupervised machine learning through practical datasets.",
+    "description": "Learn Data Science and Machine Learning in Jaipur with Python, statistics, data preparation, visualisation, predictive modelling, clustering and model evaluation at Groot Academy.",
+    "intro": "Move from raw data to explainable analysis and evaluated machine-learning models. This path combines Python, statistics, visualisation and predictive methods, making it distinct from Data Analytics, which focuses more heavily on reporting, dashboards and business analysis.",
     "audience": "Students, graduates and professionals interested in data work. Basic Python and school-level mathematics are useful; review these foundations before the modelling modules.",
     "skills": [
       "Python",
@@ -61,8 +61,12 @@
     ],
     "faq": [
       [
-        "How is data science different from data analytics?",
-        "Analytics focuses on answering questions from data and communicating findings. This path adds statistical modelling and machine learning to support prediction and pattern discovery."
+        "How is Data Science different from Data Analytics?",
+        "Data Analytics focuses mainly on querying, reporting, dashboards and communicating business findings. Data Science adds deeper statistical modelling and machine-learning methods for prediction and pattern discovery."
+      ],
+      [
+        "Is this also the preferred page for broad AI and Machine Learning course searches?",
+        "For now, broad predictive-AI and Machine Learning intent is consolidated here to avoid creating an overlapping AI page. Generative AI, prompt engineering and LLM application intent belongs on the dedicated Generative AI course page."
       ]
     ],
     "sources": [
@@ -85,8 +89,8 @@
     "filter": "filter3",
     "icon": "bar-chart",
     "image": "data-analysis-with-python-course-card-by-groot-academy.png",
-    "description": "Learn data analytics in Jaipur with Excel, SQL, Python, statistics, Tableau and Power BI dashboards through practical training at Groot Academy.",
-    "intro": "Turn business questions into clear reports. Work through cleaning, querying, analysing and visualising data using Excel, SQL, Python and business intelligence tools.",
+    "description": "Learn Data Analytics in Jaipur with Excel, SQL, Python, statistics, Tableau, Power BI and DAX for practical business reporting and dashboard projects at Groot Academy.",
+    "intro": "Turn business questions into clear analysis, reports and dashboards. Work through data cleaning, Excel, SQL, Python, statistics and business-intelligence tools, while keeping this page focused on analyst and reporting workflows rather than machine-learning model development.",
     "audience": "Students, graduates and working professionals interested in analytical work. Basic computer and spreadsheet familiarity helps; programming topics start with Python foundations.",
     "skills": [
       "Excel",
@@ -140,8 +144,12 @@
     ],
     "faq": [
       [
-        "Does the analytics path include Power BI?",
-        "Yes, the source learning path includes Power BI visualisations, reports, dashboards, relationships and DAX. A dedicated Power BI page is available for learners who want to focus on business intelligence."
+        "How is Data Analytics different from Data Science?",
+        "Data Analytics focuses on cleaning, querying, reporting, dashboards and communicating findings. Data Science goes further into predictive modelling and machine-learning techniques."
+      ],
+      [
+        "Does this Data Analytics course include Power BI?",
+        "Yes. The learning path includes Power BI relationships, DAX, reports and dashboards. Learners who want a narrower business-intelligence focus can also review the dedicated Power BI course page."
       ]
     ],
     "sources": [
@@ -233,8 +241,8 @@
     "filter": "filter3",
     "icon": "lightbulb-o",
     "image": "",
-    "description": "Explore Generative AI learning in Jaipur with prompt engineering, Python, APIs, LLM concepts, chatbots, document assistants and output evaluation.",
-    "intro": "Learn to define useful AI tasks, provide clear context and evaluate the results. Progress from AI tools and prompt engineering to Python, APIs and small AI-assisted applications.",
+    "description": "Learn Generative AI in Jaipur with prompt engineering, LLM concepts, Python, APIs, retrieval workflows, AI assistants and output evaluation at Groot Academy.",
+    "intro": "Learn how to use and build with Generative AI: define tasks, design prompts, work with language-model APIs and evaluate outputs. This page targets LLM, prompt-engineering and AI-application intent, while predictive modelling and traditional Machine Learning stay on the Data Science and Machine Learning page.",
     "audience": "Beginners can start with AI tools and prompting. Learners who want to build applications should add Python and API foundations.",
     "skills": [
       "Prompt engineering",
@@ -287,8 +295,12 @@
     ],
     "faq": [
       [
-        "Is coding required to start?",
-        "You can begin with AI tools and prompt engineering without coding. Python and API skills become useful when building custom applications and automation."
+        "Is coding required to start Generative AI?",
+        "You can begin with AI tools and prompt engineering without coding. Python and API skills become important when you want to build custom assistants, integrations or automation."
+      ],
+      [
+        "How is Generative AI different from Data Science and Machine Learning?",
+        "Generative AI focuses on language models, prompting, APIs and applications that generate or transform content. Data Science and Machine Learning focus more on data analysis, predictive models, clustering and model evaluation."
       ]
     ],
     "sources": [],
