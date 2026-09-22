@@ -79,10 +79,10 @@ require_once __DIR__ . '/includes/site-paths.php';
                 <div class="container">
                     <div class="gridFilter text-center mb-50">
                         <button class="active" data-filter="*">ALL</button>
-                        <button data-filter=".filter1">PROGRAMMING</button>
-                        <button data-filter=".filter2">WEB &amp; APP DEVELOPMENT</button>
-                        <button data-filter=".filter3">DATA & AI</button>
-                        <button data-filter=".filter4">PROFESSIONAL</button>
+                        <button id="programming-courses" data-filter=".filter1">PROGRAMMING</button>
+                        <button id="web-app-development" data-filter=".filter2">WEB &amp; APP DEVELOPMENT</button>
+                        <button id="data-ai" data-filter=".filter3">DATA &amp; AI</button>
+                        <button id="professional-courses" data-filter=".filter4">PROFESSIONAL</button>
                     </div>
                     <div class="row grid ga-catalogue">
                         <?php include __DIR__ . '/includes/course-cards.php'; ?>
