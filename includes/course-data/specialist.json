@@ -319,8 +319,8 @@
     "filter": "filter4",
     "icon": "cloud",
     "image": "",
-    "description": "Learn cloud computing and AWS foundations in Jaipur: Linux, EC2, S3, networking, security, deployment and monitoring with Groot Academy.",
-    "intro": "Understand how applications and data are hosted in the cloud. Build practical foundations in cloud service models, Linux, AWS compute and storage, networking and monitoring.",
+    "description": "Learn Cloud Computing and AWS in Jaipur with Linux, EC2, S3, networking, security, deployment, monitoring and practical cloud labs at Groot Academy.",
+    "intro": "Build practical cloud foundations before moving into AWS services. Work with Linux, compute, storage, networking, access concepts, deployment and monitoring so the page serves both Cloud Computing and AWS training intent without splitting them across duplicate landing pages.",
     "audience": "Students and beginners interested in cloud infrastructure. Basic computer skills are a starting point; Linux and networking foundations are part of the path.",
     "skills": [
       "Cloud fundamentals",
@@ -373,8 +373,12 @@
     ],
     "faq": [
       [
+        "Does this course cover AWS as well as cloud computing fundamentals?",
+        "Yes. The path begins with cloud and Linux foundations, then uses AWS services such as EC2 and S3 alongside networking, deployment and monitoring practice."
+      ],
+      [
         "Is this an AWS certification guarantee?",
-        "This page describes a practical cloud and AWS learning path. Ask the team about any certification-specific preparation offered in the current batch; it does not promise an exam result."
+        "No. This page describes practical Cloud Computing and AWS training. Ask the team whether the current batch includes certification-specific preparation; no exam result is guaranteed."
       ]
     ],
     "sources": [
@@ -542,8 +546,8 @@
     "filter": "filter4",
     "icon": "bullhorn",
     "image": "digital-marketing-course-card.png",
-    "description": "Explore digital marketing training in Jaipur with SEO, social media, paid search, content, email marketing and campaign measurement at Groot Academy.",
-    "intro": "Learn to connect a marketing goal with the right audience, channel and measurement plan. Explore search, social, content and email, and practise turning campaign results into useful decisions.",
+    "description": "Learn Digital Marketing in Jaipur with SEO, Google Ads and PPC concepts, social media, content, email marketing, analytics and practical campaign planning at Groot Academy.",
+    "intro": "Connect a marketing goal with the right audience, channel and measurement plan. Practise SEO, paid-search concepts, social media, content, email and analytics as one coordinated marketing workflow instead of splitting each channel into thin duplicate course pages.",
     "audience": "Students, professionals, freelancers and business owners interested in marketing. Prior coding experience is not required; curiosity and regular practice are useful.",
     "skills": [
       "SEO",
@@ -596,8 +600,12 @@
     ],
     "faq": [
       [
-        "Can someone without a technical background join?",
-        "Yes. The legacy course is intended for learners from different backgrounds and does not require prior coding experience."
+        "Can someone without a technical background join the Digital Marketing course?",
+        "Yes. The learning path is suitable for students, professionals, freelancers and business owners and does not require prior coding experience."
+      ],
+      [
+        "Does the course include SEO, PPC and social media marketing?",
+        "The learning path covers SEO, paid-search and PPC concepts, social media, content, email and analytics. Confirm the exact tools and campaign exercises included in the selected batch."
       ]
     ],
     "sources": [
