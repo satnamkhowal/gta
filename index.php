@@ -246,154 +246,36 @@ require_once __DIR__ . '/includes/course-catalog.php';
         <div id="rs-blog" class="rs-blog main-home modify1 pb-100 pt-100 md-pt-70 md-pb-70">
             <div class="container">
                 <div class="sec-title4 text-center mb-50">
-                    <div class="sub-title"> News Update</div>
-                    <h2 class="title">Latest News & Article's</h2>
+                    <div class="sub-title">Career Resources</div>
+                    <h2 class="title">Explore Practical IT Career Guides</h2>
                 </div>
-                <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30"
-                    data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800"
-                    data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false"
-                    data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false"
-                    data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false"
-                    data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="false"
-                    data-md-device="3" data-md-device-nav="false" data-md-device-dots="false">
-                    <div class="blog-item">
-                        <div class="image-part">
-                            <img src="assets/images/blog/style9/1.jpg" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="date"><i class="fa fa-calendar-check-o"></i> September 24, 2020</span>
-                                <span class="admin"><i class="fa fa-user"></i> admin</span>
-                            </div>
-                            <h3 class="title"><a href="blog-single.html">How universities can nurture for the world
-                                    climate crisis</a></h3>
-                            <div class="btn-btm">
-                                <div class="cat-list">
-                                    <ul class="post-categories">
-                                        <li><a href="index12.html#">College</a></li>
-                                    </ul>
-                                </div>
-                                <div class="rs-view-btn">
-                                    <a href="index12.html#">Read More</a>
-                                </div>
+                <div class="row">
+                <?php
+                $homeGuideSlugs = [
+                    'data-science-machine-learning-course-jaipur',
+                    'data-analytics-course-jaipur',
+                    'full-stack-web-development-course-in-jaipur',
+                    'mern-stack-course-jaipur',
+                    'python-programming-course-jaipur',
+                    'generative-ai-course-jaipur',
+                ];
+                foreach ($homeGuideSlugs as $guideSlug):
+                    $guideCourse = ga_courses()[$guideSlug] ?? null;
+                    if ($guideCourse === null) { continue; }
+                    $guideUrl = ga_url('blogs/' . $guideCourse['blog'] . '/');
+                    $guideImage = ga_course_image($guideCourse);
+                ?>
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="blog-item">
+                            <?php if ($guideImage !== ''): ?><div class="image-part"><a href="<?= htmlspecialchars($guideUrl, ENT_QUOTES, 'UTF-8') ?>"><img loading="lazy" src="<?= htmlspecialchars($guideImage, ENT_QUOTES, 'UTF-8') ?>" alt="<?= htmlspecialchars($guideCourse['name'], ENT_QUOTES, 'UTF-8') ?> career guide"></a></div><?php endif; ?>
+                            <div class="blog-content">
+                                <div class="blog-meta"><span class="admin"><i class="fa fa-map-marker"></i> Jaipur Career Guide</span></div>
+                                <h3 class="title"><a href="<?= htmlspecialchars($guideUrl, ENT_QUOTES, 'UTF-8') ?>"><?= htmlspecialchars($guideCourse['name'], ENT_QUOTES, 'UTF-8') ?> Career Guide</a></h3>
+                                <div class="rs-view-btn"><a href="<?= htmlspecialchars($guideUrl, ENT_QUOTES, 'UTF-8') ?>">Read Guide</a></div>
                             </div>
                         </div>
                     </div>
-                    <div class="blog-item">
-                        <div class="image-part">
-                            <img src="assets/images/blog/style9/2.jpg" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="date"><i class="fa fa-calendar-check-o"></i> September 24, 2020</span>
-                                <span class="admin"><i class="fa fa-user"></i> admin</span>
-                            </div>
-                            <h3 class="title"><a href="blog-single.html">Oxford vaccine trial resumes in UK after being
-                                    halted</a></h3>
-                            <div class="btn-btm">
-                                <div class="cat-list">
-                                    <ul class="post-categories">
-                                        <li><a href="index12.html#">College</a></li>
-                                    </ul>
-                                </div>
-                                <div class="rs-view-btn">
-                                    <a href="index12.html#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="image-part">
-                            <img src="assets/images/blog/style9/3.jpg" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="date"><i class="fa fa-calendar-check-o"></i> September 24, 2020</span>
-                                <span class="admin"><i class="fa fa-user"></i> admin</span>
-                            </div>
-                            <h3 class="title"><a href="blog-single.html">University class starting soon while the lovely
-                                    valley team work </a></h3>
-                            <div class="btn-btm">
-                                <div class="cat-list">
-                                    <ul class="post-categories">
-                                        <li><a href="index12.html#">College</a></li>
-                                    </ul>
-                                </div>
-                                <div class="rs-view-btn">
-                                    <a href="index12.html#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="image-part">
-                            <img src="assets/images/blog/style9/4.jpg" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="date"><i class="fa fa-calendar-check-o"></i> September 24, 2020</span>
-                                <span class="admin"><i class="fa fa-user"></i> admin</span>
-                            </div>
-                            <h3 class="title"><a href="blog-single.html">High school program starting soon 2021 for
-                                    covid-19 situation</a></h3>
-                            <div class="btn-btm">
-                                <div class="cat-list">
-                                    <ul class="post-categories">
-                                        <li><a href="index12.html#">College</a></li>
-                                    </ul>
-                                </div>
-                                <div class="rs-view-btn">
-                                    <a href="index12.html#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="image-part">
-                            <img src="assets/images/blog/style9/5.jpg" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="date"><i class="fa fa-calendar-check-o"></i> September 24, 2020</span>
-                                <span class="admin"><i class="fa fa-user"></i> admin</span>
-                            </div>
-                            <h3 class="title"><a href="blog-single.html">Majority of students dissatisfied for world
-                                    coronavirus support</a></h3>
-                            <div class="btn-btm">
-                                <div class="cat-list">
-                                    <ul class="post-categories">
-                                        <li><a href="index12.html#">College</a></li>
-                                    </ul>
-                                </div>
-                                <div class="rs-view-btn">
-                                    <a href="index12.html#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <div class="image-part">
-                            <img src="assets/images/blog/style9/6.jpg" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <span class="date"><i class="fa fa-calendar-check-o"></i> September 24, 2020</span>
-                                <span class="admin"><i class="fa fa-user"></i> admin</span>
-                            </div>
-                            <h3 class="title"><a href="blog-single.html">Combating discrimination against most
-                                    international students</a></h3>
-                            <div class="btn-btm">
-                                <div class="cat-list">
-                                    <ul class="post-categories">
-                                        <li><a href="index12.html#">College</a></li>
-                                    </ul>
-                                </div>
-                                <div class="rs-view-btn">
-                                    <a href="index12.html#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <?php endforeach; ?>
                 </div>
             </div>
         </div>
@@ -401,28 +283,16 @@ require_once __DIR__ . '/includes/course-catalog.php';
 
         <!-- Newsletter section start -->
         <div class="rs-newsletter style1 green-color mb--90 sm-mb-0 sm-pb-70">
-            <div class="container">
-                <div class="newsletter-wrap">
-                    <div class="row y-middle">
-                        <div class="col-lg-6 col-md-12 md-mb-30">
-                            <div class="content-part">
-                                <div class="sec-title">
-                                    <div class="title-icon md-mb-15">
-                                        <img src="assets/images/white-newsletter3.png" alt="images">
-                                    </div>
-                                    <h2 class="title mb-0 white-color">Subscribe to Newsletter</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <form class="newsletter-form">
-                                <input type="email" name="email" placeholder="Enter Your Email" required="">
-                                <button type="submit">Submit</button>
-                            </form>
-                        </div>
-                    </div>
+            <div class="container"><div class="newsletter-wrap"><div class="row y-middle">
+                <div class="col-lg-7 col-md-12 md-mb-30"><div class="content-part"><div class="sec-title">
+                    <div class="title-icon md-mb-15"><img src="assets/images/white-newsletter3.png" alt="Course guidance"></div>
+                    <h2 class="title mb-0 white-color">Need Help Choosing a Course?</h2>
+                </div></div></div>
+                <div class="col-lg-5 col-md-12 text-lg-right">
+                    <a class="readon green-btn mr-10" href="courses.php">Compare Courses</a>
+                    <a class="readon green-btn" href="contact.html">Contact Us</a>
                 </div>
-            </div>
+            </div></div></div>
         </div>
         <!-- Newsletter section end -->
     </div>
