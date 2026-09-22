@@ -174,4 +174,11 @@ return [
         'category' => 'Backend Development',
         'related' => ['full-stack-web-development-career-guide-jaipur', 'sql-database-career-guide-jaipur', 'wordpress-website-development-career-guide-jaipur'],
     ],
+    'ui-ux-design-career-guide-jaipur' => [
+        'title' => 'UI/UX Design Career Guidance in Jaipur',
+        'slug' => 'ui-ux-design-career-guide-jaipur',
+        'description' => 'Learn user research, wireframing, Figma, prototyping, responsive design, design systems, usability testing and portfolio development.',
+        'category' => 'UI/UX Design',
+        'related' => ['graphic-design-career-guide-jaipur', 'web-designing-frontend-development-jaipur', 'full-stack-web-development-career-guide-jaipur'],
+    ],
 ];
