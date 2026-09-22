@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
     <!-- meta tag -->
     <meta charset="utf-8">
-    <title>Educavo - Education HTML Template</title>
-    <meta name="description" content="">
+    <title>IT Training Institute in Jaipur | Groot Academy</title>
+    <meta name="description" content="Explore practical IT training in Jaipur at Groot Academy with courses in programming, full stack development, data analytics, data science, AI, cloud and digital marketing.">
+    <link rel="canonical" href="https://grootacademy.com/">
 
     <?php include("head.php") ?>
 </head>
@@ -28,12 +29,10 @@
                     <div class="col-lg-6 pr-0">
                         <div class="banner-content">
                             <div class="sl-sub-title wow bounceInLeft" data-wow-delay="300ms"
-                                data-wow-duration="2000ms">Freelancer Courses</div>
-                            <h1 class="sl-title wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="3000ms">We
-                                Proudly Teaching Online Courses With Online Experts.
-                            </h1>
+                                data-wow-duration="2000ms">Practical IT Training in Jaipur</div>
+                            <h1 class="sl-title wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="3000ms">Build Practical Tech Skills at Groot Academy Jaipur</h1>
                             <div class="banner-btn wow fadeInUp" data-wow-delay="1500ms" data-wow-duration="2000ms">
-                                <a class="readon green-banner" href="index12.html#">Get Started</a>
+                                <a class="readon green-banner" href="courses.php">Explore Courses</a>
                             </div>
                         </div>
                     </div>
