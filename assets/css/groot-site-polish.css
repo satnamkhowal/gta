@@ -1014,3 +1014,41 @@
     color: #ffffff !important;
   }
 }
+
+/* === Mobile-first stability pass — 2026-09-22 === */
+@media (max-width: 991.98px) {
+  html, body { max-width: 100%; overflow-x: hidden; }
+  img, svg, video, canvas, iframe { max-width: 100%; height: auto; }
+  .container, .container-fluid { padding-left: 16px !important; padding-right: 16px !important; }
+  .full-width-header.ga-compact-site-header .rs-header .topbar-area .topbar-contact,
+  .full-width-header.ga-compact-site-header .rs-header .topbar-area .toolbar-sl-share {
+    flex-wrap: wrap; justify-content: center; gap: 6px 14px;
+  }
+  .full-width-header.ga-compact-site-header .rs-header .menu-area,
+  .full-width-header.ga-compact-site-header .rs-header .menu-area.sticky { min-height: 60px !important; }
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .logo-part img { max-width: 142px; max-height: 42px; }
+  .full-width-header.ga-compact-site-header .rs-header .menu-area .rs-menu-toggle {
+    min-width: 44px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center;
+  }
+  .full-width-header.ga-compact-site-header .rs-menu ul.nav-menu,
+  .full-width-header.ga-compact-site-header .rs-menu ul.sub-menu { max-width: 100%; }
+  .full-width-header.ga-compact-site-header .rs-menu ul.nav-menu li > a {
+    min-height: 44px; white-space: normal; overflow-wrap: anywhere;
+  }
+  .rs-breadcrumbs .breadcrumbs-inner, .rs-banner .banner-content { max-width: 100%; }
+  .rs-breadcrumbs .page-title, .rs-banner .banner-content .title,
+  .sec-title .title, .course-title { overflow-wrap: anywhere; }
+  .row > [class*="col-"] { min-width: 0; }
+  table { display: block; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+}
+@media (max-width: 767.98px) {
+  body { font-size: 16px; }
+  input, select, textarea, button { font-size: 16px !important; max-width: 100%; }
+  .pt-100, .pt-90, .pt-80, .pt-70 { padding-top: 52px !important; }
+  .pb-100, .pb-90, .pb-80, .pb-70 { padding-bottom: 52px !important; }
+  .full-width-header.ga-compact-site-header .rs-header .topbar-area .toolbar-sl-share { display: none; }
+  .full-width-header.ga-compact-site-header .rs-header .topbar-area .topbar-contact { font-size: 13px; line-height: 1.4; }
+  .rs-breadcrumbs .page-title { font-size: clamp(1.9rem, 8vw, 2.5rem) !important; line-height: 1.15 !important; }
+  .sec-title .title, .rs-banner .banner-content .title { font-size: clamp(1.9rem, 8vw, 2.55rem) !important; line-height: 1.15 !important; }
+  .readon, .readon2, .readon.orange-btn, .btn-part a { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
+}
