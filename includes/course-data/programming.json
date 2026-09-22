@@ -6,8 +6,8 @@
     "filter": "filter2",
     "icon": "code",
     "image": "web-designing-programming-course-card-by-groot-academy.png",
-    "description": "Learn full stack web development in Jaipur with HTML, CSS, JavaScript, React, Node.js, databases and practical application projects at Groot Academy.",
-    "intro": "Build a complete web application, from a responsive screen to the server and database behind it. This learning path connects frontend development, backend programming and deployment so you can understand how the pieces work together.",
+    "description": "Learn full stack development in Jaipur across frontend, backend, databases and deployment with HTML, CSS, JavaScript, React, Node.js, SQL and MongoDB at Groot Academy.",
+    "intro": "Build complete web applications from responsive interfaces to backend services, databases and deployment. This broad full-stack path is intentionally stack-neutral: it teaches how frontend and backend pieces connect, while the dedicated MERN course focuses specifically on MongoDB, Express, React and Node.js.",
     "audience": "Students, graduates and career changers who want a broad web development foundation. Start with basic computer skills and practise coding regularly.",
     "skills": [
       "HTML & CSS",
@@ -61,8 +61,12 @@
     ],
     "faq": [
       [
-        "How is this different from MERN?",
-        "Full stack describes the complete frontend-to-backend workflow. MERN is a specific stack using MongoDB, Express, React and Node.js; explore the dedicated MERN course if that is your chosen path."
+        "How is Full Stack Development different from MERN?",
+        "Full Stack Development is the broader frontend-to-backend learning path and can include multiple database or backend approaches. MERN is a specific JavaScript stack built around MongoDB, Express, React and Node.js."
+      ],
+      [
+        "Does this course cover both frontend and backend development?",
+        "Yes. The learning path connects HTML, CSS and JavaScript with React, server-side development, databases and deployment so learners can understand a complete application workflow."
       ]
     ],
     "sources": [
@@ -80,8 +84,8 @@
     "filter": "filter2",
     "icon": "code",
     "image": "nodeJs-programming-course-card-by-groot-academy.png",
-    "description": "Explore MERN stack training in Jaipur: JavaScript, React, Node.js, Express, MongoDB, APIs and application deployment with Groot Academy.",
-    "intro": "Use JavaScript across the browser and server to build a complete application. The MERN course brings together MongoDB, Express, React and Node.js through CRUD workflows, routing, middleware and deployment practice.",
+    "description": "Learn MERN Stack development in Jaipur with JavaScript, React, Node.js, Express, MongoDB, APIs and integrated application projects at Groot Academy.",
+    "intro": "Build JavaScript applications with the MERN stack: MongoDB for data, Express and Node.js for backend services, and React for the interface. This page targets MERN-specific training rather than the broader Full Stack Development path, helping searchers choose the exact stack they want to learn.",
     "audience": "Learners with basic HTML, CSS and programming familiarity who want to build JavaScript applications. Strengthen JavaScript fundamentals before progressing to React and Node.js.",
     "skills": [
       "JavaScript ES6",
@@ -140,7 +144,11 @@
     "faq": [
       [
         "What does MERN stand for?",
-        "MERN stands for MongoDB, Express, React and Node.js. These tools cover data storage, backend services and the user interface."
+        "MERN stands for MongoDB, Express, React and Node.js. Together they cover the database, backend services and user interface of a modern JavaScript application."
+      ],
+      [
+        "Should I choose MERN or the broader Full Stack Development course?",
+        "Choose MERN when you specifically want the MongoDB, Express, React and Node.js stack. Choose the broader Full Stack Development path when you want a wider frontend-to-backend foundation that is not limited to one stack."
       ]
     ],
     "sources": [
@@ -159,8 +167,8 @@
     "filter": "filter1",
     "icon": "code",
     "image": "python-programming-course-card-by-groot-academy.png",
-    "description": "Learn Python programming in Jaipur with practical foundations, functions, data structures, object-oriented programming and automation at Groot Academy.",
-    "intro": "Learn to turn a problem into a clear, working Python program. Begin with language fundamentals, then use functions, collections, files and reusable code to build small applications and automation scripts.",
+    "description": "Learn Python programming in Jaipur from beginner syntax and problem solving to functions, data structures, object-oriented programming, files and practical automation at Groot Academy.",
+    "intro": "Start with Python programming fundamentals and learn to turn problems into clear, working code. Practise control flow, functions, collections, files, debugging and object-oriented programming, then use those foundations for small applications and automation without turning this page into a Data Science course.",
     "audience": "Beginners, students and working professionals who want programming skills. No prior programming experience is needed to begin with the foundations.",
     "skills": [
       "Python syntax",
@@ -213,8 +221,12 @@
     ],
     "faq": [
       [
-        "Can I move into data science after Python?",
-        "Python is a useful foundation for data analysis and machine learning. Continue with statistics, data handling and model evaluation on the Data Science and Machine Learning learning path."
+        "Is this Python course suitable for beginners?",
+        "Yes. The course starts with programming foundations and does not require prior coding experience, although regular practice is important."
+      ],
+      [
+        "Is this the same as a Data Science course?",
+        "No. This page focuses on Python programming. Data Science adds statistics, data preparation, visualisation and machine-learning methods; learners interested in that path should continue to the dedicated Data Science and Machine Learning course."
       ]
     ],
     "sources": [
@@ -235,8 +247,8 @@
     "filter": "filter1",
     "icon": "code",
     "image": "core-java-course-card-by-groot-academy.png",
-    "description": "Study Java programming and backend development in Jaipur, from Java foundations and JDBC to Spring Boot, REST APIs and JPA at Groot Academy.",
-    "intro": "Build a Java foundation and follow the path into backend applications. Learn how Java code handles requests, connects to databases and exposes services through Spring Boot and REST APIs.",
+    "description": "Learn Java programming in Jaipur with Core Java foundations, object-oriented programming, JDBC, Spring Boot, REST APIs and backend development at Groot Academy.",
+    "intro": "Build a strong Java programming foundation first, then progress into backend development with JDBC, Spring and Spring Boot. The page consolidates broad Java and Core Java search intent while showing the later backend path without creating separate duplicate pages for every Java subtopic.",
     "audience": "Students and aspiring backend developers. Begin with Java basics; the backend modules build on programming and object-oriented concepts.",
     "skills": [
       "Java",
@@ -290,8 +302,12 @@
     ],
     "faq": [
       [
-        "Does this cover both core Java and backend skills?",
-        "The path begins with Java foundations and progresses to JDBC, Spring Boot, REST services and JPA. Ask the team which modules are included in your selected batch."
+        "Does this course include Core Java?",
+        "Yes. The learning path begins with Java syntax, object-oriented programming and core concepts before moving into database and backend topics."
+      ],
+      [
+        "Does the Java course also cover Spring Boot and backend development?",
+        "The path progresses from Java foundations into JDBC, Spring Boot, REST services and JPA. Confirm the exact module coverage for the selected batch with the course team."
       ]
     ],
     "sources": [
