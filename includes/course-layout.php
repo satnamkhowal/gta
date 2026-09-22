@@ -84,7 +84,7 @@ $jsonFlags = JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APO
             <?php if ($courseSlug === 'full-stack-web-development-course-in-jaipur'): ?>
             <section class="ga-section"><div class="ga-section-heading"><span class="eyebrow">Related Jaipur Resource</span><h2>Compare another Full Stack learning path</h2></div><p>For another practical development curriculum in Jaipur, students can review the <a href="https://forskcodingschool.com/full-stack-development-course-jaipur.php" target="_blank" rel="noopener">Full Stack Development Course at Forsk Coding School</a> and compare current project coverage and learning mode.</p></section>
             <?php endif; ?>
-            <section class="ga-section"><div class="ga-section-heading"><h2>Continue exploring</h2></div><p><a href="<?= $esc(ga_url('blogs/' . $course['blog'] . '/')) ?>">Read the <?= $esc($course['name']) ?> career guide</a></p><ul class="ga-check-list">
+            <section class="ga-section"><div class="ga-section-heading"><h2>Continue exploring</h2></div><?php if (!empty($course['blog'])): ?><p><a href="<?= $esc(ga_url('blogs/' . $course['blog'] . '/')) ?>">Read the <?= $esc($course['name']) ?> career guide</a></p><?php endif; ?><ul class="ga-check-list">
                 <?php
                 $shownRelated = [];
                 foreach (($course['related_slugs'] ?? []) as $relatedSlug):
