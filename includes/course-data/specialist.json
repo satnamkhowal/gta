@@ -621,5 +621,408 @@
       "courses/digital-marketing-course-jaipur.php"
     ],
     "blog": "digital-marketing-career-guide-jaipur"
+  },
+  {
+    "slug": "artificial-intelligence-course-jaipur",
+    "name": "Artificial Intelligence",
+    "category": "Data & AI",
+    "filter": "filter3",
+    "icon": "lightbulb-o",
+    "image": "",
+    "description": "Learn Artificial Intelligence in Jaipur with AI foundations, problem framing, supervised and unsupervised learning, neural-network concepts, evaluation and practical AI workflows at Groot Academy.",
+    "intro": "Understand how artificial-intelligence systems are designed, trained and evaluated, then connect those ideas to practical use cases. This page focuses on broad AI concepts and applied machine learning; the Data Science course goes deeper into analytics and modelling workflows, while the Generative AI course focuses on LLMs, prompting and AI assistants.",
+    "audience": "Students, graduates and professionals who want a structured introduction to AI. Basic Python and school-level mathematics are helpful before moving into model-building topics.",
+    "skills": [
+      "AI foundations",
+      "Python for AI",
+      "Machine learning",
+      "Neural-network concepts",
+      "Model evaluation",
+      "Applied AI workflows"
+    ],
+    "modules": [
+      [
+        "Artificial Intelligence foundations",
+        "Understand AI terminology, common problem types and how rule-based, machine-learning and generative systems differ."
+      ],
+      [
+        "Data and problem framing",
+        "Translate a real-world task into inputs, outputs, constraints and measurable success criteria before choosing a model."
+      ],
+      [
+        "Supervised learning",
+        "Explore classification and regression concepts, features, labels, training data and validation."
+      ],
+      [
+        "Unsupervised learning",
+        "Study clustering and pattern-discovery approaches and when they are useful."
+      ],
+      [
+        "Neural-network concepts",
+        "Learn the role of layers, activations, training and overfitting at an introductory level."
+      ],
+      [
+        "Evaluation and responsible use",
+        "Compare outputs with suitable metrics, identify limitations and understand where human review is necessary."
+      ]
+    ],
+    "projects": [
+      [
+        "AI classification prototype",
+        "Prepare a small dataset, train a simple model and explain the evaluation results."
+      ],
+      [
+        "Applied AI case study",
+        "Define an AI problem for a practical domain and document the data, model choice, risks and success criteria."
+      ]
+    ],
+    "careers": [
+      "AI trainee",
+      "Machine learning intern",
+      "Junior AI application developer"
+    ],
+    "faq": [
+      [
+        "How is this Artificial Intelligence course different from Data Science?",
+        "Artificial Intelligence focuses on building systems that perform tasks such as prediction, classification and decision support. Data Science includes broader data preparation, analysis, statistics and modelling workflows."
+      ],
+      [
+        "How is this different from Generative AI?",
+        "This course covers broad AI and machine-learning foundations. Generative AI focuses more specifically on language models, prompting, retrieval and AI-assistant applications."
+      ]
+    ],
+    "sources": [],
+    "aliases": [
+      "courses/artificial-intelligence-course-jaipur.php",
+      "courses/artificial-intelligence-course-jaipur/"
+    ],
+    "blog": "",
+    "related_slugs": [
+      "data-science-machine-learning-course-jaipur",
+      "generative-ai-course-jaipur",
+      "python-programming-course-jaipur"
+    ]
+  },
+  {
+    "slug": "business-analytics-course-jaipur",
+    "name": "Business Analytics",
+    "category": "Data & AI",
+    "filter": "filter3",
+    "icon": "line-chart",
+    "image": "",
+    "description": "Learn Business Analytics in Jaipur with Excel, SQL, KPIs, data interpretation, dashboards, Power BI and decision-focused reporting at Groot Academy.",
+    "intro": "Learn to turn business questions into measurable KPIs, structured analysis and clear recommendations. This course is intentionally decision-focused: Data Analytics covers broader technical analysis workflows, while Business Analytics emphasises business context, reporting, stakeholder questions and actionable insight.",
+    "audience": "Students, graduates, business professionals and aspiring analysts who want to use data for decision-making. Spreadsheet familiarity is useful but advanced programming is not required to begin.",
+    "skills": [
+      "Business problem framing",
+      "Excel",
+      "SQL",
+      "KPIs",
+      "Power BI",
+      "Dashboard design",
+      "Data storytelling"
+    ],
+    "modules": [
+      [
+        "Business questions and KPIs",
+        "Convert business goals into measurable questions, metrics and reporting requirements."
+      ],
+      [
+        "Excel for analysis",
+        "Use formulas, lookups, pivots and charts to explore operational and business data."
+      ],
+      [
+        "SQL for business reporting",
+        "Query, filter, aggregate and combine data to answer business questions."
+      ],
+      [
+        "Analytics and interpretation",
+        "Compare trends, segments and drivers while separating observation from unsupported conclusions."
+      ],
+      [
+        "Power BI dashboards",
+        "Build measures, relationships and interactive reports for decision support."
+      ],
+      [
+        "Data storytelling",
+        "Present findings with context, assumptions, limitations and practical recommendations."
+      ]
+    ],
+    "projects": [
+      [
+        "Business performance dashboard",
+        "Build a KPI dashboard for sales, operations or marketing data and explain the key changes."
+      ],
+      [
+        "Decision-support analysis",
+        "Answer a defined business question using structured data, charts and a concise recommendation."
+      ]
+    ],
+    "careers": [
+      "Business analyst trainee",
+      "Reporting analyst",
+      "Junior business intelligence analyst"
+    ],
+    "faq": [
+      [
+        "How is Business Analytics different from Data Analytics?",
+        "Business Analytics puts more emphasis on business questions, KPIs, stakeholders and decision support. Data Analytics typically goes deeper into technical data preparation, querying and analytical workflows."
+      ],
+      [
+        "Does this course include Power BI?",
+        "Yes. Power BI is used for relationships, measures, reports and dashboard-based decision support."
+      ]
+    ],
+    "sources": [],
+    "aliases": [
+      "courses/business-analytics-course-jaipur.php",
+      "courses/business-analytics-course-jaipur/"
+    ],
+    "blog": "",
+    "related_slugs": [
+      "data-analytics-course-jaipur",
+      "power-bi-course-jaipur"
+    ]
+  },
+  {
+    "slug": "ui-ux-design-course-jaipur",
+    "name": "UI/UX Design",
+    "category": "Design",
+    "filter": "filter4",
+    "icon": "object-group",
+    "image": "",
+    "description": "Learn UI/UX Design in Jaipur with user research, information architecture, wireframes, interface design, prototyping, usability testing and Figma at Groot Academy.",
+    "intro": "Design digital experiences around user goals rather than decoration alone. Learn how research, user flows, wireframes, visual hierarchy, prototypes and usability testing connect to produce clearer web and app experiences.",
+    "audience": "Students, designers, developers and career changers interested in product and interface design. No coding experience is required for the design foundations.",
+    "skills": [
+      "User research",
+      "User flows",
+      "Wireframing",
+      "Figma",
+      "Prototyping",
+      "Usability testing",
+      "Design systems"
+    ],
+    "modules": [
+      [
+        "UX foundations and research",
+        "Understand users, goals, pain points, assumptions and basic research methods."
+      ],
+      [
+        "Information architecture",
+        "Organise content, navigation and user flows before designing screens."
+      ],
+      [
+        "Wireframes",
+        "Create low-fidelity layouts that focus on structure and task completion."
+      ],
+      [
+        "UI design",
+        "Apply typography, spacing, hierarchy, components and responsive design principles."
+      ],
+      [
+        "Prototyping in Figma",
+        "Build clickable prototypes and reusable components for web and mobile interfaces."
+      ],
+      [
+        "Usability review and handoff",
+        "Test designs, document feedback and prepare clear handoff for developers."
+      ]
+    ],
+    "projects": [
+      [
+        "Mobile app prototype",
+        "Research a user task, map the flow and create a clickable multi-screen prototype."
+      ],
+      [
+        "Website redesign case study",
+        "Audit an existing flow, redesign key screens and explain the UX decisions."
+      ]
+    ],
+    "careers": [
+      "Junior UI designer",
+      "UX design trainee",
+      "Product design intern"
+    ],
+    "faq": [
+      [
+        "Do I need coding for UI/UX Design?",
+        "Coding is not required to start UI/UX Design. Understanding how digital products are built can help during developer handoff, but the course begins with design and user-experience foundations."
+      ],
+      [
+        "Is Figma included?",
+        "Yes. Figma is used for wireframes, interface design, reusable components and interactive prototypes."
+      ]
+    ],
+    "sources": [],
+    "aliases": [
+      "courses/ui-ux-design-course-jaipur.php",
+      "courses/ui-ux-design-course-jaipur/"
+    ],
+    "blog": "",
+    "related_slugs": [
+      "graphic-design-course-jaipur"
+    ]
+  },
+  {
+    "slug": "graphic-design-course-jaipur",
+    "name": "Graphic Design",
+    "category": "Design",
+    "filter": "filter4",
+    "icon": "paint-brush",
+    "image": "",
+    "description": "Learn Graphic Design in Jaipur with layout, typography, colour, branding, social creatives, print design and practical design workflows at Groot Academy.",
+    "intro": "Build visual-communication skills through layout, typography, colour, image selection and brand consistency. Practise creating digital and print assets while learning how to explain design choices instead of relying only on templates.",
+    "audience": "Beginners, students, content creators and career changers who want practical visual-design skills. No previous professional design experience is required.",
+    "skills": [
+      "Layout",
+      "Typography",
+      "Colour",
+      "Branding",
+      "Social media creatives",
+      "Print design",
+      "Portfolio presentation"
+    ],
+    "modules": [
+      [
+        "Design foundations",
+        "Understand composition, alignment, spacing, contrast and visual hierarchy."
+      ],
+      [
+        "Typography and colour",
+        "Choose type and colour systems that support readability, tone and consistency."
+      ],
+      [
+        "Image and asset preparation",
+        "Work with image quality, cropping, formats and visual consistency for different outputs."
+      ],
+      [
+        "Branding",
+        "Create logo-supporting brand assets, style rules and repeatable visual systems."
+      ],
+      [
+        "Digital and social design",
+        "Design posts, banners, ads and campaign assets for common digital formats."
+      ],
+      [
+        "Print and portfolio workflow",
+        "Prepare print-ready layouts and organise selected work into a presentable portfolio."
+      ]
+    ],
+    "projects": [
+      [
+        "Brand identity mini-system",
+        "Create a compact visual identity with typography, colour and supporting brand assets."
+      ],
+      [
+        "Campaign creative set",
+        "Design a coordinated set of social, web and print creatives around one campaign brief."
+      ]
+    ],
+    "careers": [
+      "Junior graphic designer",
+      "Creative design trainee",
+      "Social media designer"
+    ],
+    "faq": [
+      [
+        "Is Graphic Design the same as UI/UX Design?",
+        "No. Graphic Design focuses on visual communication across branding, digital and print assets. UI/UX Design focuses more specifically on user flows, interfaces, prototypes and usability."
+      ],
+      [
+        "Do I need drawing skills?",
+        "Strong drawing skills are not required for most graphic-design workflows. Layout, typography, colour, image handling and visual problem-solving are more directly relevant."
+      ]
+    ],
+    "sources": [],
+    "aliases": [
+      "courses/graphic-design-course-jaipur.php",
+      "courses/graphic-design-course-jaipur/"
+    ],
+    "blog": "",
+    "related_slugs": [
+      "ui-ux-design-course-jaipur",
+      "digital-marketing-course-jaipur"
+    ]
+  },
+  {
+    "slug": "software-testing-course-jaipur",
+    "name": "Software Testing",
+    "category": "Professional",
+    "filter": "filter4",
+    "icon": "check-square-o",
+    "image": "",
+    "description": "Learn Software Testing in Jaipur with testing fundamentals, test cases, defect reporting, web testing, API testing, automation concepts and QA workflows at Groot Academy.",
+    "intro": "Learn how software quality is checked systematically from requirements to release. Practise test planning, test cases, defect reporting, web and API testing, then understand where automation fits into a broader quality-assurance workflow.",
+    "audience": "Students, graduates, developers and career changers interested in software quality assurance. Basic computer and web knowledge is enough to begin.",
+    "skills": [
+      "Testing fundamentals",
+      "Test cases",
+      "Defect reporting",
+      "Web testing",
+      "API testing",
+      "Automation concepts",
+      "QA workflow"
+    ],
+    "modules": [
+      [
+        "Testing foundations",
+        "Understand software quality, SDLC, STLC, test levels and common testing types."
+      ],
+      [
+        "Requirements and test design",
+        "Turn requirements into scenarios, test cases, expected results and traceable coverage."
+      ],
+      [
+        "Defect lifecycle",
+        "Write reproducible bug reports, use severity and priority correctly and verify fixes."
+      ],
+      [
+        "Web and database checks",
+        "Test forms, validation, browser behaviour and basic data-related scenarios."
+      ],
+      [
+        "API testing",
+        "Understand requests, responses, status codes and structured checks for service endpoints."
+      ],
+      [
+        "Automation overview",
+        "Learn where automation is useful and how tools such as Selenium or Playwright fit into a QA strategy."
+      ]
+    ],
+    "projects": [
+      [
+        "Website QA project",
+        "Create a test plan, execute functional checks and produce a structured defect report for a sample web application."
+      ],
+      [
+        "API test collection",
+        "Build and document a small set of API checks with expected responses and negative test cases."
+      ]
+    ],
+    "careers": [
+      "QA trainee",
+      "Manual testing intern",
+      "Junior software tester"
+    ],
+    "faq": [
+      [
+        "Does the Software Testing course include manual testing?",
+        "Yes. Manual testing foundations, test cases, defect reporting and exploratory checks are part of the core learning path before automation concepts."
+      ],
+      [
+        "Will I also learn automation testing?",
+        "The course introduces automation strategy and common tools. Dedicated automation, Selenium and Playwright pages can provide deeper tool-specific learning paths."
+      ]
+    ],
+    "sources": [],
+    "aliases": [
+      "courses/software-testing-course-jaipur.php",
+      "courses/software-testing-course-jaipur/"
+    ],
+    "blog": "",
+    "related_slugs": [
+      "cyber-security-course-jaipur"
+    ]
   }
 ]
