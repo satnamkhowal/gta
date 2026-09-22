@@ -310,7 +310,11 @@
     "aliases": [
       "courses/generative-ai-course-jaipur.php"
     ],
-    "blog": "generative-ai-tools-career-guide-jaipur"
+    "blog": "generative-ai-tools-career-guide-jaipur",
+    "related_slugs": [
+      "python-programming-course-jaipur",
+      "data-science-machine-learning-course-jaipur"
+    ]
   },
   {
     "slug": "cloud-computing-aws-course-jaipur",
