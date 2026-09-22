@@ -791,77 +791,103 @@
     "filter": "filter4",
     "icon": "object-group",
     "image": "",
-    "description": "Learn UI/UX Design in Jaipur with user research, information architecture, wireframes, interface design, prototyping, usability testing and Figma at Groot Academy.",
-    "intro": "Design digital experiences around user goals rather than decoration alone. Learn how research, user flows, wireframes, visual hierarchy, prototypes and usability testing connect to produce clearer web and app experiences.",
-    "audience": "Students, designers, developers and career changers interested in product and interface design. No coding experience is required for the design foundations.",
+    "description": "Learn UI/UX Design in Jaipur with user research, information architecture, wireframing, Figma, responsive UI, prototyping, design systems, usability testing and portfolio projects at Groot Academy.",
+    "intro": "Learn the complete UI/UX workflow from understanding users and structuring information to wireframes, interface design, Figma prototypes, responsive layouts, design systems and usability testing. Build practical project work that shows both design thinking and execution.",
+    "audience": "Students, beginners, graduates, graphic designers, web designers, developers, freelancers, digital marketers, entrepreneurs and working professionals. Advanced coding knowledge is not required.",
     "skills": [
+      "UI design",
+      "UX design",
       "User research",
-      "User flows",
       "Wireframing",
       "Figma",
       "Prototyping",
-      "Usability testing",
-      "Design systems"
+      "Responsive design",
+      "Design systems",
+      "Usability testing"
     ],
     "modules": [
       [
-        "UX foundations and research",
-        "Understand users, goals, pain points, assumptions and basic research methods."
+        "UI/UX fundamentals",
+        "Understand the difference between UI and UX, user-centred design, common designer responsibilities and the end-to-end design process."
+      ],
+      [
+        "User research",
+        "Identify target users, create personas, surface pain points and map user journeys using structured research methods."
       ],
       [
         "Information architecture",
-        "Organise content, navigation and user flows before designing screens."
+        "Organise content, navigation and user flows so users can find and complete important tasks efficiently."
       ],
       [
-        "Wireframes",
-        "Create low-fidelity layouts that focus on structure and task completion."
+        "Wireframing",
+        "Create low-fidelity and high-fidelity wireframes for websites, mobile applications, dashboards and digital products."
       ],
       [
-        "UI design",
-        "Apply typography, spacing, hierarchy, components and responsive design principles."
+        "UI design principles",
+        "Apply typography, colour, grids, spacing, hierarchy, contrast and consistency to modern interface design."
       ],
       [
-        "Prototyping in Figma",
-        "Build clickable prototypes and reusable components for web and mobile interfaces."
+        "Figma workflow",
+        "Use frames, layers, components, variants, auto layout, constraints, styles, assets and collaboration features."
       ],
       [
-        "Usability review and handoff",
-        "Test designs, document feedback and prepare clear handoff for developers."
+        "Responsive design and prototyping",
+        "Design across desktop, tablet and mobile layouts, then connect screens into interactive prototypes."
+      ],
+      [
+        "Design systems",
+        "Build reusable components, typography and colour rules, buttons, forms, cards and navigation patterns."
+      ],
+      [
+        "Usability testing",
+        "Test designs, collect feedback, identify friction and improve the user experience based on findings."
       ]
     ],
     "projects": [
       [
-        "Mobile app prototype",
-        "Research a user task, map the flow and create a clickable multi-screen prototype."
+        "Website UI/UX project",
+        "Design a website from research and wireframes through final interface screens and an interactive prototype."
       ],
       [
-        "Website redesign case study",
-        "Audit an existing flow, redesign key screens and explain the UX decisions."
+        "Mobile app design project",
+        "Create a multi-screen mobile experience with navigation, account flows and reusable interface components."
+      ],
+      [
+        "Dashboard or e-commerce project",
+        "Design a data-rich dashboard or shopping journey with clear hierarchy, interaction patterns and responsive behaviour."
       ]
     ],
     "careers": [
-      "Junior UI designer",
-      "UX design trainee",
-      "Product design intern"
+      "UI designer",
+      "UX designer",
+      "UI/UX designer",
+      "Product design trainee",
+      "UX research trainee",
+      "Interaction design trainee"
     ],
     "faq": [
       [
-        "Do I need coding for UI/UX Design?",
-        "Coding is not required to start UI/UX Design. Understanding how digital products are built can help during developer handoff, but the course begins with design and user-experience foundations."
+        "Is coding required to start UI/UX Design?",
+        "No advanced coding knowledge is required. The verified Groot Academy course material focuses on research, wireframing, interface design, Figma, prototyping, design systems and usability testing."
       ],
       [
-        "Is Figma included?",
-        "Yes. Figma is used for wireframes, interface design, reusable components and interactive prototypes."
+        "Will I learn Figma?",
+        "Yes. The current Groot Academy UI/UX course material includes Figma for interface design, reusable components, auto layout, prototyping and collaboration."
       ]
     ],
-    "sources": [],
-    "aliases": [
-      "courses/ui-ux-design-course-jaipur.php",
-      "courses/ui-ux-design-course-jaipur/"
+    "sources": [
+      "https://grootacademy.com/ui-ux-design-course-jaipur/",
+      "courses-for-the-kids/frontend-development/ui-ux/index.php"
     ],
-    "blog": "",
+    "aliases": [
+      "ui-ux-design-course-jaipur",
+      "courses-for-the-kids/frontend-development/ui-ux/index.php",
+      "courses-for-the-kids/frontend-development/ui-ux"
+    ],
+    "blog": "ui-ux-design-career-guide-jaipur",
     "related_slugs": [
-      "graphic-design-course-jaipur"
+      "graphic-design-course-jaipur",
+      "full-stack-web-development-course-in-jaipur"
     ]
   },
   {
@@ -871,75 +897,97 @@
     "filter": "filter4",
     "icon": "paint-brush",
     "image": "",
-    "description": "Learn Graphic Design in Jaipur with layout, typography, colour, branding, social creatives, print design and practical design workflows at Groot Academy.",
-    "intro": "Build visual-communication skills through layout, typography, colour, image selection and brand consistency. Practise creating digital and print assets while learning how to explain design choices instead of relying only on templates.",
-    "audience": "Beginners, students, content creators and career changers who want practical visual-design skills. No previous professional design experience is required.",
+    "description": "Learn Graphic Design in Jaipur with design principles, typography, colour, Adobe Photoshop, Illustrator, InDesign, branding, digital creatives and portfolio-focused project practice at Groot Academy.",
+    "intro": "Build a practical graphic-design workflow from visual fundamentals to software-based execution. Learn how typography, colour, layout and brand thinking connect with Photoshop, Illustrator, InDesign and portfolio projects for print and digital media.",
+    "audience": "Students, beginners, marketing professionals, entrepreneurs and aspiring designers who want practical visual-design skills. Prior design software experience is not required.",
     "skills": [
-      "Layout",
+      "Design principles",
       "Typography",
-      "Colour",
+      "Colour theory",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe InDesign",
       "Branding",
-      "Social media creatives",
-      "Print design",
-      "Portfolio presentation"
+      "Portfolio design"
     ],
     "modules": [
       [
-        "Design foundations",
-        "Understand composition, alignment, spacing, contrast and visual hierarchy."
+        "Graphic design foundations",
+        "Understand the role of graphic design, the design process, visual communication, composition and core design principles."
       ],
       [
-        "Typography and colour",
-        "Choose type and colour systems that support readability, tone and consistency."
+        "Typography, colour and layout",
+        "Practise hierarchy, font selection, spacing, grids, colour theory and layout decisions for clear visual communication."
       ],
       [
-        "Image and asset preparation",
-        "Work with image quality, cropping, formats and visual consistency for different outputs."
+        "Adobe Photoshop",
+        "Work with raster graphics, selections, layers, image correction, compositing and digital creative workflows."
       ],
       [
-        "Branding",
-        "Create logo-supporting brand assets, style rules and repeatable visual systems."
+        "Adobe Illustrator",
+        "Create vector artwork, icons, logos, illustrations and scalable brand assets."
       ],
       [
-        "Digital and social design",
-        "Design posts, banners, ads and campaign assets for common digital formats."
+        "Adobe InDesign and page layout",
+        "Explore structured layouts for brochures, flyers and other multi-page or print-oriented design work."
       ],
       [
-        "Print and portfolio workflow",
-        "Prepare print-ready layouts and organise selected work into a presentable portfolio."
+        "Branding and identity",
+        "Develop visual identity concepts such as logos, colour systems, typography choices and supporting brand assets."
+      ],
+      [
+        "Print and digital design",
+        "Adapt design principles for posters, social-media graphics, marketing creatives and print-ready communication."
+      ],
+      [
+        "Portfolio workflow",
+        "Select, refine and present project work so the design process and final outcomes are easy to understand."
       ]
     ],
     "projects": [
       [
-        "Brand identity mini-system",
-        "Create a compact visual identity with typography, colour and supporting brand assets."
+        "Brand identity mini-project",
+        "Create a logo direction, colour palette, typography system and supporting brand applications for a sample brief."
       ],
       [
-        "Campaign creative set",
-        "Design a coordinated set of social, web and print creatives around one campaign brief."
+        "Digital campaign creative set",
+        "Design a coordinated set of social or promotional graphics while maintaining hierarchy and visual consistency."
+      ],
+      [
+        "Brochure or poster project",
+        "Plan and execute a print-oriented layout using typography, imagery and reusable design structure."
       ]
     ],
     "careers": [
       "Junior graphic designer",
-      "Creative design trainee",
-      "Social media designer"
+      "Visual design trainee",
+      "Social media designer",
+      "Brand design trainee"
     ],
     "faq": [
       [
-        "Is Graphic Design the same as UI/UX Design?",
-        "No. Graphic Design focuses on visual communication across branding, digital and print assets. UI/UX Design focuses more specifically on user flows, interfaces, prototypes and usability."
+        "Which tools are covered in the Graphic Design learning path?",
+        "The verified source material includes Adobe Photoshop, Illustrator and InDesign together with typography, colour, layout, branding and portfolio development. Confirm the exact software versions and exercises for the selected batch."
       ],
       [
-        "Do I need drawing skills?",
-        "Strong drawing skills are not required for most graphic-design workflows. Layout, typography, colour, image handling and visual problem-solving are more directly relevant."
+        "Do I need previous design experience?",
+        "No. The course is suitable for beginners as well as learners who want to improve practical visual-design skills."
       ]
     ],
-    "sources": [],
-    "aliases": [
-      "courses/graphic-design-course-jaipur.php",
-      "courses/graphic-design-course-jaipur/"
+    "sources": [
+      "best-job-oriented-courses-in-jaipur/best-graphics-designing-course-in-jaipur-rajasthan.php",
+      "enroll-for-the-courses/graphics-designing.php",
+      "courses-old/graphics-designing.php"
     ],
-    "blog": "",
+    "aliases": [
+      "best-job-oriented-courses-in-jaipur/best-graphics-designing-course-in-jaipur-rajasthan.php",
+      "best-job-oriented-courses-in-jaipur/best-graphics-designing-course-in-jaipur-rajasthan",
+      "enroll-for-the-courses/graphics-designing.php",
+      "enroll-for-the-courses/graphics-designing",
+      "courses-old/graphics-designing.php",
+      "courses-old/graphics-designing"
+    ],
+    "blog": "graphic-design-career-guide-jaipur",
     "related_slugs": [
       "ui-ux-design-course-jaipur",
       "digital-marketing-course-jaipur"
