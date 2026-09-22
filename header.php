@@ -158,14 +158,14 @@ $gaIsCourse = (
                           <a href="<?= htmlspecialchars(ga_url('data-science-machine-learning-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Data Science &amp; AI</a>
                           <ul class="sub-menu">
                             <li><a href="<?= htmlspecialchars(ga_url('data-analytics-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Data Analytics</a></li>
-                            <li><a href="./courses/business-analytics-course-jaipur.php">Business Analytics</a></li>
+                            <li><a href="<?= htmlspecialchars(ga_url('business-analytics-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Business Analytics</a></li>
                             <li><a
                                 href="<?= htmlspecialchars(ga_url('data-science-machine-learning-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Data
                                 Science</a></li>
                             <li><a
                                 href="<?= htmlspecialchars(ga_url('data-science-machine-learning-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Machine
                                 Learning</a></li>
-                            <li><a href="./courses/artificial-intelligence-course-jaipur.php">Artificial
+                            <li><a href="<?= htmlspecialchars(ga_url('artificial-intelligence-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Artificial
                                 Intelligence</a></li>
                             <li><a href="<?= htmlspecialchars(ga_url('generative-ai-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Generative AI</a></li>
                             <li><a href="<?= htmlspecialchars(ga_url('power-bi-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Power BI</a></li>
@@ -196,7 +196,7 @@ $gaIsCourse = (
                         </li>
 
                         <li class="menu-item-has-children">
-                          <a href="./courses/software-testing-course-jaipur.php">Software Testing</a>
+                          <a href="<?= htmlspecialchars(ga_url('software-testing-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Software Testing</a>
                           <ul class="sub-menu">
                             <li><a href="./courses/manual-testing-course-jaipur.php">Manual Testing</a></li>
                             <li><a href="./courses/automation-testing-course-jaipur.php">Automation Testing</a></li>
@@ -218,11 +218,11 @@ $gaIsCourse = (
                         </li>
 
                         <li class="menu-item-has-children">
-                          <a href="./courses/ui-ux-design-course-jaipur.php">UI / UX Designing</a>
+                          <a href="<?= htmlspecialchars(ga_url('ui-ux-design-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">UI / UX Designing</a>
                           <ul class="sub-menu">
-                            <li><a href="./courses/ui-ux-design-course-jaipur.php">UI/UX Design</a></li>
+                            <li><a href="<?= htmlspecialchars(ga_url('ui-ux-design-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">UI/UX Design</a></li>
                             <li><a href="./courses/figma-course-jaipur.php">Figma</a></li>
-                            <li><a href="./courses/graphic-design-course-jaipur.php">Graphic Design</a></li>
+                            <li><a href="<?= htmlspecialchars(ga_url('graphic-design-course-jaipur.php'), ENT_QUOTES, 'UTF-8') ?>">Graphic Design</a></li>
                           </ul>
                         </li>
 
