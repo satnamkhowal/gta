@@ -1,38 +1,38 @@
 source_url,source_context,anchor_theme,target_url,target_cluster,placement,priority,status
-"/","Homepage","Data Science course in Jaipur","/data-science-machine-learning-course-jaipur.php","Data Science","Primary course discovery section","P1","Audit existing / add if missing"
-"/","Homepage","Data Analytics course in Jaipur","/data-analytics-course-jaipur.php","Data Analytics","Primary course discovery section","P1","Audit existing / add if missing"
-"/","Homepage","Full Stack Development course in Jaipur","/full-stack-web-development-course-in-jaipur.php","Full Stack","Primary course discovery section","P1","Audit existing / add if missing"
-"/","Homepage","Python course in Jaipur","/python-programming-course-jaipur.php","Python","Primary course discovery section","P1","Audit existing / add if missing"
-"/","Homepage","Java course in Jaipur","/java-programming-course-jaipur.php","Java","Primary course discovery section","P1","Audit existing / add if missing"
-"/","Homepage","MERN Stack course in Jaipur","/mern-stack-course-jaipur.php","MERN","Primary course discovery section","P1","Audit existing / add if missing"
-"/courses.php","Course catalogue","Data Science and Machine Learning","/data-science-machine-learning-course-jaipur.php","Data Science","Data & AI cards","P1","Implemented"
-"/courses.php","Course catalogue","Data Analytics with Python and Power BI","/data-analytics-course-jaipur.php","Data Analytics","Data & AI cards","P1","Implemented"
-"/courses.php","Course catalogue","Full Stack Web Development","/full-stack-web-development-course-in-jaipur.php","Full Stack","Web development cards","P1","Implemented"
-"/courses.php","Course catalogue","MERN Stack Development","/mern-stack-course-jaipur.php","MERN","Web development cards","P1","Implemented"
-"/courses.php","Course catalogue","Python Programming","/python-programming-course-jaipur.php","Python","Programming cards","P1","Implemented"
-"/courses.php","Course catalogue","Java Programming and Backend Development","/java-programming-course-jaipur.php","Java","Programming cards","P1","Implemented"
-"/courses.php","Course catalogue","Generative AI and AI Tools","/generative-ai-course-jaipur.php","Generative AI","Data & AI cards","P1","Implemented"
-"/blogs/data-science-machine-learning-career-guide-jaipur/","Career guide","Data Science and Machine Learning course in Jaipur","/data-science-machine-learning-course-jaipur.php","Data Science","Contextual CTA after roadmap/projects","P1","Implemented in migrated guide CTA"
-"/blogs/data-analytics-power-bi-career-guide-jaipur/","Career guide","Data Analytics course in Jaipur","/data-analytics-course-jaipur.php","Data Analytics","Contextual CTA","P1","Implemented in migrated guide CTA"
-"/blogs/full-stack-web-development-career-guide-jaipur/","Career guide","Full Stack Development course in Jaipur","/full-stack-web-development-course-in-jaipur.php","Full Stack","Contextual CTA","P1","Implemented in migrated guide CTA"
-"/blogs/mern-stack-react-development-career-guide-jaipur/","Career guide","MERN Stack course in Jaipur","/mern-stack-course-jaipur.php","MERN","Contextual CTA","P1","Implemented in migrated guide CTA"
-"/blogs/python-programming-career-guide-jaipur/","Career guide","Python Programming course in Jaipur","/python-programming-course-jaipur.php","Python","Contextual CTA","P1","Implemented in migrated guide CTA"
-"/blogs/generative-ai-tools-career-guide-jaipur/","Career guide","Generative AI course in Jaipur","/generative-ai-course-jaipur.php","Generative AI","Contextual CTA","P1","Implemented in migrated guide CTA"
-"/data-science-machine-learning-course-jaipur.php","Money page","Data Analytics course","/data-analytics-course-jaipur.php","Data Analytics","Continue exploring / comparison","P1","Implemented by related-course logic"
-"/data-science-machine-learning-course-jaipur.php","Money page","Generative AI course","/generative-ai-course-jaipur.php","Generative AI","Continue exploring / AI distinction","P1","Implemented by related-course logic"
-"/data-analytics-course-jaipur.php","Money page","Power BI course","/power-bi-course-jaipur.php","Power BI","Continue exploring / specialist path","P1","Implemented by related-course logic"
-"/full-stack-web-development-course-in-jaipur.php","Money page","MERN Stack course","/mern-stack-course-jaipur.php","MERN","FAQ plus continue exploring","P1","Implemented by related-course logic"
-"/mern-stack-course-jaipur.php","Money page","Full Stack Development course","/full-stack-web-development-course-in-jaipur.php","Full Stack","Comparison / continue exploring","P1","Implemented by related-course logic"
-"/python-programming-course-jaipur.php","Money page","Data Science and Machine Learning","/data-science-machine-learning-course-jaipur.php","Data Science","Progression path","P1","Add explicit contextual link"
-"/python-programming-course-jaipur.php","Money page","Data Analytics","/data-analytics-course-jaipur.php","Data Analytics","Progression path","P1","Add explicit contextual link"
-"/generative-ai-course-jaipur.php","Money page","Python programming foundations","/python-programming-course-jaipur.php","Python","Prerequisite / progression copy","P1","Add explicit contextual link"
-"/generative-ai-course-jaipur.php","Money page","Data Science and Machine Learning","/data-science-machine-learning-course-jaipur.php","Data Science","AI-path distinction","P1","Implemented by related-course logic"
-"/cloud-computing-aws-course-jaipur.php","Money page","Cyber Security course","/cyber-security-course-jaipur.php","Cyber Security","Related professional courses","P2","Implemented by related-course logic"
-"/digital-marketing-course-jaipur.php","Money page","Digital marketing career guide","/blogs/digital-marketing-career-guide-jaipur/","Digital Marketing Guide","Continue exploring","P2","Implemented via related guide"
-"/about.html","Trust page","Explore Groot Academy courses","/courses.php","Course catalogue","Training overview","P2","Audit needed"
-"/contact.html","Contact page","Explore courses","/courses.php","Course catalogue","Pre-contact context","P3","Audit needed"
-"/locations.php","Future location directory","Mansarovar centre","/mansarovar-it-training-institute-jaipur.php","Mansarovar","Verified branch list","P2","Future"
-"/locations.php","Future location directory","Pratap Nagar centre","/pratap-nagar-it-training-institute-jaipur.php","Pratap Nagar","Verified branch list","P2","Future"
-"/locations.php","Future location directory","Jagatpura centre","/jagatpura-it-training-institute-jaipur.php","Jagatpura","Verified branch list","P2","Future"
-"/internship-process.php","Future trust page","Relevant technical course pages","/courses.php","Course catalogue","Program eligibility/context","P2","Future"
-"/placement-assistance.php","Future trust page","Career-focused course catalogue","/courses.php","Course catalogue","Support-process context","P2","Future"
+/,Homepage,Data Science course in Jaipur,/data-science-machine-learning-course-jaipur.php,Data Science,Primary course discovery section,P1,Implemented 2026-09-22
+/,Homepage,Data Analytics course in Jaipur,/data-analytics-course-jaipur.php,Data Analytics,Primary course discovery section,P1,Implemented 2026-09-22
+/,Homepage,Full Stack Development course in Jaipur,/full-stack-web-development-course-in-jaipur.php,Full Stack,Primary course discovery section,P1,Implemented 2026-09-22
+/,Homepage,Python course in Jaipur,/python-programming-course-jaipur.php,Python,Primary course discovery section,P1,Implemented 2026-09-22
+/,Homepage,Java course in Jaipur,/java-programming-course-jaipur.php,Java,Primary course discovery section,P1,Implemented 2026-09-22
+/,Homepage,MERN Stack course in Jaipur,/mern-stack-course-jaipur.php,MERN,Primary course discovery section,P1,Implemented 2026-09-22
+/courses.php,Course catalogue,Data Science and Machine Learning,/data-science-machine-learning-course-jaipur.php,Data Science,Data & AI cards,P1,Implemented
+/courses.php,Course catalogue,Data Analytics with Python and Power BI,/data-analytics-course-jaipur.php,Data Analytics,Data & AI cards,P1,Implemented
+/courses.php,Course catalogue,Full Stack Web Development,/full-stack-web-development-course-in-jaipur.php,Full Stack,Web development cards,P1,Implemented
+/courses.php,Course catalogue,MERN Stack Development,/mern-stack-course-jaipur.php,MERN,Web development cards,P1,Implemented
+/courses.php,Course catalogue,Python Programming,/python-programming-course-jaipur.php,Python,Programming cards,P1,Implemented
+/courses.php,Course catalogue,Java Programming and Backend Development,/java-programming-course-jaipur.php,Java,Programming cards,P1,Implemented
+/courses.php,Course catalogue,Generative AI and AI Tools,/generative-ai-course-jaipur.php,Generative AI,Data & AI cards,P1,Implemented
+/blogs/data-science-machine-learning-career-guide-jaipur/,Career guide,Data Science and Machine Learning course in Jaipur,/data-science-machine-learning-course-jaipur.php,Data Science,Contextual CTA after roadmap/projects,P1,Implemented in migrated guide CTA
+/blogs/data-analytics-power-bi-career-guide-jaipur/,Career guide,Data Analytics course in Jaipur,/data-analytics-course-jaipur.php,Data Analytics,Contextual CTA,P1,Implemented in migrated guide CTA
+/blogs/full-stack-web-development-career-guide-jaipur/,Career guide,Full Stack Development course in Jaipur,/full-stack-web-development-course-in-jaipur.php,Full Stack,Contextual CTA,P1,Implemented in migrated guide CTA
+/blogs/mern-stack-react-development-career-guide-jaipur/,Career guide,MERN Stack course in Jaipur,/mern-stack-course-jaipur.php,MERN,Contextual CTA,P1,Implemented in migrated guide CTA
+/blogs/python-programming-career-guide-jaipur/,Career guide,Python Programming course in Jaipur,/python-programming-course-jaipur.php,Python,Contextual CTA,P1,Implemented in migrated guide CTA
+/blogs/generative-ai-tools-career-guide-jaipur/,Career guide,Generative AI course in Jaipur,/generative-ai-course-jaipur.php,Generative AI,Contextual CTA,P1,Implemented in migrated guide CTA
+/data-science-machine-learning-course-jaipur.php,Money page,Data Analytics course,/data-analytics-course-jaipur.php,Data Analytics,Continue exploring / comparison,P1,Implemented by related-course logic
+/data-science-machine-learning-course-jaipur.php,Money page,Generative AI course,/generative-ai-course-jaipur.php,Generative AI,Continue exploring / AI distinction,P1,Implemented by related-course logic
+/data-analytics-course-jaipur.php,Money page,Power BI course,/power-bi-course-jaipur.php,Power BI,Continue exploring / specialist path,P1,Implemented by related-course logic
+/full-stack-web-development-course-in-jaipur.php,Money page,MERN Stack course,/mern-stack-course-jaipur.php,MERN,FAQ plus continue exploring,P1,Implemented by related-course logic
+/mern-stack-course-jaipur.php,Money page,Full Stack Development course,/full-stack-web-development-course-in-jaipur.php,Full Stack,Comparison / continue exploring,P1,Implemented by related-course logic
+/python-programming-course-jaipur.php,Money page,Data Science and Machine Learning,/data-science-machine-learning-course-jaipur.php,Data Science,Progression path,P1,Implemented 2026-09-22
+/python-programming-course-jaipur.php,Money page,Data Analytics,/data-analytics-course-jaipur.php,Data Analytics,Progression path,P1,Implemented 2026-09-22
+/generative-ai-course-jaipur.php,Money page,Python programming foundations,/python-programming-course-jaipur.php,Python,Prerequisite / progression copy,P1,Implemented 2026-09-22
+/generative-ai-course-jaipur.php,Money page,Data Science and Machine Learning,/data-science-machine-learning-course-jaipur.php,Data Science,AI-path distinction,P1,Implemented by related-course logic
+/cloud-computing-aws-course-jaipur.php,Money page,Cyber Security course,/cyber-security-course-jaipur.php,Cyber Security,Related professional courses,P2,Implemented by related-course logic
+/digital-marketing-course-jaipur.php,Money page,Digital marketing career guide,/blogs/digital-marketing-career-guide-jaipur/,Digital Marketing Guide,Continue exploring,P2,Implemented via related guide
+/about.html,Trust page,Explore Groot Academy courses,/courses.php,Course catalogue,Training overview,P2,Audit needed
+/contact.html,Contact page,Explore courses,/courses.php,Course catalogue,Pre-contact context,P3,Audit needed
+/locations.php,Future location directory,Mansarovar centre,/mansarovar-it-training-institute-jaipur.php,Mansarovar,Verified branch list,P2,Future
+/locations.php,Future location directory,Pratap Nagar centre,/pratap-nagar-it-training-institute-jaipur.php,Pratap Nagar,Verified branch list,P2,Future
+/locations.php,Future location directory,Jagatpura centre,/jagatpura-it-training-institute-jaipur.php,Jagatpura,Verified branch list,P2,Future
+/internship-process.php,Future trust page,Relevant technical course pages,/courses.php,Course catalogue,Program eligibility/context,P2,Future
+/placement-assistance.php,Future trust page,Career-focused course catalogue,/courses.php,Course catalogue,Support-process context,P2,Future
