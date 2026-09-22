@@ -10,7 +10,7 @@ $blog = [
     'author' => 'Groot Academy',
     'display_date' => 'September 18, 2026',
     'date_published' => '2026-09-18',
-    'date_modified' => '2026-09-18',
+    'date_modified' => '2026-09-22',
     'reading_time' => '7 min read',
     'excerpt' => 'A beginner-friendly Graphic Design roadmap covering design fundamentals, Photoshop, Illustrator, Canva, branding, social media creatives and portfolio projects.',
     'featured_image' => '',
@@ -29,8 +29,8 @@ $blog = [
     ],
     'cta_title' => 'Build practical design skills and a stronger portfolio',
     'cta_text' => 'Explore Graphic Design learning at Groot Academy Vijay Path, Mansarovar, Jaipur with design practice, creative tools, branding exercises and portfolio-focused projects.',
-    'cta_label' => 'Explore Groot Academy',
-    'cta_url' => '/',
+    'cta_label' => 'View Graphic Design Course',
+    'cta_url' => '/graphic-design-course-jaipur.php',
 ];
 
 ob_start();
@@ -63,7 +63,7 @@ ob_start();
 <p>At Groot Academy Vijay Path, Mansarovar, Jaipur, project-based practice can help students learn how to take a brief, organise information visually and produce cleaner professional design work.</p>
 
 <h2 id="roadmap">A step-by-step Graphic Design learning roadmap</h2>
-<p>A practical sequence is: design fundamentals, typography and colour, Photoshop, Illustrator, Canva, branding, social media design, print layouts and then portfolio development.</p>
+<p>A practical sequence is: design fundamentals, typography and colour, Photoshop, Illustrator, Canva, branding, social media design, print layouts and then portfolio development.</p>\n<p>For structured training, review the <a href="/graphic-design-course-jaipur.php">Graphic Design Course in Jaipur</a>.</p>
 <p>Students interested in digital interfaces can also review the <a href="/blogs/ui-ux-design-career-guide-jaipur/">UI/UX Design career guide</a>. Those who want to connect design with online promotion can explore the <a href="/blogs/digital-marketing-career-guide-jaipur/">Digital Marketing career guide</a>.</p>
 
 <h2 id="faq">Frequently asked questions</h2>
