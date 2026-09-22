@@ -238,7 +238,11 @@
       "course-python-programming.php",
       "courses/best-python-programming-course-in-jaipur-rajasthan/"
     ],
-    "blog": "python-programming-career-guide-jaipur"
+    "blog": "python-programming-career-guide-jaipur",
+    "related_slugs": [
+      "data-science-machine-learning-course-jaipur",
+      "data-analytics-course-jaipur"
+    ]
   },
   {
     "slug": "java-programming-course-jaipur",
