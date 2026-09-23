@@ -34,6 +34,37 @@
         <link rel="stylesheet" type="text/css" href="assets/css/groot-header-compact.css">
         <!-- Shared Groot site polish -->
         <link rel="stylesheet" type="text/css" href="assets/css/groot-site-polish.css">
+
+        <!-- Dependency-free preloader fail-safe: never allow the loader to block the site indefinitely -->
+        <script>
+            (function () {
+                'use strict';
+
+                function hideGrootLoader() {
+                    var loader = document.getElementById('loader');
+                    if (!loader) return;
+
+                    loader.style.opacity = '0';
+                    loader.style.visibility = 'hidden';
+                    loader.style.pointerEvents = 'none';
+
+                    window.setTimeout(function () {
+                        if (loader && loader.parentNode) {
+                            loader.parentNode.removeChild(loader);
+                        }
+                    }, 300);
+                }
+
+                if (document.readyState === 'loading') {
+                    document.addEventListener('DOMContentLoaded', hideGrootLoader, { once: true });
+                } else {
+                    hideGrootLoader();
+                }
+
+                window.addEventListener('load', hideGrootLoader, { once: true });
+                window.setTimeout(hideGrootLoader, 2500);
+            })();
+        </script>
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
