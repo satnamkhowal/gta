@@ -6,67 +6,112 @@
     "filter": "filter2",
     "icon": "code",
     "image": "web-designing-programming-course-card-by-groot-academy.png",
-    "description": "Learn full stack development in Jaipur across frontend, backend, databases and deployment with HTML, CSS, JavaScript, React, Node.js, SQL and MongoDB at Groot Academy.",
-    "intro": "Build complete web applications from responsive interfaces to backend services, databases and deployment. This broad full-stack path is intentionally stack-neutral: it teaches how frontend and backend pieces connect, while the dedicated MERN course focuses specifically on MongoDB, Express, React and Node.js.",
+    "description": "Learn full stack web development in Jaipur with HTML, CSS, JavaScript, React, Node.js, REST APIs, SQL, MongoDB, Git, deployment and practical application projects at Groot Academy.",
+    "intro": "Build complete web applications from interface to deployment. This broad full-stack path connects responsive frontend development, React, Node.js services, REST APIs, SQL and MongoDB data, Git/GitHub workflow and deployment practice. Learners who want one JavaScript-only specialization can continue into the dedicated MERN Stack path.",
     "audience": "Students, graduates and career changers who want a broad web development foundation. Start with basic computer skills and practise coding regularly.",
     "skills": [
-      "HTML & CSS",
-      "JavaScript",
+      "HTML5 & CSS3",
+      "JavaScript ES6+",
       "React",
       "Node.js",
-      "MongoDB",
+      "Express",
+      "REST APIs",
       "SQL",
-      "Linux"
+      "MongoDB",
+      "Git & GitHub",
+      "Deployment"
     ],
     "modules": [
       [
-        "Responsive web foundations",
-        "Structure pages with HTML, style layouts with CSS and build interfaces that work across screen sizes."
+        "Web foundations",
+        "Create semantic HTML, responsive CSS layouts and accessible interfaces while using browser DevTools to inspect and debug pages."
       ],
       [
-        "JavaScript development",
-        "Work with functions, objects, browser events and asynchronous requests before moving into application frameworks."
+        "JavaScript programming",
+        "Work with functions, arrays, objects, DOM events, forms, modules, asynchronous JavaScript, fetch and JSON."
       ],
       [
-        "Frontend applications",
-        "Build reusable React components and connect screens through routing, state and API requests. Discuss Angular as another frontend learning path."
+        "React application development",
+        "Build component-based interfaces with props, state, hooks, routing, reusable forms and API-connected screens."
       ],
       [
-        "Server-side development",
-        "Use Node.js to handle requests, organise application logic and connect frontend actions to backend services."
+        "Node.js and backend services",
+        "Use Node.js modules and Express-style routing/middleware to structure server-side application logic."
       ],
       [
-        "Databases",
-        "Model application data, practise SQL queries and compare relational storage with MongoDB documents."
+        "REST APIs and authentication",
+        "Design CRUD endpoints, validate requests, handle errors and understand authentication, authorization and protected-route workflows."
       ],
       [
-        "Application delivery",
-        "Use Linux foundations and deployment workflows to bring the interface, server and database together."
+        "SQL and relational data",
+        "Model tables and relationships, write practical CRUD queries, joins and transactions, and connect backend services to relational data."
+      ],
+      [
+        "MongoDB and document data",
+        "Understand collections, documents, indexes and application-friendly NoSQL modelling, then compare when SQL or MongoDB fits better."
+      ],
+      [
+        "Full stack integration",
+        "Connect React screens to backend APIs and persistent data, manage environment variables and trace data flow across the application."
+      ],
+      [
+        "Git, testing and deployment",
+        "Use Git/GitHub branches and documentation, review testing/debugging checklists and deploy frontend/backend services with production-oriented configuration."
+      ],
+      [
+        "Portfolio and technical interviews",
+        "Package projects with clear README files, explain architecture decisions and practise JavaScript, React, backend, API and database interview questions."
       ]
     ],
     "projects": [
       [
-        "Full stack application",
-        "Build a small catalogue with searchable records, a backend API and persistent data."
+        "Authenticated CRUD dashboard",
+        "Build user sign-in, protected application areas, validated forms, API endpoints and persistent records."
       ],
       [
-        "Responsive portfolio",
-        "Present your application, explain the data flow and document how to run it."
+        "E-commerce or booking workflow",
+        "Create a multi-entity application with users, catalogue/services, transactions and admin operations."
+      ],
+      [
+        "API-driven analytics interface",
+        "Build a React dashboard that consumes APIs and handles loading, errors, filtering and data presentation."
+      ],
+      [
+        "Deployed full stack capstone",
+        "Plan, build, test, deploy and document a complete application with a GitHub repository and live demonstration."
       ]
     ],
     "careers": [
-      "Junior web developer",
-      "Frontend developer",
-      "Backend developer"
+      "Junior full stack developer",
+      "Frontend / React developer",
+      "Node.js backend developer",
+      "Web application developer",
+      "Software development intern"
     ],
     "faq": [
       [
         "How is Full Stack Development different from MERN?",
-        "Full Stack Development is the broader frontend-to-backend learning path and can include multiple database or backend approaches. MERN is a specific JavaScript stack built around MongoDB, Express, React and Node.js."
+        "Full Stack Development is the broader frontend-to-backend learning path and can include both relational and document databases. MERN is a specific JavaScript stack built around MongoDB, Express, React and Node.js."
       ],
       [
         "Does this course cover both frontend and backend development?",
-        "Yes. The learning path connects HTML, CSS and JavaScript with React, server-side development, databases and deployment so learners can understand a complete application workflow."
+        "Yes. The path connects HTML, CSS and JavaScript with React, Node.js services, APIs, databases, Git and deployment so learners understand a complete application workflow."
+      ],
+      [
+        "Will I learn both SQL and MongoDB?",
+        "The course introduces relational SQL workflows and MongoDB-style document modelling so learners can understand two common data approaches and when each is useful."
+      ],
+      [
+        "Does the course include Git and deployment?",
+        "Yes. Git/GitHub workflow, project documentation, environment configuration and deployment-oriented practice are included."
+      ],
+      [
+        "What projects should I complete for a full stack portfolio?",
+        "A useful portfolio should show increasing complexity: an authenticated CRUD application, an API-driven interface and a deployed capstone with clear documentation."
+      ],
+      [
+        "Is this suitable for beginners?",
+        "Yes, if the learner starts with the foundations and practises consistently. Prior HTML, CSS or programming knowledge can help but is not required for the introductory modules."
       ]
     ],
     "sources": [
@@ -75,7 +120,12 @@
     "aliases": [
       "best-full-stack-web-development-course-in-jaipur.php"
     ],
-    "blog": "full-stack-web-development-career-guide-jaipur"
+    "blog": "full-stack-web-development-career-guide-jaipur",
+    "related_slugs": [
+      "mern-stack-course-jaipur",
+      "java-programming-course-jaipur",
+      "python-programming-course-jaipur"
+    ]
   },
   {
     "slug": "mern-stack-course-jaipur",
